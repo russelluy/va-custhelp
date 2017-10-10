@@ -1,0 +1,17 @@
+.rn_ProductCategoryList {
+    overflow:hidden;
+}
+.rn_ProductCategoryList .rn_HierList {
+    width:48%;
+}
+.rn_ProductCategoryList .rn_HierList.rn_FloatRight {
+    float:right;
+    padding-right:10px;
+}
+.rn_ProductCategoryList .rn_HierList.rn_FloatLeft {
+    float:left;
+    padding-left:9px;
+}
+.rn_ProductCategoryList .rn_HierList li {
+    margin:4px 0 0 10px;
+}

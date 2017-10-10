@@ -1,0 +1,181 @@
+
+    body {
+        font-size: .8em;
+        width: auto;
+        background-color: blue;  
+    }
+
+    /*
+     * Header & Footer
+     */
+    #rn_Header > header > div {
+       width: 100%;
+    }
+    #rn_Header > header > div > h1 {    /* Forces vx-header to have full-height */
+       float: left;
+       margin-left: 20px;
+    }
+
+    #rn_Header > header > div > nav > ul.nav-secondary
+    {
+       display: none;
+    }
+    #rn_Footer > footer > div {
+       width: 100%; 
+    }
+    #rn_Footer > footer > div.vx-wrap.tablet > ul {
+       width: 20%;
+    }
+    #rn_Footer > footer > div.vx-wrap.desktop {  
+       display: none;
+    }
+    #rn_Footer > footer > div.vx-wrap.tablet {    
+       display: block;
+    }
+    #rn_Footer > footer > div.vx-wrap.mobile {    
+       display: none;
+    }
+    #rn_Header > header > div > h1.vx-bars {
+       background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMzggMzIiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDM4IDMyIj48aW1hZ2Ugd2lkdGg9IjM4IiBoZWlnaHQ9IjMyIiB4bGluazpocmVmPSJkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQUNZQUFBQWdDQVlBQUFCK1pBcXpBQUFBQ1hCSVdYTUFBQXNTQUFBTEVnSFMzWDc4QUFBQQpHWFJGV0hSVGIyWjBkMkZ5WlFCQlpHOWlaU0JKYldGblpWSmxZV1I1Y2NsbFBBQUFBRGxKUkVGVWVOcnMxTEVOQURBSUJER3kvOUNFCkFWSWlSQ1M3cE9Hcml3QjJPYTlqbHBIbnhiQ3VZYUJqY3FGam9HTTZwbVBBRjY0QUF3QVBOaVFLUlhrY053QUFBQUJKUlU1RXJrSmcKZ2c9PSIvPjwvc3ZnPg==);  
+       position: absolute;
+       right: 160px;
+       top: 13px;
+       height:32px;
+       width:38px 
+    }
+    #rn_Header > header > div > nav > ul.nav-auxiliary > li:nth-child(1) > a {    /* Turn off elevate image */
+       background: transparent;
+    }
+    
+
+    /*
+     *  Five task icons
+     */
+    div.rn_Module {
+       text-align: center;
+    }
+    #rn_CustomInfoButton_2_SubmitButton,
+    #rn_CustomInfoButton_3_SubmitButton, 
+    #rn_CustomInfoButton_4_SubmitButton, 
+    #rn_CustomInfoButton_5_SubmitButton,
+    #rn_CustomInfoButton_6_SubmitButton {
+       width: 130px;
+       height: 130px;
+       background-color: transparent;
+    }
+
+    div.rn_ProductCategoryList h2 {
+      margin-bottom: 20px;
+      font-size: 1.6em;
+      font-weight: normal;
+      margin-left: 25%;
+    }
+
+    /*
+     * Frequently Asked Questions
+     */
+    #rn_Multiline2_15 {
+       font-family: 'Gotham 4r';
+    }
+    #rn_ProductCategoryList_7 {
+       margin: 20px 0 0 120px;
+    }
+    #rn_ProductCategoryList_7 > h2 {
+       text-transform: uppercase;
+       margin-left: 25%;
+    }
+    div.rn_PageContent.rn_AnswerList {
+        width: 100%;
+    }
+    #rn_Multiline2_15.rn_Multiline2 {
+        padding-right: 5px;
+    }	
+    .rn_Element3 {        /* Removes any leading whitespace */
+        float: left;
+     }
+    #rn_PageContent.rn_Home ol li a {  /* FAQ Questions */
+        font-size: 1.2em;              /* 14pt 19px */
+    }
+    .rn_Multiline2 .rn_Element3 {     /* FAQ answers */
+        font-size: 1.05em;            /* 13pt 17px */
+    }
+
+    /*
+     * Search Controls
+     */
+    #rn_SearchControls {
+         width: 100%;
+         padding: 0 5px 0 5px;
+    }
+    div.rn_SearchInput {    /* Search Input text field */
+         width: 50%;
+         margin: 10px 0;
+    }
+    #rn_SearchButton2_8_SubmitButton {    /* Search button */
+       width: 120px;
+       margin-top: 20px;
+    }
+    #rn_SearchButton2_9 {    /* Aligns input and search button */
+       margin-top: 10px;
+    }
+    #rn_AdvancedSearchDialog_10.rn_AdvancedSearchDialog {   /* Positions “Advanced Search */
+       vertical-align: middle;
+       height: 59px;
+       line-height: 59px;
+    }
+    #rn_AdvancedSearchDialog_2_TriggerLink {
+       position: absolute;
+       right: -260px;
+       top: 15px;
+    }
+
+    /* 
+     * Top 10 Questions
+     */
+    
+    #rn_SideBar {             /* Align Top 10 Questions underneath */
+       float: none;
+       width: auto;
+    }
+    div.rn_Module h2 {        /* Align “Top 10 Questions” in left */
+       text-align: left;
+       padding-bottom: 20px;
+       padding-top: 30px;
+    }
+    #rn_PageContent.rn_Home ol li {
+       width: 100%;
+    }  
+    #rn_Multiline2_6_Content {
+        text-align: left;
+    }
+
+    #myEmailDiv {
+       width: 520px !important;
+    }
+    #myEmailDiv > div.bd h2 {
+       font-size: 3em;
+       margin-bottom: 10px;
+    }
+    #myEmailDiv > div.bd h4 {
+       font-size: 2.2em;
+    }
+    #myEmailDiv > div.bd > label {
+       font-size: 2.0em;
+       font-weight: normal;
+    }
+    #myEmailDiv > div.bd > div > button {
+       width: 280px;
+       height: 35px;
+       color: white;
+       font-size: 1.4em;
+     }
+     #rn_1, #rn_2, #rn_3, #rn_4, #rn_5, #rn_6, #rn_7, #rn_8, #rn_9, #rn_10 {
+        margin: 20px 0;
+     }
+
+     #rn_AnswerFeedback2_12_RatingButton_1,
+     #rn_AnswerFeedback2_12_RatingButton_2,
+     #rn_AnswerFeedback2_12_RatingButton_3,
+     #rn_AnswerFeedback2_12_RatingButton_4 {
+        width: 150px;
+     }

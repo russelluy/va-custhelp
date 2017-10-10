@@ -1,0 +1,7 @@
+<label class="rn_Label" for="<%= id %>">
+    <%= responseText %>
+    <span class="rn_Required" aria-hidden="true"><%= requiredLabel %></span>
+    <span class="rn_ScreenReaderOnly" aria-hidden="true"><%= screenReaderLabel %></span>
+</label>
+<input type="text" id="<%= id %>" maxlength="255" aria-required="true"/>
+<button data-level="<%= level %>" data-guide="<%= guideID %>" data-question="<%= questionID %>" data-response="<%= responseID %>"><%= label %></button>

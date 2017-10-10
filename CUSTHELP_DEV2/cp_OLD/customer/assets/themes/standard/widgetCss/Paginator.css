@@ -1,0 +1,28 @@
+.rn_Paginator {
+    margin-top:10px;
+}
+.rn_Paginator a {
+    border:1px solid #DDD;
+    text-decoration: none;
+	padding: 8px 12px;
+	color:#000000;
+	font-size:12px;
+	margin-right:8px;
+}
+.rn_Paginator .rn_CurrentPage {
+    color:#000000;
+    font-weight:normal;
+}
+.rn_Paginator a:hover,
+.rn_Paginator a:focus {
+    background:#EBEFF5;
+}
+.rn_Paginator .rn_ForwardImageLink,
+.rn_Paginator .rn_ForwardImageLink:hover,
+.rn_Paginator .rn_ForwardImageLink:focus,
+.rn_Paginator .rn_BackImageLink:hover,
+.rn_Paginator .rn_BackImageLink:focus,
+.rn_Paginator .rn_BackImageLink {
+    border:none;
+    background:none;
+}

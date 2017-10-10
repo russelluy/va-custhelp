@@ -1,0 +1,36 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  always_show:
+    name: always_show
+    type: boolean
+    description: always show field?
+    default: false
+    required: false
+  display_value:
+    name: display_value
+    type: string
+    description: display value
+    default: ""
+    required: false
+  hideon_notequal_value:
+    name: hideon_notequal_value
+    type: string
+    description: hide when not equal value
+    default: ""
+    required: false
+  hideon_value:
+    name: hideon_value
+    type: string
+    description: hide when equal value
+    default: ""
+    required: false
+extends:
+  widget: standard/input/TextInput
+  components:
+  - php
+  - view
+  - js

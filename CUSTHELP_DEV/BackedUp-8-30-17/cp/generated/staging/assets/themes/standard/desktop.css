@@ -1,0 +1,218 @@
+
+
+    body {
+        width: auto;
+        /* background-color: green; */
+    }
+ 
+   #rn_MainColumn > div.rn_Module > h1 {
+       margin-bottom: 40px;
+   }
+
+   #rn_PageContent {
+      clear: none;
+   }
+
+   /* 
+    * Header & Footer 
+    */
+    #rn_Footer > footer > div.vx-wrap.desktop {    
+       background-color: red;
+       display: block;
+    }
+    #rn_Footer > footer > div.vx-wrap.tablet {    
+       display: none;
+    }
+    #rn_Footer > footer > div.vx-wrap.mobile {   
+       display: none;
+    }
+    #rn_Header > header > div > h1.vx-bars {     /* Don't display three bars */
+       display: none;
+    }
+
+   /*
+    * Search button states
+    */
+   input#rn_SearchButton2_9_SubmitButton:hover,
+   input#rn_FormSubmit_19_Button:hover,
+   input#rn_FormSubmit_20_Button:hover,
+   input#rn_FormSubmit_29_Button:hover,
+   input#rn_FormSubmit_38_Button:hover,
+   input#rn_FormSubmit_40_Button:hover,          /* Submit button for icon sub-window */
+   button#rn_AnswerFeedback2_12_RatingButton_1:hover,
+   button#rn_AnswerFeedback2_12_RatingButton_2:hover,
+   button#rn_AnswerFeedback2_12_RatingButton_3:hover,
+   button#rn_AnswerFeedback2_12_RatingButton_4:hover,  /* Rating buttons within question answer page */
+   button#rnDialog1_Button_0:hover,
+   button#rnDialog1_Button_1:hover,
+   input#rnDialog1_Button_0:hover,
+   input#rnDialog1_Button_1:hover,
+   input#rn_SearchButton2_4_SubmitButton.rn_SubmitButton:hover,
+   input#rn_SearchButton2_8_SubmitButton.rn_SubmitButton:hover,
+   input#rn_SearchButton2_10_SubmitButton.rn_SubmitButton:hover {
+     background-color: #9d27d8;
+   }
+ 
+ 
+   /*
+    * Top 10 Questions
+    */
+    #rn_SideBar div.rn_Padding div.rn_Module h2 {
+       font-size: 1.6em;
+       margin: 12px 100px 0 0 ;
+    }
+    div.rn_TopQuestions {
+        float: right;
+    }
+    #rn_Multiline2_6_Content {
+        text-align: left;
+    }
+    .rn_Module h2 {           /* Controls spacing around separator line */
+       margin-bottom: 0px;
+       padding-bottom: 20px;
+    } 
+ 
+ 
+   /*
+    * Frequently Asked Questions
+    */
+    #rn_ProductCategoryList_7 > h2 {
+       text-align: center;
+       text-transform: uppercase;
+    }
+    #rn_ProductCategoryList_7 {
+       margin: 20px 0 0 150px;
+    }
+    #rn_ProductCategoryList_7 h2 {
+       font-size: 1.6em;
+       font-weight: normal;
+    }
+    div.rn_HierList.rn_HierList_28.rn_FloatLeft,   
+    div.rn_HierList.rn_HierList_75.rn_FloatRight,      
+    div.rn_HierList.rn_HierList_38.rn_FloatLeft,    
+    div.rn_HierList.rn_HierList_72.rn_FloatRight,    
+    div.rn_HierList.rn_HierList_810.rn_FloatLeft,    
+    div.rn_HierList.rn_HierList_37.rn_FloatLeft,    
+    div.rn_HierList.rn_HierList_71.rn_FloatRight,    
+    div.rn_HierList.rn_HierList_73.rn_FloatRight {
+        margin-top: 25px;
+    }
+ 
+   /*
+    * Sample Questions
+    */
+    #rn_PageContent.rn_Home ol li a {  /* FAQ Questions */
+        font-size: 1.2em;              /* 14pt 19px */
+        font-family: 'Gotham 4r';
+    }
+    #rn_Multiline2_15_Content ol li span.rn_Element3 {     /* FAQ answers */
+        font-size: 1.2em;                                 /* 14pt 19px */
+        font-family: 'Gotham 4r';
+    }
+    .rn_Element3 {        /* Removes leading whitespace */
+        float: left;
+    }
+ 
+ 
+   /*
+     *  Four task icons
+     */
+    div.rn_Module div {
+       text-align: center;
+       margin-bottom: 2.5em;    /* 40px */
+    }
+ 
+    #rn_CustomInfoButton_2_SubmitButton {
+       width: 200px;
+       height: 200px;
+       margin: 0 3% 20px 0;
+    }
+    #rn_CustomInfoButton_3_SubmitButton {
+       width: 200px;
+       height: 200px;
+       margin: 0 3% 20px 0;
+ 
+    }
+    #rn_CustomInfoButton_4_SubmitButton {
+       width: 200px;
+       height: 200px;
+       margin: 0 3% 20px 0;
+    }
+    #rn_CustomInfoButton_5_SubmitButton {
+       width: 200px;
+       height: 200px;
+       margin: 0 3% 20px 0;
+    }
+    .rn_InfoButton {
+       background-color: transparent;
+    }
+/*
+    #rn_CustomInfoButton_2_SubmitButton.rn_InfoButton:hover,
+    #rn_CustomInfoButton_3_SubmitButton.rn_InfoButton:hover,
+    #rn_CustomInfoButton_4_SubmitButton.rn_InfoButton:hover,
+    #rn_CustomInfoButton_5_SubmitButton.rn_InfoButton:hover {
+       border: 3px solid #7b4397;
+    }
+*/
+ 
+    /*
+     * Search Controls
+     */
+    #rn_SearchControls {               /* Specify most general Search Control dimensions */
+         width: 50%; 
+         left: 8%;
+         /* padding: 20px 10px 20px 10px; */
+    }
+    #rn_SearchControls form {         /* Center the Search fields */
+         margin: 0 auto;
+         width: 100%;
+    }
+    #rn_SearchControls .rn_SearchInput input {
+         width: 325px;
+    }
+    /* #rn_AdvancedSearchDialog_11_TriggerLink.rn_AdvancedLink {
+       padding-top: 10px;
+       position: absolute;
+    } */
+    #rn_AdvancedSearchDialog_2_TriggerLink {
+       position: absolute;
+       right: -260px;
+       top: 15px;
+    }
+   
+   /*
+    * Answer List
+    */
+    #rn_PageContent.rn_AnswerList {     /* Establishes the width of bottom region */
+        width: 60%;
+        margin-left: 8%;
+    }
+ 
+    /*
+     * Sub-windows
+     */
+     #myEmailDiv {
+        width: 520px !important;
+     }
+     #myEmailDiv > div.bd h2 {
+        font-size: 3em;
+        margin-bottom: 10px;
+     }
+     #myEmailDiv > div.bd h4 {
+        font-size: 2.2em;
+     }
+     #myEmailDiv > div.bd > label {
+        font-size: 2.0em;
+        font-weight: normal;
+     }
+     #myEmailDiv > div.bd > div > button {
+        width: 280px;
+        height: 35px;
+        color: white;
+        font-size: 1.4em;
+     }
+     #rn_1, #rn_2, #rn_3, #rn_4, #rn_5, #rn_6, #rn_7, #rn_8, #rn_9, #rn_10 {
+        margin: 20px 0;
+     }
+    
+

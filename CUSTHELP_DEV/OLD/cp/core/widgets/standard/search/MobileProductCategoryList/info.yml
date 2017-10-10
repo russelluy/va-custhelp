@@ -1,0 +1,11 @@
+version: "1.2.1"
+requires:
+  framework: ["3.2"]
+  jsModule: [mobile, none]
+extends:
+  widget: standard/search/ProductCategoryList
+  versions: ["1.1"]
+  components: php
+  overrideViewAndLogic: true
+info:
+  description: rn:msg:PRODUCTCATEGORYLIST_WIDGET_WIDGET_MSG

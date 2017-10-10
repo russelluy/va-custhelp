@@ -1,0 +1,31 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  display_value:
+    name: display_value
+    type: string
+    description: display value
+    default: ""
+    required: false
+  always_show:
+    name: always_show
+    type: boolean
+    description: always show field?
+    default: false
+    required: false
+  trigger_change_event:
+    name: trigger_change_event
+    type: boolean
+    description: Does a change trigger the onchange event?
+    default: false
+    required: false
+extends:
+  widget: standard/input/SelectionInput
+  components:
+  - php
+  - view
+  - js
+  - css

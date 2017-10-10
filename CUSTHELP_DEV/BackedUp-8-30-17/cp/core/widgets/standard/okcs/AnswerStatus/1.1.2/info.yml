@@ -1,0 +1,35 @@
+version: "1.1.2"
+requires:
+  framework: ["3.3", "3.4"]
+  jsModule: [standard, mobile]
+attributes:
+  label_doc_id:
+    name: rn:msg:DOC_ID_LBL
+    type: STRING
+    description: rn:msg:LABEL_FOR_THE_DOC_ID_LBL
+    default: rn:msg:DOCUMENT_ID_LBL
+  label_version:
+    name: rn:msg:VERSION_LBL
+    type: STRING
+    description: rn:msg:LABEL_FOR_THE_VERSION_LBL
+    default: rn:msg:VERSION_LBL
+  label_status:
+    name: rn:msg:STATUS_LBL
+    type: STRING
+    description: rn:msg:LABEL_FOR_THE_STATUS_LBL
+    default: rn:msg:STATUS_LBL
+  label_published_date:
+    name: rn:msg:PUBLISHED_DATE_LBL
+    type: STRING
+    description: rn:msg:LABEL_FOR_THE_PUBLISHED_DATE_LBL
+    default: rn:msg:PUBLISHED_DATE_LBL
+  label_modified_date:
+    name: rn:msg:MODIFIED_DATE_LBL
+    type: STRING
+    description: rn:msg:LAST_MODIFIED_TH_ANSWERS_DRAFT_STATUS_MSG
+    default: rn:msg:MODIFIED_DATE_LBL
+info:
+  description: rn:msg:S_S_DRAFT_MOD_T_S_EXT_DOCUMNTS_MSG
+contains:
+- widget: standard/okcs/AnswerField
+  versions: ["1.0", "1.1"]

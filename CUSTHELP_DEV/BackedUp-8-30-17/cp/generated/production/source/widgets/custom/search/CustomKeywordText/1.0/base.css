@@ -1,0 +1,16 @@
+/**
+ * base.css: Base CSS for CustomKeywordText
+ */
+
+.rn_CustomKeywordText input{
+    font-size:1.333em;
+}
+
+.rn_CustomKeywordText {
+   display:inline;
+}
+
+.rn_CustomKeywordText label{
+   display:none;
+}
+

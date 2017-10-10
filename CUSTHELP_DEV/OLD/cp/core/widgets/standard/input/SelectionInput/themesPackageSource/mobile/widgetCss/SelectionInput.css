@@ -1,0 +1,26 @@
+.rn_SelectionInput {
+    clear:both;
+    overflow:visible;
+    padding-bottom:1.6em;
+    position:relative;
+}
+.rn_SelectionInput .rn_Label {
+    display:inline-block;
+    font-weight:bold;
+    margin-bottom:2px;
+}
+.rn_SelectionInput fieldset {
+    padding:0;
+}
+.rn_SelectionInput fieldset label {
+    display:inline;
+    margin:0 4px;
+    vertical-align:sub;
+}
+.rn_SelectionInput input[type="radio"] {
+    border:none;
+    display:inline;
+    margin-top:2px;
+    vertical-align:middle;
+    width:auto;
+}

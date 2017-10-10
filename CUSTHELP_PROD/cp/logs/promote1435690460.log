@@ -1,0 +1,26 @@
+[INFO]  06/30/2015 11:54 AM 
+----------------------------------------------
+CP Deployment Log
+Date: <rn_log_date>06/30/2015 11:54 AM</rn_log_date>
+By Account: <rn_log_byAccount>Kari Shultz - (332)</rn_log_byAccount>
+IP Address: <rn_log_ipAddress>12.51.111.51</rn_log_ipAddress>
+User Agent: <rn_log_userAgent>Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36</rn_log_userAgent>
+Interface Name: <rn_log_interfaceName>virginamerica</rn_log_interfaceName>
+Deploy Type: <rn_log_deployType>Promote Deployment</rn_log_deployType>
+Comment: <rn_log_comment>Changing file attachment verbiage on Concern/Kudos form.</rn_log_comment>
+----------------------------------------------
+
+
+[DEBUG] 06/30/2015 11:54 AM Deploy lock verified.
+[DEBUG] 06/30/2015 11:54 AM Copying production/source to production/backup/source
+[DEBUG] 06/30/2015 11:54 AM Copying production/optimized to production/backup/optimized
+[DEBUG] 06/30/2015 11:54 AM Copying /euf/generated/optimized/1434691347 to production/backup/optimizedAssets/1434691347
+[DEBUG] 06/30/2015 11:54 AM Copying staging/staging_01/source to production/source
+[DEBUG] 06/30/2015 11:54 AM Copying staging/staging_01/optimized to production/optimized
+[DEBUG] 06/30/2015 11:55 AM Copying /euf/generated/staging/staging_01/optimized/1435690350 to /euf/generated/optimized/1435690350
+[DEBUG] 06/30/2015 11:55 AM Removing old optimized assets directory '1434691347'
+[DEBUG] 06/30/2015 11:55 AM Locking Page Set Mappings
+[DEBUG] 06/30/2015 11:55 AM Number of deploy errors: <cps_error_count>0</cps_error_count>
+[DEBUG] 06/30/2015 11:55 AM Log File: <cps_log_file_name>/cgi-bin/virginamerica.cfg/log/promote1435690460.log</cps_log_file_name>
+[INFO]  06/30/2015 11:55 AM Deploy Operation Successful!
+[DEBUG] 06/30/2015 11:55 AM Deploy lock removed.

@@ -1,0 +1,22 @@
+<rn:block id="preInsertLinkDialog"/>
+<form class="rn_InsertLinkForm rn_InsertForm">
+    <div class="rn_LinkTextInput">
+        <rn:block id="preLinkTextInput"/>
+        <label>
+            <%= messages.link_text %>
+            <input type="text" id="<%= messages.domID %>_link_text"/>
+        </label>
+        <rn:block id="postLinkTextInput"/>
+    </div>
+    <div class="rn_LinkUrlInput">
+        <rn:block id="preLinkUrlInput"/>
+        <label>
+            <%= messages.link_to %>
+            <span class="rn_Required"> <%= RightNow.Interface.getMessage("FIELD_REQUIRED_MARK_LBL") %></span>
+            <span class="rn_ScreenReaderOnly"> <%= RightNow.Interface.getMessage("REQUIRED_LBL") %></span>
+            <input type="url" placeholder="http://example.com" id="<%= messages.domID %>_link_to"/>
+        </label>
+        <rn:block id="postLinkUrlInput"/>
+    </div>
+</form>
+<rn:block id="postInsertLinkDialog"/>

@@ -1,0 +1,25 @@
+[INFO]  08/27/2015 02:23 PM 
+----------------------------------------------
+CP Deployment Log
+Date: <rn_log_date>08/27/2015 02:23 PM</rn_log_date>
+By Account: <rn_log_byAccount>Russell Uy - (276)</rn_log_byAccount>
+IP Address: <rn_log_ipAddress>205.241.31.2</rn_log_ipAddress>
+User Agent: <rn_log_userAgent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:40.0) Gecko/20100101 Firefox/40.0</rn_log_userAgent>
+Interface Name: <rn_log_interfaceName>virginamerica</rn_log_interfaceName>
+Deploy Type: <rn_log_deployType>Promote Deployment</rn_log_deployType>
+----------------------------------------------
+
+
+[DEBUG] 08/27/2015 02:23 PM Deploy lock verified.
+[DEBUG] 08/27/2015 02:23 PM Copying production/source to production/backup/source
+[DEBUG] 08/27/2015 02:24 PM Copying production/optimized to production/backup/optimized
+[DEBUG] 08/27/2015 02:24 PM Copying /euf/generated/optimized/1439917485 to production/backup/optimizedAssets/1439917485
+[DEBUG] 08/27/2015 02:24 PM Copying staging/staging_01/source to production/source
+[DEBUG] 08/27/2015 02:24 PM Copying staging/staging_01/optimized to production/optimized
+[DEBUG] 08/27/2015 02:24 PM Copying /euf/generated/staging/staging_01/optimized/1440710350 to /euf/generated/optimized/1440710350
+[DEBUG] 08/27/2015 02:25 PM Removing old optimized assets directory '1439917485'
+[DEBUG] 08/27/2015 02:25 PM Locking Page Set Mappings
+[DEBUG] 08/27/2015 02:25 PM Number of deploy errors: <cps_error_count>0</cps_error_count>
+[DEBUG] 08/27/2015 02:25 PM Log File: <cps_log_file_name>/cgi-bin/virginamerica.cfg/log/promote1440710632.log</cps_log_file_name>
+[INFO]  08/27/2015 02:25 PM Deploy Operation Successful!
+[DEBUG] 08/27/2015 02:25 PM Deploy lock removed.

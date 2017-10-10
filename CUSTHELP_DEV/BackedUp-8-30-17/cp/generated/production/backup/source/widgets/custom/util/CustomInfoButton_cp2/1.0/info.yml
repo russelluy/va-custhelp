@@ -1,0 +1,69 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  report_id:
+    name: report_id
+    type: int
+    description: 
+    default: 
+    required: false
+  label_button:
+    name: label_button
+    type: STRING
+    description: 
+    default: 
+    required: false
+  target:
+    name: target
+    type: STRING
+    description: page URL to navigate to 
+    default: _self
+    required: false
+  is_link:
+    name: is_link
+    type: BOOL
+    description: 
+    default: true
+    required: false
+  new_window:
+    name: new_window
+    type: BOOL
+    description: 
+    default: true
+    required: false
+  icon_path:
+    name: icon_path
+    type: STRING
+    description: 
+    default: 
+    required: false
+  icon_alt_text:
+    name: icon_alt_text
+    type: STRING
+    description: 
+    default: 
+    required: false
+  popup_window:
+    name: popup_window
+    type: BOOL
+    description: 
+    default: false
+    required: false
+  popup_window_width_percent:
+    name: popup_window_width_percent
+    type: INT
+    description: 
+    default: 30
+    required: false
+  popup_window_height_percent:
+    name: popup_window_height_percent
+    type: INT
+    description: 
+    default: 42
+    required: false
+  
+
+

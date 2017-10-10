@@ -1,0 +1,25 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  always_show:
+    name: always_show
+    type: boolean
+    description: Always show field?
+    default: false
+    required: false
+  display_value:
+    name: display_value
+    type: string
+    description: Display value
+    default: ""
+    required: false
+extends:
+  widget: standard/input/FileAttachmentUpload
+  components:
+  - php
+  - view
+  - js
+  - css

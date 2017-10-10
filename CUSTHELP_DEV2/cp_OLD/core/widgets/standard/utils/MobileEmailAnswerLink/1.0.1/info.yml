@@ -1,0 +1,9 @@
+version: "1.0.1"
+requires:
+  framework: ["3.0"]
+  jsModule: [mobile]
+extends:
+  widget: standard/utils/EmailAnswerLink
+  components: [php, css]
+info:
+  description: rn:msg:WDGET_LINK_CLICKED_ALLOWS_EMAIL_MSG

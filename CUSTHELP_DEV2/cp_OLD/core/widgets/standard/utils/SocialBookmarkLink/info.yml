@@ -1,0 +1,43 @@
+version: "1.0.1"
+requires:
+  framework: ["3.0", "3.1", "3.2"]
+  jsModule: [standard]
+  yui: [panel]
+attributes:
+  icon_path:
+    name: rn:msg:ICON_PATH_LBL
+    type: STRING
+    description: rn:msg:OPTIONAL_IMAGE_FILE_DISPLAY_LINK_LBL
+    default: images/Share.png
+  label_icon_alt:
+    name: rn:msg:ICON_ALT_LABEL_LBL
+    type: STRING
+    description: rn:msg:ALTERNATIVE_TXT_ICON_ICON_PATH_MSG
+  label_link:
+    name: rn:msg:LABEL_LBL
+    type: STRING
+    description: rn:msg:STRING_DISPLAYS_LINK_PAGE_LBL
+    default: rn:msg:SHARE_CMD
+  label_tooltip:
+    name: rn:msg:TOOLTIP_LBL
+    type: STRING
+    description: rn:msg:STRING_DISPLAYS_HOVERS_LINK_LBL
+    default: rn:msg:SHARE_THIS_PAGE_ON_SOCIAL_NETWORKS_LBL
+  sites:
+    name: rn:msg:SITES_LBL
+    type: STRING
+    displaySpecialCharsInTagGallery: true
+    description: rn:msg:STS_L_COMMA_SEPARATED_L_SITE_NAME_MSG
+    default: rn:php:sprintf('Facebook > %s > http://facebook.com/sharer.php?u=|URL|,
+             Twitter > %s > http://twitter.com/home?status=|TITLE|+|URL|,
+             LinkedIn > %s > http://www.linkedin.com/shareArticle?mini=true&amp;url=|URL|&amp;title=|TITLE|&amp;summary=|TITLE|&amp;source=|URL|,
+             Reddit > %s > http://reddit.com/submit?url=|URL|&amp;title=|TITLE|', \RightNow\Utils\Config::getMessage(POST_TO_FACEBOOK_LBL), \RightNow\Utils\Config::getMessage(TWEET_THIS_LBL), \RightNow\Utils\Config::getMessage(POST_TO_LINKEDIN_LBL), \RightNow\Utils\Config::getMessage(POST_TO_REDDIT_LBL))
+info:
+  description: rn:msg:WIDGET_ALLOWS_ANS_POSTED_POPULAR_MSG
+  urlParameters:
+    a_id:
+      name: rn:msg:ANS_ID_LBL
+      key: a_id
+      required: true
+      description: rn:msg:ANSWER_TO_POST_LBL
+      example: a_id/3

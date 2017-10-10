@@ -1,0 +1,11 @@
+/**
+ * base.css: Base CSS for IncidentTaskInput
+ */
+.rn_IncidentTaskInput {
+width: 70%;
+}
+.rn_IncidentTaskInput_col {
+float: left;
+ width: 25%;
+text-align: center;	
+}

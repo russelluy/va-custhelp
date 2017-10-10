@@ -1,0 +1,7 @@
+.rn_ProductCategoryBreadcrumb {
+    overflow: hidden;
+}
+.rn_ProductCategoryBreadcrumb ol li {
+    list-style-type: none;
+    float: left;
+}

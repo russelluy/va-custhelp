@@ -1,0 +1,44 @@
+version: "1.1.1"
+requires:
+  framework: ["3.1", "3.2"]
+  jsModule: [standard, mobile, none]
+attributes:
+  display_thumbnail:
+    name: rn:msg:DISPLAY_THUMBNAIL_CMD
+    description: rn:msg:DETERMINES_THUMBNAILS_UPLOADED_MSG
+    type: BOOLEAN
+    default: true
+  label:
+    name: rn:msg:FIELD_LABEL_LBL
+    type: STRING
+    description: rn:msg:LABEL_DISPLAY_FORM_FIELD_VALUE_LBL
+    default: '{default_label}'
+  left_justify:
+    name: rn:msg:LEFT_JUSTIFY_LBL
+    type: BOOLEAN
+    description: rn:msg:LEFT_JUSTIFY_DATA_AND_LABEL_MSG
+  name:
+    name: rn:msg:NAME_LBL
+    type: string
+    description: rn:msg:INDCTES_BUS_OBJECT_FLD_DISP_MSG
+    required: true
+  display_file_size:
+    name: rn:msg:DISPLAY_FILE_SIZE_CMD
+    type: BOOLEAN
+    description: rn:msg:IF_TRUE_THE_FILE_SIZE_IS_DISPLAYED_MSG
+    default: true
+  sort_by_filename:
+    name: rn:msg:SORT_BY_FILENAME_LBL
+    type: BOOLEAN
+    description: rn:msg:SORT_L_NUMERICALLY_ALPHABETICALLY_LBL
+info:
+  description: rn:msg:DISP_FILE_ATTACHS_INC_ANS_MSG
+  urlParameters:
+    a_id:
+      name: rn:msg:ANS_ID_LBL
+      description: rn:msg:ANSWER_ID_DISPLAY_INFORMATION_LBL
+      example: a_id/3
+    i_id:
+      name: rn:msg:INCIDENT_ID_LBL
+      description: rn:msg:INCIDENT_ID_DISPLAY_INFORMATION_LBL
+      example: i_id/7

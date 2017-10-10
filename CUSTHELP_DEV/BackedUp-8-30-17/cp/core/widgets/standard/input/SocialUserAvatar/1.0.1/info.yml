@@ -1,0 +1,84 @@
+version: "1.0.1"
+requires:
+  framework: ["3.3", "3.4"]
+  jsModule: [standard, mobile]
+attributes:
+  create_user_on_load:
+    name: rn:msg:CREATE_SOCIAL_USER_ON_LOAD_LBL
+    type: boolean
+    description: rn:msg:OPTI_ASK_A_S_L_LOAD_DOES_ADDR_EXIST_MSG
+    default: true
+  label_gravatar_account:
+    name: rn:msg:GRAVATAR_ACCOUNT_LABEL_LBL
+    type: string
+    description: rn:msg:USE_GRAVATAR_ACCOUNT_INPUT_DISPLAYED_MSG
+    default: rn:msg:USE_YOUR_GRAVATAR_PROFILE_PICTURE_LBL
+  label_gravatar_hint:
+    name: rn:msg:GRAVATAR_HINT_LABEL_LBL
+    type: string
+    description: rn:msg:HINT_BENEATH_GRAVATAR_INPUT_FIELD_LBL
+    default: rn:php:sprintf(\RightNow\Utils\Config::getMessage(SURE_HREFS_TARGETBLANKGRAVATAR_ACCOUNT_MSG), '//www.gravatar.com')
+  label_chosen_gravatar:
+    name: rn:msg:CHOSEN_GRAVATAR_LABEL_LBL
+    type: string
+    description: rn:msg:READ_SCREEN_READERS_GRAVATAR_AVATAR_LBL
+    default: rn:msg:CURRENTLY_GRAVATAR_PROFILE_PICTURE_LBL
+  label_apply_button:
+    name: rn:msg:APPLY_BUTTON_LABEL_LBL
+    type: string
+    description: rn:msg:LABEL_BUTTON_SELECT_PROFILE_PICTURE_MSG
+    default: rn:msg:APPLY_CMD
+  label_using_default_avatar:
+    name: rn:msg:USING_DEFAULT_AVATAR_LABEL_LBL
+    type: string
+    description: rn:msg:DISPLAYED_YOURE_PROFILE_PICTURE_DEFAULT_MSG
+    default: rn:msg:CURRENTLY_USING_DEFAULT_PROFILE_PICTURE_LBL
+  label_default:
+    name: rn:msg:DEFAULT_AVATAR_LABEL_LBL
+    type: string
+    description: rn:msg:LABEL_USE_FOR_DEFAULT_PROFILE_PICTURE_MSG
+    default: rn:msg:USE_A_DEFAULT_PROFILE_PICTURE_LBL
+  label_default_hint:
+    name: rn:msg:DEFAULT_HINT_LABEL_LBL
+    type: string
+    description: rn:msg:LABEL_DISPLAYS_BENEATH_INPUT_FIELD_LBL
+    default: rn:msg:GENERATED_FROM_YOUR_DISPLAY_NAME_LBL
+  label_default_hint_user:
+    name: rn:msg:HINT_WHEN_BEING_EDITED_ANOTHER_LABEL_LBL
+    type: string
+    description: rn:msg:BENEATH_INPUT_BEING_EDITED_ANOTHER_USER_MSG
+    default: rn:msg:GENERATED_FROM_THE_USERS_DISPLAY_NAME_LBL
+  label_update_picture:
+    name: rn:msg:UPDATE_PROFILE_PICTURE_LABEL_LBL
+    type: string
+    description: rn:msg:HEADING_SECT_INTF_OPTS_COULD_UPD_UC_TO_LBL
+    default: rn:msg:UPDATE_YOUR_PROFILE_PICTURE_LBL
+  label_loading_icon_message:
+    name: rn:msg:LOADING_ICON_MESSAGE_LBL
+    type: string
+    description: rn:msg:DISPLAYED_MOUSEOVER_SCREEN_ADD_ID_ICON_LBL
+    default: rn:msg:LOADING_LBL
+  label_success_icon_message:
+    name: rn:msg:SUCCESS_ICON_MESSAGE_LBL
+    type: string
+    description: rn:msg:DISPLAYED_MOUSEOVER_SESS_ADD_SUCC_ICON_LBL
+    default: rn:msg:IMAGE_SUCC_SUBMIT_FORM_SAVE_CHANGES_MSG
+  label_error_icon_message:
+    name: rn:msg:ERROR_ICON_MESSAGE_LBL
+    type: string
+    description: rn:msg:DISPLAYED_MOUSEOVER_SCREEN_READERS_ICON_LBL
+    default: rn:msg:THERE_WAS_A_PROBLEM_SETTING_THE_IMAGE_MSG
+  label_add_public_profile:
+    name: rn:msg:ADD_PUBLIC_PROFILE_LABEL_LBL
+    type: string
+    description: rn:msg:LABEL_FOR_LINK_TO_ADD_A_PUBLIC_PROFILE_LBL
+    default: rn:msg:ADD_ONE_LBL
+  label_no_public_profile:
+    name: rn:msg:NO_PUBLIC_PROFILE_LABEL_LBL
+    type: string
+    description: rn:msg:LABEL_DISPLAYED_DOESNT_PUBLIC_PROFILE_LBL
+    default: rn:msg:UNFORTUNATELY_DO_PUBLIC_PROFILE_YET_MSG
+info:
+  category:
+    - Community
+  description: rn:msg:SPEC_VTR_IMG_EU_VTR_VTR_VTR_DATE_NAM_MSG

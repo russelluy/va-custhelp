@@ -1,0 +1,29 @@
+version: "1.0.1"
+requires:
+  framework: ["3.3"]
+  jsModule: [standard, mobile]
+info:
+  description: rn:astr:This widget displays various question statuses, such as 'locked' and 'suspended'. If the question is active and not locked, the widget will not display.
+  category:
+    - Community
+attributes:
+  label_locked:
+    name: rn:msg:LOCKED_LABEL_LBL
+    description: rn:astr:The label that displays when the question has a locked status.
+    default: rn:msg:LOCKED_LBL
+    type: STRING
+  label_locked_tooltip:
+    name: rn:msg:LOCKED_TOOLTIP_LBL
+    description: rn:astr:The tooltip that is used when the question has a locked status.
+    default: rn:msg:LOCKED_CANNOT_CURRENTLY_UPDATED_MSG
+    type: STRING
+  label_suspended:
+    name: rn:msg:SUSPENDED_LABEL_LBL
+    description: rn:astr:The label that displays when the question has a suspended status.
+    default: rn:msg:SUSPENDED_LBL
+    type: STRING
+  label_suspended_tooltip:
+    name: rn:msg:SUSPENDED_TOOLTIP_LBL
+    description: rn:astr:The tooltip that displays when the question has a suspended status.
+    default: rn:msg:SUSPENDED_OPERATIONS_CURRENTLY_ALLOWED_MSG
+    type: STRING

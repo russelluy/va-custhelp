@@ -1,0 +1,37 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  label:
+    name: label
+    type: string
+    description: Text to display as label
+    default: ""
+    required: false
+  display_value:
+    name: display_value
+    type: string
+    description: Value to compare when to show
+    default: ""
+    required: false
+  toggle_div_name:
+    name: toggle_div_name
+    type: string
+    description: Name of the div to toggle show/hide
+    default: ""
+    required: false
+  hideon_notequal_value:
+    name: hideon_notequal_value
+    type: string
+    description: hide div when not equal compare value
+    default: ""
+    required: false
+extends:
+  widget: standard/input/TextInput
+  components:
+  - php
+  - view
+  - js
+  - css

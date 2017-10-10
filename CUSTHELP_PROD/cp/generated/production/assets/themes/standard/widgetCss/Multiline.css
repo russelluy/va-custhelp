@@ -1,0 +1,74 @@
+.rn_Multiline {
+    overflow:hidden;
+}
+.rn_Multiline .rn_Loading
+{
+    background: url(../images/loading.gif) no-repeat center center;
+    height:auto !important;
+    height:66px;
+    min-height:66px;
+}
+
+/* UPGRADE: remove details on answer/list page */
+/*
+.rn_Multiline .rn_Element2,
+.rn_Multiline .rn_Element3,
+.rn_Multiline .rn_ElementsData,
+.rn_Multiline .rn_ElementsHeader,
+.rn_Multiline br{
+    display:none;
+}
+.rn_Multiline .rn_Element1{
+    margin-bottom:15px;
+}
+*/
+
+.rn_Multiline .rn_Element1,
+.rn_Multiline .rn_Element2{
+    font-size:15px;
+	line-height:24px;
+	color:#7B4397;
+}
+
+.rn_Multiline .rn_Element3{
+    font-size:13px;
+    line-height:22px;
+	color:#000000;
+	float:left;
+}
+
+.rn_Multiline .rn_ElementsHeader,
+.rn_Multiline .rn_ElementsData{
+    color:#999999;
+    font-size:10px;
+	line-height:19px;
+	float:left;
+	display:block;
+	position:relative;
+	padding-bottom: 12px;
+}
+/**
+ * Uncomment this line to override the standard site.css and enable
+ * row numbering for Multiline reports
+.rn_Multiline ol li{
+    list-style: decimal inside none;
+}
+*/
+/* UPGRADE: show numbered list items */
+/*
+.rn_Multiline ol li {
+    list-style:decimal outside none;
+    padding-left:10px;
+}
+.rn_Multiline ol {
+    padding-left:30px;
+}
+*/
+.rn_Multiline ol{
+    padding-top:3px;
+}
+.rn_Multiline li{
+    display: table-row;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+}

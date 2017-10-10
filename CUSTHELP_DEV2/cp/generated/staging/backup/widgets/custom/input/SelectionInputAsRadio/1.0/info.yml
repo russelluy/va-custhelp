@@ -1,0 +1,18 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  always_show:
+    name: always_show
+    type: boolean
+    description: always show the field?
+    default: false
+    required: false
+extends:
+  widget: standard/input/SelectionInput
+  components:
+  - php
+  - view
+  - js

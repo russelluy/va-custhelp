@@ -1,0 +1,34 @@
+version: "1.0.1"
+requires:
+  framework: ["3.3"]
+  jsModule: [standard, mobile]
+extends:
+  widget: standard/reports/TopAnswers
+  versions: ["1.0"]
+  components: [php, view]
+info:
+  category:
+    - Community
+  description: rn:astr:Displays most popular published answers for the same product or category as the current social question.
+attributes:
+  product_filter_id: unset
+  category_filter_id: unset
+  label_heading:
+    name: rn:msg:LABEL_HEADING_LBL
+    type: STRING
+    description: rn:astr:Label that displays above the list of related answers.
+    default: rn:msg:RELATED_ANS_HDG
+  truncate_title_at:
+    name: rn:msg:TRUNCATE_TITLE_AT_LBL
+    type: INT
+    description: rn:msg:TRNCT_PT_TRNCT_NRST_WRDBRK_XCT_CHRS_0_TR_MSG
+    default: 50
+    min: 0
+  related_by:
+    name: rn:msg:RELATED_BY_LBL
+    type: OPTION
+    description: rn:astr:Indicates whether to use the product or category for relating the published answers to display.
+    default: Product
+    options:
+      - Product
+      - Category

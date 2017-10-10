@@ -1,0 +1,231 @@
+[INFO]  07/13/2015 12:29 PM 
+----------------------------------------------
+CP Deployment Log - Prepare Deploy Operation
+Date: <rn_log_date>07/13/2015 12:29 PM</rn_log_date>
+By Account: <rn_log_byAccount>John Povall - (341)</rn_log_byAccount>
+IP Address: <rn_log_ipAddress>50.194.41.253</rn_log_ipAddress>
+User Agent: <rn_log_userAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36</rn_log_userAgent>
+Interface Name: <rn_log_interfaceName>virginamerica</rn_log_interfaceName>
+Deploy Type: <rn_log_deployType>Staging Deployment</rn_log_deployType>
+----------------------------------------------
+
+
+[DEBUG] 07/13/2015 12:29 PM Preparing Staging Deployment operation
+[DEBUG] 07/13/2015 12:29 PM Validating files
+[DEBUG] 07/13/2015 12:29 PM Deploy lock verified.
+[DEBUG] 07/13/2015 12:29 PM Copying source directory (/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/source) to a temporary directory (/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/)
+[DEBUG] 07/13/2015 12:29 PM Copying source directory (/euf/generated/staging/staging_01/source/) to a temporary directory (/euf/generated/staging/staging_01/temp_source/)
+[DEBUG] 07/13/2015 12:29 PM Copying '/euf/assets/themes/standard/widgetCss/IncidentTaskInput.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/IncidentTaskInput.css'
+[DEBUG] 07/13/2015 12:29 PM Copying 'config/hooks.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/config/hooks.php'
+[DEBUG] 07/13/2015 12:29 PM Copying 'controllers/AjaxCustom.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/controllers/AjaxCustom.php'
+[DEBUG] 07/13/2015 12:29 PM Copying 'models/custom/hooks_model.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/models/custom/hooks_model.php'
+[DEBUG] 07/13/2015 12:29 PM Copying 'views/pages/ask.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/ask.php'
+[DEBUG] 07/13/2015 12:29 PM Copying 'widgets/custom/input/CustomFormSubmit/1.0/info.yml' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomFormSubmit/1.0/info.yml'
+[DEBUG] 07/13/2015 12:29 PM Copying 'widgets/custom/input/CustomFormSubmit/1.0/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomFormSubmit/1.0/controller.php'
+[DEBUG] 07/13/2015 12:29 PM Copying 'widgets/custom/input/CustomFormSubmit/1.0/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomFormSubmit/1.0/view.php'
+[DEBUG] 07/13/2015 12:29 PM Copying 'widgets/custom/input/CustomFormSubmit/1.0/logic.js' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomFormSubmit/1.0/logic.js'
+[DEBUG] 07/13/2015 12:29 PM Copying 'widgets/custom/input/CustomFormSubmit/1.0/base.css' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomFormSubmit/1.0/base.css'
+[DEBUG] 07/13/2015 12:29 PM Copying 'widgets/custom/input/CustomFormSubmit/1.0/logic (7.8.2015 1.48.34 PM).js' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomFormSubmit/1.0/logic (7.8.2015 1.48.34 PM).js'
+[DEBUG] 07/13/2015 12:29 PM Copying 'widgets/custom/input/CustomFormSubmit/1.0/logic (7.9.2015 9.02.07 AM).js' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomFormSubmit/1.0/logic (7.9.2015 9.02.07 AM).js'
+[DEBUG] 07/13/2015 12:29 PM Copying 'widgets/custom/input/IncidentTaskInput/1.0/info.yml' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/IncidentTaskInput/1.0/info.yml'
+[DEBUG] 07/13/2015 12:29 PM Copying 'widgets/custom/input/IncidentTaskInput/1.0/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/IncidentTaskInput/1.0/controller.php'
+[DEBUG] 07/13/2015 12:29 PM Copying 'widgets/custom/input/IncidentTaskInput/1.0/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/IncidentTaskInput/1.0/view.php'
+[DEBUG] 07/13/2015 12:29 PM Copying 'widgets/custom/input/IncidentTaskInput/1.0/logic.js' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/IncidentTaskInput/1.0/logic.js'
+[DEBUG] 07/13/2015 12:29 PM Copying 'widgets/custom/input/IncidentTaskInput/1.0/base.css' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/IncidentTaskInput/1.0/base.css'
+[DEBUG] 07/13/2015 12:29 PM Copying 'widgets/custom/input/IncidentTaskInput/1.0/viewbackup.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/IncidentTaskInput/1.0/viewbackup.php'
+[DEBUG] 07/13/2015 12:29 PM Copying 'widgets/custom/input/IncidentTaskInput/1.0/controllerbackup.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/IncidentTaskInput/1.0/controllerbackup.php'
+[DEBUG] 07/13/2015 12:29 PM Moving contents of /cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/ to /cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_optimized/
+[DEBUG] 07/13/2015 12:29 PM Copying directory structure of views/pages into views/headers
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: custom/display/CustomInfoButton
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: custom/input/CustomDateInput
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/input/DateInput
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: custom/input/CustomFileAttachmentUpload
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/input/FileAttachmentUpload
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: custom/input/CustomFormSubmit
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/input/FormSubmit
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: custom/input/CustomSelectionInput
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/input/SelectionInput
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: custom/input/CustomTextInput
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/input/TextInput
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: custom/input/SelectionInputAsRadio
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: custom/input/SelectionRadioInput
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: custom/input/ToggleVisibleArea
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: custom/util/CustomInfoButton
+[DEBUG] 07/13/2015 12:29 PM Compiling pages
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /account/change_password.php
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/search/BrowserSearchPlugin
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/login/LogoutLink
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/login/LoginDialog
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/input/FormInput
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/input/PasswordInput
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/output/FieldDisplay
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /account/notif/list.php
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/notifications/AnswerNotificationManager
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/notifications/ProdCatNotificationManager
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/input/ProductCategoryInput
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/output/ProductCategoryDisplay
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /account/notif/unsubscribe.php
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/notifications/Unsubscribe
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /account/overview.php
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /account/profile.php
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/input/ContactNameInput
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/input/CustomAllInput
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /account/questions/detail.php
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/output/DataDisplay
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/output/CustomAllDisplay
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/utils/PrintPageLink
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/output/FileListDisplay
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/output/IncidentThreadDisplay
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /account/questions/list.php
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/search/AdvancedSearchDialog
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/search/KeywordText
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/search/SearchButton
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/search/DisplaySearchFilters
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/reports/ResultInfo
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/reports/Grid
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/reports/Paginator
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/search/SearchTypeList
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/search/WebSearchSort
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/search/WebSearchType
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/search/ProductCategorySearchFilter
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/search/FilterDropdown
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/search/SortList
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /account/reset_password.php
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/login/ResetPassword
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /account/setup_password.php
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /agent/guided_assistant.php
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/knowledgebase/GuidedAssistant
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /agent/polling_preview.php
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/surveys/Polling
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /answers/detail.php
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/feedback/AnswerFeedback
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/knowledgebase/RelatedAnswers
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/knowledgebase/PreviousAnswers
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/utils/SocialBookmarkLink
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/utils/EmailAnswerLink
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /answers/intent.php
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /answers/list.php
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/knowledgebase/RssIcon
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/knowledgebase/TopicWords
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/reports/Multiline
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /ask.php
+[ERROR] 07/13/2015 12:29 PM Error - page: '/ask.php', is referencing a widget that is not yet activated and needs to be activated before deploying (widget path: custom/input/IncidentTaskInput)
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/input/SmartAssistantDialog
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /ask_confirm.php
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /basic/account/change_password.php
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/utils/ClickjackPrevention
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/utils/CapabilityDetector
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/login/BasicLogoutLink
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/utils/PageSetSelector
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/input/BasicFormStatusDisplay
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/input/BasicFormInput
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/input/BasicFormSubmit
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/input/BasicSelectionInput
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/input/BasicDateInput
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/input/BasicPasswordInput
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/input/BasicTextInput
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /basic/account/overview.php
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/reports/BasicMultiline
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /basic/account/profile.php
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/input/BasicCustomAllInput
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /basic/account/questions/detail.php
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /basic/account/questions/list.php
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/search/BasicProductCategorySearchFilter
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/search/BasicKeywordSearch
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/search/BasicDisplaySearchFilters
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/reports/BasicResultInfo
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/reports/BasicPaginator
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /basic/account/reset_password.php
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/login/BasicResetPassword
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /basic/account/setup_password.php
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /basic/answers/detail.php
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/feedback/BasicAnswerFeedback
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /basic/answers/list.php
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /basic/answers/submit_feedback.php
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /basic/ask.php
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/input/BasicSmartAssistant
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/input/BasicProductCategoryInput
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /basic/ask_confirm.php
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /basic/error.php
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /basic/error404.php
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /basic/home.php
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/reports/TopAnswers
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/search/MobileProductCategoryList
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/search/ProductCategoryList
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /basic/utils/account_assistance.php
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/login/BasicEmailCredentials
+[DEBUG] 07/13/2015 12:29 PM Compiling widget: standard/login/EmailCredentials
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /basic/utils/create_account.php
+[DEBUG] 07/13/2015 12:29 PM Compiling page: /basic/utils/login_form.php
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/login/BasicLoginForm
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/login/LoginForm
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /basic/utils/submit/password_changed.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /chat/chat_landing.php
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/chat/ChatPostMessage
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/chat/ChatOffTheRecordDialog
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/chat/ChatDisconnectButton
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/chat/ChatOffTheRecordButton
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/chat/ChatPrintButton
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/chat/ChatServerConnect
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/chat/ChatEngagementStatus
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/chat/ChatQueueWaitTime
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/chat/ChatAgentStatus
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/chat/ChatTranscript
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/chat/ChatCancelButton
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/chat/ChatRequestEmailResponseButton
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/chat/ChatSendButton
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/chat/ChatAttachFileButton
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/chat/ChatCoBrowseButton
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/chat/ChatQueueSearch
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/utils/RightNowLogo
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/chat/ChatStatus
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/chat/ChatHours
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /chat/chat_launch.php
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/chat/ChatLaunchFormOpen
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/chat/ChatLaunchButton
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /error.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /error404.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /home.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /mobile/account/change_password.php
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/navigation/MobileNavigationMenu
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/search/MobileSimpleSearch
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /mobile/account/profile.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /mobile/account/questions/detail.php
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/navigation/Accordion
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /mobile/account/questions/list.php
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/reports/MobileMultiline
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /mobile/account/reset_password.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /mobile/account/setup_password.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /mobile/answers/detail.php
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/feedback/MobileAnswerFeedback
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /mobile/answers/intent.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /mobile/answers/list.php
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/search/MobileProductCategorySearchFilter
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /mobile/ask.php
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/input/MobileProductCategoryInput
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /mobile/ask_confirm.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /mobile/chat/chat_landing.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /mobile/chat/chat_launch.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /mobile/error.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /mobile/error404.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /mobile/home.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /mobile/social/post_detail.php
+[DEBUG] 07/13/2015 12:30 PM Compiling widget: standard/social/CommunityPostDisplay
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /mobile/utils/account_assistance.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /mobile/utils/create_account.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /mobile/utils/guided_assistant.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /mobile/utils/login_form.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /mobile/utils/submit/password_changed.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /mobile/utils/submit/profile_updated.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /utils/account_assistance.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /utils/create_account.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /utils/help_search.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /utils/login_form.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /utils/submit/password_changed.php
+[DEBUG] 07/13/2015 12:30 PM Compiling page: /utils/submit/profile_updated.php
+[WARN]  07/13/2015 12:30 PM Warning: Page not Oracle Service Cloud logo compliant: /answers/detail.php.
+[WARN]  07/13/2015 12:30 PM Warning: Page not Oracle Service Cloud logo compliant: /home.php.
+[DEBUG] 07/13/2015 12:30 PM Finalizing delayed deletes.
+[DEBUG] 07/13/2015 12:30 PM Finished finalizing delayed deletes.
+[DEBUG] 07/13/2015 12:30 PM Number of deploy errors: <cps_error_count>1</cps_error_count>
+[DEBUG] 07/13/2015 12:30 PM Compile Failed! Please fix all errors marked in <font style='color: #FF0000;'>RED</font> and then redeploy

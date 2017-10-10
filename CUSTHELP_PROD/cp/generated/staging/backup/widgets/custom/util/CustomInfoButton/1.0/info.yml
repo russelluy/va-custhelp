@@ -1,0 +1,51 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  label_button:
+    name: rn:msg:BUTTON_LABEL_LBL
+    type: STRING
+    description: rn:msg:STRING_LABEL_DISP_BTN_ICON_PATH_SET_MSG
+    default: rn:msg:SEARCH_CMD
+  target:
+    name: Target Page URL
+    type: STRING
+    description: rn:msg:DETERMINES_PG_TARG_RPT_PG_URL_MSG
+    default: 
+  is_link:
+    name: Is a Link?
+    type: BOOL
+    description: specifies if click action navigates to link
+    default: true
+  new_window:
+    name: Open in new window
+    type: BOOL
+    description: specifies if link content opens in new browser window
+    default: true
+  icon_path:
+    name: rn:msg:ICON_PATH_LBL
+    type: STRING
+    description: rn:msg:LOCATION_IMAGE_FILE_SEARCH_ICON_LBL
+    default: 
+  icon_alt_text:
+    name: rn:msg:ALTERNATIVE_TEXT_MSG
+    type: STRING
+    description: rn:msg:TEXT_DISPLAYED_IMAGE_AVAILABLE_MSG
+    default: rn:msg:SEARCH_CMD
+  popup_window:
+    name: rn:msg:POPUP_WINDOW_LABEL_LBL
+    type: BOOL
+    description: rn:msg:SPECIFIES_DISP_RES_POPUP_WINDOW_SET_LBL
+    default: false
+  popup_window_width_percent:
+    name: rn:msg:POPUP_WINDOW_WIDTH_PERCENT_LABEL_LBL
+    type: INT
+    description: rn:msg:SPECIFIES_WIDTH_POPUP_WINDOW_PCT_MSG
+    default: 30
+  popup_window_height_percent:
+    name: rn:msg:POPUP_WINDOW_HEIGHT_PERCENT_LABEL_LBL
+    type: INT
+    description: rn:msg:SPECIFIES_HEIGHT_POPUP_WINDOW_PCT_MSG
+    default: 42

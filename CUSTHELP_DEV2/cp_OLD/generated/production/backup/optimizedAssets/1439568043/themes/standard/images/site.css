@@ -1,0 +1,1605 @@
+
+/*********************************
+Global Style
+
+Index:
+    01. Reset
+    02. Font multiplier table
+    03. Global Settings for Common
+         HTML elements
+    04. Template Structure
+    05. Text Colors
+    06. Navigation Bar
+    07. Shared/General Components
+    08. Answer & Question Detail Pages
+    09. Home Page
+    10. Account Pages
+    11. General Accessiblity
+    12. Print Style
+    13. Chat Related
+**********************************/
+
+/********************
+    01. Reset
+********************/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal;}
+ul, ol, li, dl, dt, dd{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym {border:0;font-variant:normal;}
+/* to preserve line-height and selector appearance */
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;margin:0;padding:0;}
+/*because legend doesn't inherit in IE */
+legend{color:#000; padding:0;}
+a img, iframe { border: none; }
+
+/*************************************
+    02. Font multiplier table
+**************************************
+Pixels  EMs   Percent    Points
+6px   0.500     50.00%     5pt
+7px     0.583     58.30%     5pt
+8px     0.667     66.70%     6pt
+9px     0.750     75.00%     7pt
+10px     0.833     83.30%     8pt
+11px     0.917     91.70%     8pt
+(12px is our body default)
+12px     1.000     100.0%     9pt
+13px     1.083     108.3%     10pt
+14px     1.167     116.7%     11pt
+15px     1.250     125.0%     11pt
+16px     1.333     133.3%     12pt
+17px     1.417     141.7%     13pt
+18px     1.500     150.0%     14pt
+19px     1.583     158.3%     14pt
+20px     1.667     166.7%     15pt
+21px     1.750     175.0%     16pt
+22px     1.833     183.3%     17pt
+23px     1.917     191.7%     17pt
+24px     2.000     200.0%     18pt
+***************************************/
+
+/*************************************
+    03. Global Settings for Common
+          HTML elements
+*************************************/
+html {
+    
+    /* UPGRADE: default font */
+    font-family:Helvetica, Arial, sans-serif;
+}
+/*Japanese charset support*/
+html[lang="ja-JP"],
+html[lang="ja-JP"] input, html[lang="ja-JP"] textarea, html[lang="ja-JP"] select {
+    font-family:"Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, "メイリオ", "MS PGothic", "MS Pゴシック", Helvetica, Arial, sans-serif;
+}
+body {
+    font-size:.75em;
+    line-height:1.250em;
+    text-align:left;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family:Arial, sans-serif;
+    font-weight:bold;
+}
+h1 { /* 40px */
+    font-size:2.45em;
+    font-weight:normal;
+    line-height:1.8em;
+}
+h2 { /* 26px */
+    font-size:1.333em;
+    line-height:1.4em;
+}
+h3 { /* 14px */
+    color:#2F2F2F;
+    font-size:1.167em;
+    line-height:1.3em;
+}
+h4 { /* 12px */
+    color:#404040;
+    font-size:1em;
+    line-height:1.3em;
+}
+h5 { /* 11px */
+    color:#505050;
+    font-size:0.917em;
+    line-height:1.0em;
+}
+h6 { /* 10px */
+    color:#505050;
+    font-size:0.833em;
+    line-height:.8em;
+}
+p {
+    line-height:1.4em;
+    margin-bottom:1em;
+}
+table {
+    border-collapse:separate;
+    border-spacing:0.3em;
+}
+hr {
+    margin:10px 0px;
+}
+strong {
+    font-weight: bolder;
+}
+caption {
+    color:#404040;
+    font-size:1em;
+    font-weight:bold;
+    line-height:1.3em;
+}
+blockquote {
+    margin:10px 30px;
+}
+a:visited {
+    /* UPGRADE: link color */
+    color:#3C0D68;
+}
+input[type="text"], input[type="password"]  {
+    height:18px;
+}
+input, textarea, select {
+    border:solid 1px #B1B1B1;
+    /*font-family bears repeating for IE6/7*/
+    font-family:Helvetica, Arial, sans-serif;
+}
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus, select:focus {
+    border-color:#AAA;
+    background-color:#F8F8F8;
+}
+input[type="submit"],
+button {
+    /* UPGRADE: modify button background color */
+    /*  button gradient 1x60 sprite image */
+   /* background:#7B4397 url(images/vx_search_button_background.png) 0px 0px repeat-x; */
+	text-transform:uppercase;
+    border:0px;
+    color:#FFF;
+    cursor:pointer;
+    font:bold 12px Helvetica,Arial,sans-serif;
+    line-height:normal;
+    margin-right:6px;
+    text-decoration:none;
+    /*Fix for IE6/7 button width bug*/
+    width:140px;
+	height:35px;
+    overflow:visible;
+}
+/*
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+button:hover,
+button:focus {
+    background-position: 0px -40px;
+    border-color:#46494D;
+    cursor:pointer;
+}
+
+input[type="submit"][disabled],
+button[disabled] {
+    background-color:#304764;
+    background-position: 0px -40px;
+    border-color:#333;
+    color:#DDD;
+}
+*/
+input[type="submit"]:focus,
+button:focus {
+    /*IE8 doesn't apply focus outline natively*/
+    outline /*\**/:#000 dotted 1px\9
+}
+
+/********************************
+    04. Template Structure:
+    rn_Container
+        rn_Header
+        rn_Navigation
+        rn_Body
+            rn_MainColumn
+            rn_SideBar
+        rn_Footer
+            rn_RightNowCredit
+********************************/
+#rn_Container {
+    height:100%;
+    margin:0px auto;
+    overflow:visible;
+    text-align:left;
+    /* UPGRADE: remove fixed-width pages */
+    width:99%
+}
+#rn_Header {
+    color:#FFF;
+    /* UPGRADE: remove company logo - remove height and
+    min-height declarations */
+    
+    
+    overflow:visible;
+    padding:0 10px;
+}
+#rn_Header a {
+	color:#FFF;
+}
+/* UPGRADE: remove company logo - remove all declarations using
+
+
+
+
+
+/* UPGRADE: remove login widget (and login status - remove all
+declarations using #rn_LoginStatus to to remove unnecessary CSS */
+#rn_LoginStatus{
+	font-size:0.917em;
+	text-align:right;
+}
+#rn_LoginStatus a{
+	font-weight:bold;
+	text-decoration:none;
+}
+#rn_Navigation {
+    background:transparent none repeat scroll center top;
+    height:31px;
+    /*IE6*/
+    _height:28px;
+    
+    padding:3px 10px 0 0;
+}
+#rn_NavigationBar {
+	float:left;
+	height:14px;
+}
+#rn_NavigationBar ul li {
+	float:left;
+}
+#rn_Body {
+
+}
+#rn_Footer, #rn_Body {
+    background:#FFFFFF;
+    overflow:hidden;
+    padding:0 10px 20px 10px;
+    text-align:left;
+
+}
+/* UPGRADE: remove footer left padding */
+/*
+#rn_Footer {
+    padding:0 0 20px 0;
+}
+*/
+/* UPGRADE: mimic classic with a larger border above navigation tabs */
+/*
+#rn_Body {
+    border-top:10px solid #DDD;
+}
+*/
+#rn_MainColumn {
+	background:#FFF;
+	float:left;
+	
+	min-height:650px;
+	height:auto !important;
+	height:650px;
+	overflow:visible;
+	padding:0px 0px 10px 6px;
+	/* UPGRADE: remove sidebar */
+	width: 100%;
+}
+
+#rn_SideBar {
+        float:right;
+        margin-right:12px;
+        width:32%;
+}
+
+#rn_Footer {
+    border-bottom:1px solid #E2E2E2;
+}
+#rn_RightNowCredit {
+	border-top:1px solid #DDD;
+	clear:both;
+	padding:10px 0px 10px 0px;
+	text-align:right;
+	margin:auto 20px;
+}
+
+/*************************************
+    05. Text Colors
+*************************************/
+body,
+fieldset legend {
+    color:#000;
+}
+a:link {
+    /* UPGRADE: link color */
+    color:#7B4397;
+	text-decoration:none;
+}
+
+/***********************************************************
+    07. Shared / General Styling
+***********************************************************/
+/*************
+Main search form at the top of many pages
+(answers/list, questions/list, questions/detail, home)
+*************/
+#rn_SearchControls {
+    /* UPGRADE: modify search area background color */
+    border-top:1px solid #BBB;
+	border-bottom:1px solid #BBB;
+    clear:left;
+    float:left;
+    overflow:visible;
+    padding:40px 0 40px 80px;
+    position:relative;
+    width:724px;
+	margin-top:35px;
+}
+#rn_SearchControls.rn_AnswerSearchControls {
+    margin-bottom:10px;
+}
+#rn_SearchControls form {
+    padding:0 0 6px;
+    _margin-bottom:20px;
+}
+#rn_SearchControls form input[type="submit"],
+#rn_SearchControls form input[type="image"] {
+    /*margin:1.3em 0 0 1.3em;*/
+	margin:0;
+    padding:.4em 1em;
+}
+/**IE6 doesn't use attr selectors*/
+#rn_SearchControls input {
+    _margin:1.3em 0 0 1.3em;
+    _padding:.4em 1em;
+}
+    #rn_SearchControls .rn_SearchInput {
+        float:left;
+        position:relative;
+        /* width:380px;  XXX: nklein */
+    }
+    #rn_SearchControls .rn_SearchInput a {
+        color:#25383C;
+        display:block;
+        float:right;
+        font-size:.917em;
+        margin-right:-8px;
+        /*IE6/7*/
+        *margin-right:0;
+        *position:absolute;
+        *right:-8px;
+        _right:0px;
+        text-decoration: none;
+    }
+    #rn_SearchControls .rn_SearchInput label {
+        bottom:0px;
+        position:absolute;
+        /*IE6/7*/
+        *bottom:-50px !important;
+        *position:relative !important;
+    }
+    #rn_SearchControls .rn_SearchInput input {
+        font-weight:bold;
+        height:35px;
+        /*margin-bottom:20px;*/
+        /*IE6*/
+        _margin: 0;
+        width:100%;
+    }
+/************************
+PageTitle -
+Appears at the top of each page
+************************/
+#rn_PageTitle {
+    border-bottom:1px solid #E2E2E0;
+    color:#25383C;
+    overflow:hidden;
+    padding:16px 0 0;
+}
+#rn_PageTitle.rn_Home,
+#rn_PageTitle.rn_QuestionList,
+#rn_PageTitle.rn_AnswerList {
+    border-bottom:0;
+    overflow:visible;
+}
+#rn_PageTitle.rn_Home {
+    margin-bottom:10px;
+}
+#rn_PageTitle h1,
+#rn_PageTitle h2,
+#rn_PageTitle h3,
+#rn_PageTitle h4,
+#rn_PageTitle h5,
+#rn_PageTitle h6 {
+    clear:left;
+    word-wrap:break-word;
+}
+#rn_PageTitle p {
+    clear:both;
+}
+/************************
+PageContent
+************************/
+#rn_PageContent {
+    clear:both;
+    overflow:hidden;
+}
+
+/*************************************
+Forms
+*************************************/
+#rn_PageContent form h2,
+.rn_HeadingBar {
+    background:#F9F9F9;
+    border:1px solid #CCC;
+    clear:both;
+    color:#414142;
+    letter-spacing:-0.03em;
+    padding:4px;
+    margin:20px 0 10px;
+}
+/**generic form legend only visible for screen readers (forms mode)*/
+form legend {
+    font-size:0em;
+    visibility:hidden;
+}
+form fieldset {
+    padding-left:8px;
+}
+form button {
+    margin-top:20px;
+}
+form .rn_Column {
+    margin-bottom:10px;
+}
+.rn_HintBox {
+    background-color:#F2F2F2;
+    border:1px solid #DBDBDB;
+    color:#222;
+    opacity:.7;
+    padding:4px 16px 2px;
+    -webkit-border-top-right-radius:10px;
+    -webkit-border-bottom-right-radius:10px;
+    -moz-border-radius-bottomright:10px;
+    -moz-border-radius-topright:10px;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.rn_Required, .rn_ErrorLabel {
+    color:#C10000;
+}
+.rn_ErrorField {
+    background-color:#FEFDA0 !important;
+}
+.rn_MessageBox {
+    background-color:#FFFFE0;
+    border:1px solid #808080;
+    color:#990000;
+    margin:10px 0;
+    padding:6px;
+}
+.rn_ErrorMessage {
+    background:#FFFFE0 url(images/layout/important.png) no-repeat;
+    padding:8px 6px 8px 40px !important;
+}
+    .rn_ErrorMessage a {
+        color:#990000;
+    }
+.rn_InfoMessage {
+    background:#FFFFE0 url(images/layout/info.png) no-repeat;
+    padding:6px 6px 4px 40px !important;
+}
+/* UPGRADE: put labels to left of fields */
+/*
+.rn_Label {
+    float:left;
+    padding-right:10px;
+    text-align:right;
+    width:25%;
+}
+*/
+/***************
+Dialogs
+****************/
+.rn_Dialog {
+    overflow:visible;
+}
+.rn_Dialog ol,
+.rn_Dialog ul {
+    padding:0.4em 0 0 1.8em;
+}
+.rn_Dialog ol li {
+    list-style:decimal outside none;
+}
+.rn_Dialog ul li {
+    list-style:disc outside none;
+}
+/**************
+Module Box
+**************/
+.rn_Module {
+    clear:both;
+    margin-bottom: 12px;
+    overflow:hidden;
+    padding-bottom:8px;
+}
+.rn_Module h3,
+.rn_Module h2 {
+
+    border-bottom:1px solid #CCC;
+    font-weight:normal;
+    margin-bottom:35px;
+    padding-bottom:40px;
+	color:#000000;
+	font-size:26px;
+	text-transform:uppercase;
+}
+/***********
+Misc Common rules
+**********/
+.rn_FloatRight {
+    float:right;
+}
+.rn_FloatLeft {
+    float:left;
+}
+.rn_Padding {
+    padding:8px 10px 2px 10px;
+}
+.rn_ClearBoth {
+    clear:both;
+}
+.rn_Highlight {
+    font-style:normal;
+    font-weight:bold;
+    text-decoration:inherit;
+}
+/**********
+Columns
+**********/
+.rn_ColumnContainer {
+    width:100%;
+}
+.rn_Column {
+    width:48%;
+}
+.rn_LeftColumn {
+    float: left;
+    padding:0 4px 0 0;
+}
+.rn_RightColumn {
+    float:right;
+    padding: 0 0 0 4px;
+}
+.rn_LargeText {
+    font-size:1.333em;
+    font-weight:bold;
+    line-height:1.4em;
+}
+
+/*******************************************
+    08. Answer & Question Detail
+*******************************************/
+#rn_Summary {
+    padding: 7px 0 0 0;
+    line-height:1em;
+    letter-spacing:-.01em;
+}
+#rn_AnswerInfo {
+    color:#888;
+    margin:6px 0 20px;
+}
+#rn_AnswerInfo div {
+    display:inline;
+}
+#rn_AnswerText {
+    clear:both;
+    line-height:1.4em;
+    padding:5px 0 15px;
+}
+#rn_FileAttach {
+    padding-bottom:1em;
+}
+/************
+List styles for answer content
+*************/
+.rn_QuestionDetail ol,
+.rn_QuestionDetail ul,
+.rn_AnswerDetail ol,
+.rn_AnswerDetail ul {
+    padding-left:2em;
+    clear: both;
+}
+.rn_QuestionDetail > ol,
+.rn_QuestionDetail > ul,
+.rn_AnswerDetail > ol,
+.rn_AnswerDetail > ul {
+    margin-bottom:1em;
+}
+.rn_QuestionDetail li,
+.rn_AnswerDetail li {
+    line-height:1.4em;
+    margin:4px;
+}
+/* Unordered lists */
+.rn_QuestionDetail ul li,
+.rn_AnswerDetail ul li {
+    list-style: disc;
+}
+.rn_QuestionDetail li ul li,
+.rn_AnswerDetail li ul li {
+    list-style: circle;
+}
+.rn_QuestionDetail li li ul li,
+.rn_AnswerDetail li li ul li {
+    list-style: square;
+}
+/* Ordered lists */
+.rn_QuestionDetail ol li,
+.rn_QuestionDetail li ol li,
+.rn_QuestionDetail li li ol li,
+.rn_AnswerDetail ol li,
+.rn_AnswerDetail li ol li,
+.rn_AnswerDetail li li ol li {
+    list-style: decimal;
+}
+
+/* Incident thread */
+#rn_UpdateQuestion textarea {
+    width:98%;
+}
+#rn_QuestionThread {
+    margin:4px;
+}
+#rn_AdditionalInfo, #rn_DetailTools {
+    background:#EEE url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQIHWP4DwABAQEANl9ngAAAAABJRU5ErkJggg==) repeat-x scroll 0 0;
+    *background:#EEE; /* IE6/7 don't support data URI */
+    border:1px solid #BBB;
+}
+/** Additional Details box **/
+#rn_AdditionalInfo {
+    margin:1em;
+    overflow:hidden;
+    padding:12px;
+    width:560px;
+}
+/** Print/Email/Notif/Share Container **/
+#rn_DetailTools {
+    line-height:1em;
+    margin-top:2em;
+    padding:8px 0;
+    text-align: right;
+}
+/*************************************
+    09. Home Page : Top Answers
+*************************************/
+#rn_PageContent.rn_Home ol {
+    margin:12px;
+    overflow:hidden;
+}
+#rn_PageContent.rn_Home ol li {
+    float:left;
+    margin:0px;
+    padding:4px;
+    width:48%;
+}
+#rn_PageContent.rn_Home ol li img {
+    display:none;
+}
+#rn_PageContent.rn_Home ol li a {
+    float:left;
+    font-size:.8em;
+    margin:4px;
+}
+#rn_PageContent.rn_Home .rn_AnswersLink {
+    display:inline-block;
+    font-size:120%;
+    font-weight:bold;
+    margin:10px 0 10px 16px;
+}
+/*************************************
+    10. Account Pages
+*************************************/
+/*********************
+Sprite for overview page
+*********************/
+.rn_Overview {
+    padding:12px 10px 2px;
+}
+.rn_Overview h2 {
+    background-color:#F9F9F9;
+    border:1px solid #DDD;
+    margin-top:10px;
+}
+/* image is 32 x 148 : icons are 32 x 32 */
+.rn_Overview h2 a,
+.rn_Overview h2 strong {
+    background:url(images/layout/accountOverview.png) no-repeat;
+    color:#505050;
+    display:block;
+    height:26px;
+    margin:4px;
+    outline:none;
+    padding:8px 0 0 40px;
+    text-decoration:none;
+}
+.rn_Overview a:focus,
+.rn_Overview a:hover {
+    text-decoration:underline;
+}
+.rn_Overview a.rn_Questions {
+    background-position: 0px 2px;
+}
+.rn_Overview a.rn_Profile {
+    background-position: 2px -38px;
+}
+.rn_Overview a.rn_Notifs {
+    background-position: 0px -74px;
+}
+.rn_Overview strong.rn_Contracts {
+    background-position: 0px -114px;
+}
+.rn_Overview div.rn_Questions,
+.rn_Overview div.rn_Notifs,
+.rn_Overview div.rn_Profile,
+.rn_Overview div.rn_Contracts {
+    margin:10px 0px 40px 40px;
+}
+.rn_QuestionList caption {
+    font-size:1.333em;
+    font-weight:bold;
+    line-height:1.4em;
+}
+/*********************
+Sprite for login page
+*********************/
+.rn_CreateAccountInfo {
+    background:#FAF9F5;
+    border:1px solid #ECECEC;
+    color:#454545;
+    padding:8px;
+}
+.rn_CreateAccountInfo h2 {
+    text-align: center;
+}
+.rn_CreateAccountInfo button {
+    display:block;
+    margin:auto;
+    width:60%;
+}
+.rn_CreateAccountInfo ul {
+    margin-top:10px;
+}
+.rn_CreateAccountInfo li {
+    background:url(images/layout/createAccount.png) no-repeat;
+    height:32px;
+    list-style-type: none;
+    margin:4px 0 16px;
+    padding:4px 0px 4px 40px;
+}
+.rn_CreateAccountInfo li.rn_Communicate {
+    background-position: 0px 0px;
+}
+.rn_CreateAccountInfo li.rn_Feedback {
+    background-position: 0px -46px;
+}
+.rn_CreateAccountInfo li.rn_Customize {
+    background-position: 0px -96px;
+}
+
+/********************************
+    11. General Accessibility
+*********************************/
+#rn_SkipNav a {
+    left:0px;
+    height:1px;
+    overflow:hidden;
+    position:absolute;
+    top:-500px;
+    width:1px;
+}
+#rn_SkipNav a:active, #rn_SkipNav a:focus {
+    background-color:#FFF;
+    height:auto;
+    left:auto;
+    top:auto;
+    width:auto;
+}
+
+/****************************
+    12. Print Style
+    (only display content)
+****************************/
+@media print
+{
+    body{
+        font-size:1em;
+    }
+    #rn_DetailTools,
+    #rn_Header,
+    #rn_Navigation,
+    #rn_SideBar,
+    #rn_Footer{
+        display:none;
+    }
+    #rn_Footer, #rn_Body, #rn_PageContent, #rn_PageTitle, #rn_AdditionalInfo{
+        overflow:visible;
+    }
+}
+
+/*******************************************
+    13. Chat Related
+*******************************************/
+
+#rn_ChatContainer {
+    height:100%;
+    margin:0px auto;
+    overflow:hidden;
+    text-align:left;
+}
+
+#rn_ChatDialogContainer {
+    background-color:#EBEFF5;
+    border:1px solid #555;
+    overflow-x:hidden;
+    overflow-y:auto;
+    position:relative;
+    height:450px;
+}
+
+#rn_ChatDialogHeaderContainer {
+    height:30px;
+    overflow:visible;
+    padding:4px;
+    vertical-align:middle;
+}
+
+#rn_ChatDialogTitle {
+    margin-top: 8px;
+}
+
+#rn_ChatDialogHeaderButtonContainer button{
+    background: none;
+    border-color: transparent;
+    color: #555;
+    margin-right: .25em;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 2px;
+}
+
+#rn_ChatDialogHeaderButtonContainer button:hover,
+#rn_ChatDialogHeaderButtonContainer button:focus{
+    background-color: #F8F8F8;
+    border-color: #CCC #555 #555 #CCC;
+    color: #000;
+}
+
+#rn_InChatButtonContainer {
+    overflow: visible;
+}
+
+#rn_PreChatButtonContainer{
+    overflow: visible;
+}
+
+#rn_ChatQueueSearchContainer {
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+}
+
+#rn_ChatQueueSearchContainer div.rn_ScreenReaderOnly {
+    display: none;
+}
+
+#rn_ChatFooter {
+    padding: 10px;
+}
+
+#rn_ChatLogo {
+    height:100px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width:135px;
+}
+
+@media print
+{
+    #rn_ChatDialogHeaderContainer,
+    #rn_InChatButtonContainer,
+    #rn_PreChatButtonContainer,
+    #rn_ChatQueueSearchContainer,
+    #rn_ChatLogo {
+        display:none;
+    }
+
+    #rn_ChatContainer {
+        border:0;
+        overflow: visible;
+        height: auto;
+    }
+
+    #rn_ChatDialogContainer {
+        overflow: visible;
+        height: auto;
+    }
+}
+
+.rn_AdvanceSearchOption {
+	float:left;	
+	padding-top:10px;
+	text-transform:lowercase;
+	color:#666;
+	text-decoration:underline;
+}
+
+.rn_AdvanceSearchOption a{
+	text-transform:lowercase;
+	color:#666;
+	text-decoration:underline;
+}
+
+#faqHeaderTitle {
+	font-weight:bold;
+	font-size:20px;
+}
+
+/*******************************************
+    14. All screen devices 
+*******************************************/
+
+@media screen {
+
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+ 
+gotham-thin {
+  font-family: 'Gotham 1r', 'Gotham A', 'Gotham B', Arial, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+ 
+ 
+gotham-xlight {
+  font-family: 'Gotham 2r', 'Gotham A', 'Gotham B', Arial, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+ 
+ 
+gotham-light {
+  font-family: 'Gotham 3r', 'Gotham A', 'Gotham B', Arial, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+ 
+ 
+gotham-book {
+  font-family: 'Gotham 4r', 'Gotham A', 'Gotham B', Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ 
+ 
+gotham-medium {
+  font-family: 'Gotham 5r', 'Gotham A', 'Gotham B', Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+ 
+ 
+gotham-bold {
+  font-family: 'Gotham 7r', 'Gotham A', 'Gotham B', Arial, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}   
+  
+#myAddressDiv .bd,
+#myCallDiv .bd,
+#myEmailDiv .bd {            /* Icon sub windows need a purple border */
+   background-color: #FFFFFF;
+   border: 4px solid #7B4397;
+}
+
+input#rn_CustomFormSubmit_19_Button,
+input#rn_CustomFormSubmit_40_Button {   /* Submit button for icon sub-window */
+   background-color: #7b4397;
+}
+
+button#rn_AnswerFeedback2_12_RatingButton_1,
+button#rn_AnswerFeedback2_12_RatingButton_2,
+button#rn_AnswerFeedback2_12_RatingButton_3,
+button#rn_AnswerFeedback2_12_RatingButton_4 {   /* Rating buttons within question answer page */
+   background-color: #7b4397;
+}
+
+  /*
+   *  “Search” button 
+   */
+  button#rnDialog1_Button_0,
+  button#rnDialog1_Button_1,
+  input#rnDialog1_Button_0,
+  input#rnDialog1_Button_1,
+  input#rn_SearchButton2_4_SubmitButton.rn_SubmitButton,
+  input#rn_SearchButton2_8_SubmitButton.rn_SubmitButton,  
+  input#rn_SearchButton2_10_SubmitButton.rn_SubmitButton {   
+    background-color: #7B4397;
+  }
+  
+  button#rnDialog1_Button_0:active,
+  button#rnDialog1_Button_1:active,
+  input#rnDialog1_Button_0:active,
+  input#rnDialog1_Button_1:active,
+  input#rn_SearchButton2_4_SubmitButton.rn_SubmitButton:active,
+  input#rn_SearchButton2_8_SubmitButton.rn_SubmitButton:active,
+  input#rn_SearchButton2_10_SubmitButton.rn_SubmitButton:active {
+     background: #6d138e; /* Old browsers */
+     background: -moz-linear-gradient(top,  #6d138e 27%, #a020cf 100%); /* FF3.6+ */
+     background: -webkit-gradient(linear, left top, left bottom, color-stop(27%,#6d138e), color-stop(100%,#a020cf)); 
+     /* Chrome,Safari4+ */
+     background: -webkit-linear-gradient(top,  #6d138e 27%,#a020cf 100%); /* Chrome10+,Safari5.1+ */
+     background: -o-linear-gradient(top,  #6d138e 27%,#a020cf 100%); /* Opera 11.10+ */
+     background: -ms-linear-gradient(top,  #6d138e 27%,#a020cf 100%); /* IE10+ */
+     background: linear-gradient(to bottom,  #6d138e 27%,#a020cf 100%); /* W3C */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d138e', endColorstr='#a020cf',GradientType=0 ); /* IE6-9 */
+   }
+
+  input#rn_1 {
+      margin-bottom: 20px;
+  }
+  input#rn_1 + label {
+      margin-left: 10px;
+  }
+
+  /* 
+   * Dialog windows
+   */
+   #rnDialog1 {
+      border: 4px solid #7B4397;
+    }
+ 
+
+  #rn_CustomInfoButton_2_SubmitButton {  /* Call */
+    background: url(data:image/png;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xIFRpbnkvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEtdGlueS5kdGQiPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJ0aW55IiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayINCgkgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxwYXRoIGZpbGw9IiMzMzMzMzMiIGQ9Ik00OC42NTUsNjMuMjY2Yy00LjIxOC0zLjQ1Mi05LjA3NC04LjA1My0xMy4yOTItMTMuMjc0Yy0yLjk0NC0zLjY2OS01LjU3LTcuNTAyLTIuODY3LTEwLjIwMg0KCQlMMTMuNTY0LDIwLjkxNWMtMi43NjYsMy40MjktOC44NjQsMTkuODIyLDE3LjM0LDQ2LjY1NmMyNy42MTgsMjguMjc4LDQ1LjQzOSwyMi4yMjcsNDguNTE1LDE5LjA0Nkw2MC45NTMsNjguMTc3DQoJCUM1OC4zNjYsNzAuNzYsNTUuMDQxLDY4LjQ2NCw0OC42NTUsNjMuMjY2eiBNODguMDM3LDczLjk0NnYtMC4wMzFjMCwwLTE0LjQwMy0xNC4zNTItMTQuNDE5LTE0LjM2OA0KCQljLTEuMTM0LTEuMTMzLTIuOTUyLTEuMTAyLTQuMDc4LDAuMDIzbC01LjMzMiw1LjMyNWwxOC41MDUsMTguNDc5YzAsMCw1LjMzMi01LjI5NCw1LjMxNy01LjMwOWwwLjAxNi0wLjAxNg0KCQlDODkuMjQ5LDc2Ljg0Nyw4OS4xMjUsNzUuMDMyLDg4LjAzNyw3My45NDZ6IE00MS4xMTQsMzEuMjE1di0wLjAzMWMxLjIwNC0xLjIwMywxLjA4LTMuMDE4LTAuMDA4LTQuMTA0bDAuMDE2LTAuMDE1DQoJCWMwLDAtMTQuODIzLTE0Ljc3MS0xNC44MzgtMTQuNzg3Yy0xLjE0Mi0xLjE0LTIuOTYtMS4xMDktNC4wODYsMC4wMTVsLTUuMzMyLDUuMzI1bDE4LjkxNywxOC44OTFMNDEuMTE0LDMxLjIxNXoiLz4NCjwvZz4NCjwvc3ZnPg0K);
+    background-repeat: no-repeat;
+ }
+
+  #rn_CustomInfoButton_3_SubmitButton {  /* Chat */
+    background-image: url(data:image/png;base64, PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xIFRpbnkvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEtdGlueS5kdGQiPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJ0aW55IiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayINCgkgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZmlsbD0iIzMzMzMzMyIgZD0iTTkwLjczNSwyNS40ODV2MzQuMTQ0YzAsNC43NzEtNC41MjcsOC42NjktOC4zNzEsOC42NjlIMzIuNjkzbC01LjA2MSw0LjI5M2gzOC45NjkNCgkJbDE2LjE4NywxMy43M3YtMTMuNzNoMS4zOTFjNS45NzIsMCwxMC44MTQtNC45ODcsMTAuODE0LTExLjEzOVYzNC4zMjhDOTQuOTkzLDMwLjcxOSw5My4zMTksMjcuNTIsOTAuNzM1LDI1LjQ4NXogTTMyLjYwNCw2My45NzkNCgkJaDQ1LjQ3MmM1Ljk3MiwwLDguMzcxLTIuNTE3LDguMzcxLTguNjY5VjI1LjcxNmMwLTYuMTUyLTQuODQxLTExLjEzOS0xMC44MTQtMTEuMTM5SDE1LjgyMWMtNS45NzIsMC0xMC44MTQsNC45ODctMTAuODE0LDExLjEzOQ0KCQlWNTIuODRjMCw2LjE1Miw0Ljg0MSwxMS4xMzksMTAuODE0LDExLjEzOWgwLjU5N3YxMy43M0wzMi42MDQsNjMuOTc5eiIvPg0KPC9nPg0KPC9zdmc+DQo=);
+    background-repeat: no-repeat;
+  }
+
+  #rn_CustomInfoButton_4_SubmitButton {  /* Email */
+    background-image: url(data:image/png;base64, PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xIFRpbnkvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEtdGlueS5kdGQiPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJ0aW55IiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayINCgkgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZmlsbD0iIzMzMzMzMyIgZD0iTTk0LjkzNywzMC42NDNMNzAuMzM5LDQ0LjY0OWwyNC41OTgsMjAuNzY3VjMwLjY0M3ogTTk0LjkzNywyNi42OA0KCQljLTAuMjI5LTIuMTU4LTIuMDI5LTMuMTgtNC4yNC0zLjE4SDkuMjY4Yy0yLjMwOCwwLTQuMTc2LDEuMTY4LTQuMjY4LDMuNDYxbDQ0Ljk4MywyNC40NDJMOTQuOTM3LDI2LjY4eiBNNjYuNDMzLDQ2Ljg4Mg0KCQlsLTE3LjE2NSw5LjQ0MmwtMTYuMzE5LTkuMzFMNSw3MS4xMnYwLjQ5N0M1LDczLjk5Miw1Ljk0Myw3Ni41LDguMzEsNzYuNWg4MS40MjljMi4zNjcsMCw1LjI2MS0yLjUwOCw1LjI2MS00Ljg4M3YtMC44Mw0KCQlMNjYuNDMzLDQ2Ljg4MnogTTUsMzEuMjI3djM0LjI1OGwyNC4zMTMtMjAuNjk3TDUsMzEuMjI3eiIvPg0KPC9nPg0KPC9zdmc+DQo=);
+    background-repeat: no-repeat;
+  }
+
+  #rn_CustomInfoButton_5_SubmitButton {  /* Address */
+    background-image: url(data:image/png;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xIFRpbnkvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEtdGlueS5kdGQiPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJ0aW55IiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayINCgkgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZmlsbD0iIzMzMzMzMyIgZD0iTTQ1Ljg2Myw5MC41MDJoMTguNTg2VjY2Ljc3Nkg0NS44NjNWOTAuNTAyeiBNMi40NTksNTcuOTcxDQoJCUMxLjEwMSw1Ny45NzEsMCw1OS4wNjgsMCw2MC40MjFjMCwxLjM1NCwxLjEwMSwyLjQ1MSwyLjQ1OSwyLjQ1MWg0My44MVY0MC41NTRoLTAuMDA0YzAuMDAxLTkuOTgzLTguMDEtMTguMTQxLTE4LjAwNS0xOC4yNjkNCgkJQzE4LjE4OCwyMi4xNTcsOS45MTksMzAuMjMyLDkuNzkyLDQwLjMyMmMtMC4wMDEsMC4wNzgsMC4wMDMsMC4xNTUsMC4wMDMsMC4yMzNIOS43OXYxMy42MzFoMjYuOTM1djMuNzkzTDIuNDU5LDU3Ljk3MXoNCgkJIE0xMDAuMDAyLDQxLjQ0MWMwLTEwLjM3MS04LjI3My0xOC44MTItMTguNi0xOS4xNHYtMC4wMTZINjUuMTY5di00LjkyNGg4LjYzMVY5LjQ5OGgtOS42MjRjLTIuMTU1LDAtMy45MDQsMS43NTItMy45MDQsMy45MTMNCgkJdjE4LjYzMmgtNC4yOTV2LTkuNzU4aC0xNC45OGM1LjY3MSw0LjA0MSw5LjM3MiwxMC42NTMsOS4zNzIsMTguMTMxbDAuMDA3LDAuMDAzdjIyLjQ1NWg0NS43MjJjMi4xNTYsMCwzLjkwNC0xLjc1MiwzLjkwNC0zLjkxMw0KCQlWNDIuNTU2bC0wLjAzNS0wLjAwMkM5OS45ODksNDIuMTg1LDEwMC4wMDIsNDEuODE1LDEwMC4wMDIsNDEuNDQxeiIvPg0KPC9nPg0KPC9zdmc+DQo=);
+    background-repeat: no-repeat;
+  }
+
+  #rn_CustomInfoButton_6_SubmitButton {  /* Twitter */
+    background-image: url(data:image/png;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xIFRpbnkvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEtdGlueS5kdGQiPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJ0aW55IiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayINCgkgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZmlsbD0iIzMzMzMzMyIgZD0iTTY0LjcxOSwxNS4wMTVjNy43NDEtMC4xMjgsMTAuMjMyLDIuMjY1LDE0LjQyLDUuNTJjMy4yOTUtMC40MzUsNi40NTItMS43NjUsOS4wNC0zLjENCgljMC42NzItMC4zNzgsMS4zNDUtMC43NTYsMi4wMTctMS4xMzRjMCwwLjAyNSwwLDAuMDUsMCwwLjA3NmMtMS4zMTksMy41NzMtNC4wNDEsOC4xNTUtNy4zOTcsOS41MjhjMCwwLjAyNSwwLDAuMDUsMCwwLjA3Ng0KCWMzLjgwOS0wLjExMyw2LjYxMy0xLjk1NCw5LjcxMy0yLjY0N2MwLDAuMDI1LDAsMC4wNSwwLDAuMDc2Yy0wLjA3NSwwLjA3NS0wLjE0OSwwLjE1MS0wLjIyNCwwLjIyNw0KCWMtMC45NTEsMi4zLTQuMzg1LDUuNjctNi4yNzYsNy4xODRjLTAuNzIyLDAuNTgtMS40NDQsMS4xNi0yLjE2NywxLjczOWMwLjUzNiwyNi44MTctMTYuMzk2LDQ1LjgwOS0zNy4zNTcsNTEuMTIxDQoJYy0xMS4xNjEsMi44MjgtMjMuNzAyLDAuODQ1LTMyLjIwMS0yLjg3NGMtMS41MzMtMC42NzEtNi4xMjktMi41MzYtNi43OTktMy43ODFjMS4wNzIsMC4zMTEsMy4xNjQsMC4zODEsNC4yNTksMC4yMjcNCgljMS40NjktMC4wNzYsMi45MzktMC4xNTEsNC40MDgtMC4yMjdjNC45NzItMC45NDIsOS4wNjItMi4yMDUsMTIuNzAxLTQuMzg2YzEuNDA5LTAuODQ1LDMuMjY3LTEuNjA4LDQuMjU5LTIuODc0DQoJYy03LjkxNiwwLjA4Mi0xNC41OTMtNi4wMzYtMTYuMjEzLTEyLjMyNmMwLjAyNSwwLDAuMDUsMCwwLjA3NSwwYzIuMjIyLDAuNjg0LDUuNjA4LDAuMjYsNy42MjEtMC4yMjdjMC0wLjAyNSwwLTAuMDUsMC0wLjA3Ng0KCWMtNS45NTktMC40NzQtMTAuODYyLTYuMzI1LTEyLjcwMS0xMS4xOTJjLTAuNC0xLjA2LTEuNjQtNC44MTctMS4wNDYtNi4zNTNjMS4xNzksMC42MzQsNS43NzgsMi44NTYsNy42OTUsMi4xMTcNCgljLTAuMDUsMC0wLjEsMC0wLjE0OSwwYy0wLjk0Ni0wLjgzMi0xLjg5My0xLjY2NC0yLjgzOS0yLjQ5NmMtMi43OTItMy41MTYtNS45MjctOS4xMjktNC4yNTktMTUuODgxDQoJYzAuNDc2LTEuOTI4LDEuMjI0LTMuNTczLDIuMDE3LTUuMTQyYzAuMDUsMC4wMjUsMC4xLDAuMDUsMC4xNDksMC4wNzVjMS4wNTQsMi4yMjcsNC42NDUsNS4xOTgsNi41NzUsNi43Mw0KCWM3LjA3NCw1LjYxNywxNi43ODUsMTEuNjQzLDI5LjIxMywxMS42NDZjLTEuNDcxLTkuOTQyLDMuMDI3LTE3LjEzLDkuNzg3LTIwLjExNmMxLjIyLTAuNDAzLDIuNDQxLTAuODA3LDMuNjYxLTEuMjENCglDNjMuMzc0LDE1LjIxNyw2NC4wNDYsMTUuMTE2LDY0LjcxOSwxNS4wMTV6Ii8+DQo8L3N2Zz4NCg==);
+    background-repeat: no-repeat;
+  }
+
+}
+
+/*******************************************
+    15. Web
+*******************************************/
+@media screen and (min-width: 769px) {
+    body {
+        width: auto;
+        background-color: green;
+    }
+ 
+   /*
+    * Search button states
+    */
+   button#rnDialog1_Button_0:hover,
+   button#rnDialog1_Button_1:hover,
+   input#rnDialog1_Button_0:hover,
+   input#rnDialog1_Button_1:hover,
+   input#rn_SearchButton2_4_SubmitButton.rn_SubmitButton:hover,
+   input#rn_SearchButton2_8_SubmitButton.rn_SubmitButton:hover,
+   input#rn_SearchButton2_10_SubmitButton.rn_SubmitButton:hover {
+     background-color: #9d27d8;
+   }
+ 
+ 
+   /*
+    * Top 10 Questions
+    */
+    #rn_SideBar div.rn_Padding div.rn_Module h2 {
+       font-size: 1.6em;
+       margin-top: 12px;
+    }
+    div.rn_TopQuestions {
+        float: right;
+    }
+    #rn_Multiline2_7_Content {
+        text-align: left;
+    }
+    #rn_Multiline2_7_Content {
+       counter-reset: my-counter;
+    }
+     #rn_Multiline2_7_Content ul li:before {
+       content: counter(my-counter, decimal);      
+       counter-increment: my-counter;
+    }
+    .rn_Module h2 {           /* Controls spacing around separator line */
+       margin-bottom: 0px;
+       padding-bottom: 20px;
+    } 
+ 
+ 
+   /*
+    * Frequently Asked Questions
+    */
+    #rn_ProductCategoryList_8 h2 {
+       font-size: 1.6em;
+       font-weight: normal;
+    }
+    div.rn_HierList.rn_HierList_28.rn_FloatLeft,   
+    div.rn_HierList.rn_HierList_75.rn_FloatRight,      
+    div.rn_HierList.rn_HierList_38.rn_FloatLeft,    
+    div.rn_HierList.rn_HierList_72.rn_FloatRight,    
+    div.rn_HierList.rn_HierList_36.rn_FloatLeft,    
+    div.rn_HierList.rn_HierList_37.rn_FloatRight,    
+    div.rn_HierList.rn_HierList_71.rn_FloatLeft,    
+    div.rn_HierList.rn_HierList_73.rn_FloatRight {
+        margin-top: 25px;
+    }
+ 
+   /*
+    * Sample Questions
+    */
+    #rn_PageContent.rn_Home ol li a {  /* FAQ Questions */
+        font-size: 1.2em;              /* 14pt 19px */
+    }
+    #rn_Multiline2_16_Content ol li span.rn_Element3 {     /* FAQ answers */
+        font-size: 1.2em;                                 /* 14pt 19px */
+    }
+    .rn_Element3 {        /* Removes leading whitespace */
+        float: left;
+    }
+ 
+    /*
+     * Email Questions
+     *
+     * XXX: This CSS is styled in optimized/1396891119/templates/standard.themes.standard.SITE.css
+     */
+     input#rn_CustomFormSubmit_19_Button {
+        background-color: red;
+     }
+ 
+   /*
+     *  Five task icons
+     */
+    div.rn_Module div {
+       text-align: center;
+       margin-top: 2.50em; /* 40px */
+       margin-bottom: 2.5em;    /* 40px */
+    }
+ 
+    #rn_CustomInfoButton_2_SubmitButton {
+       background-size: 160px;
+       width: 160px;
+       height: 160px;
+       margin: 0 40px 20px 0;
+    }
+    #rn_CustomInfoButton_3_SubmitButton {
+       background-size: 160px;
+       width: 160px;
+       height: 160px;
+       margin: 0 40px 20px 0;
+ 
+    }
+    #rn_CustomInfoButton_4_SubmitButton {
+       background-size: 160px;
+       width: 160px;
+       height: 160px;
+       margin: 0 40px 20px 0;
+    }
+    #rn_CustomInfoButton_5_SubmitButton {
+       background-size: 160px;
+       width: 160px;
+       height: 160px;
+       margin: 0 40px 20px 0;
+    }
+    #rn_CustomInfoButton_6_SubmitButton {
+       background-size: 160px;
+       width: 160px;
+       height: 160px;
+       margin: 0 40px 20px 0;
+    }
+    .rn_InfoButton {
+       background-color: transparent;
+    }
+    #rn_CustomInfoButton_2_SubmitButton.rn_InfoButton:hover,
+    #rn_CustomInfoButton_3_SubmitButton.rn_InfoButton:hover,
+    #rn_CustomInfoButton_4_SubmitButton.rn_InfoButton:hover,
+    #rn_CustomInfoButton_5_SubmitButton.rn_InfoButton:hover,
+    #rn_CustomInfoButton_6_SubmitButton.rn_InfoButton:hover,
+    #rn_CustomInfoButton_7_SubmitButton.rn_InfoButton:hover {
+       border: 3px solid #7b4397;
+    }
+ 
+    /*
+     * Search Controls
+     */
+    #rn_SearchControls {               /* Specify most general Search Control dimensions */
+         width: 100%;
+         padding: 20px 10px 20px 10px;
+    }
+    #rn_SearchControls form {         /* Center the Search fields */
+         margin: 0 auto;
+         width: 1180px;
+    }
+    #rn_SearchControls .rn_SearchInput input {
+         width: 500px;
+    }
+    #rn_AdvancedSearchDialog_11_TriggerLink.rn_AdvancedLink {
+       padding-top: 10px;
+       position: absolute;
+    }
+   
+   /*
+    * Question answered pages
+    */
+    #rn_SearchButton2_8.rn_SearchButton2 {   /* Lines up Search button */
+        margin-top: 20px;
+    }
+ 
+   /*
+    * Sub-windows
+    */
+    #myCallDiv div.bd {
+       width: 360px;
+    }
+    #myCallDiv a.container-close {
+       top: 25px;
+       right: -45px;
+    }
+    #myCallDiv div.bd div.content,
+    #myAddressDiv div.bd div.content {
+        margin-left: 20px;
+    }
+    #myAddressDiv a.container-close,
+    #myEmailDiv a.container-close {       /* â€˜Xâ€™ indicator to close window */
+       top: 25px;
+       right: 10px;
+    }
+    #myEmailDiv .bd h1,
+    #myCallDiv .bd h1,
+    #myAddressDiv .bd h1 {
+       font-size: 2.45em;         /* 30pt  40px */
+       line-height: 1.4em;
+       color: #7b4397;
+    }
+    #myEmailDiv .bd h2,
+    #myCallDiv .bd h2,
+    #myAddressDiv .bd h2 {
+       font-size: 1.8em;         /* 22pt  29px */
+       line-height: 1.4em;
+       color: #7b4397;
+    }
+    #myEmailDiv .bd h3,
+    #myCallDiv .bd h3,
+    #myAddressDiv .bd h3 {
+       font-size: 1.6em;         /* 20pt  26px */
+       color: #7b4397;
+    }
+    #myEmailDiv .bd h4,
+    #myCallDiv .bd h4,
+    #myAddressDiv .bd h4 {
+       font-size: 1.2em;         /* 14pt  19px */
+    }
+    #myEmailDiv .bd h5,
+    #myCallDiv .bd h5,
+    #myAddressDiv .bd h5 {
+       font-size: 1.05em;         /* 13pt  17px */
+    }
+    #myEmailDiv .bd h6,
+    #myCallDiv .bd h6,
+    #myAddressDiv .bd h6 {
+       font-size: 0.95em;         /* 11pt  15px */
+    }
+    #myCallDiv .bd .title,
+    #myAddressDiv .bd .title {
+       margin: 10px 0px;
+    }
+    #myCallDiv .bd .subtext,
+    #myAddressDiv .bd .subtext {
+       margin-bottom: 20px;
+    }
+    #myCallDiv .bd .dest,
+    #myAddressDiv .bd .dest {
+       margin-top: 50px;
+    }
+    #myCallDiv .bd .subDest,
+    #myAddressDiv .bd .subDest {
+       margin-top: 20px;
+    }
+    #myCallDiv .bd .sectionSep,
+    #myAddressDiv .bd .sectionSep {
+       margin-top: 30px;
+    }
+ 
+}
+
+
+/*******************************************
+    16. Tablet
+*******************************************/
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: .8em;
+        width: 768px;
+        background-color: blue;
+    }
+
+    #rn_PageTitle {      /* Positions “Contact Us” */
+      display: none;
+    }
+
+    div.rn_ProductCategoryList h2 {
+      margin-bottom: 20px;
+      font-size: 1.6em;
+      font-weight: normal;
+    }
+
+    /*
+     * Frequently Asked Questions
+     */
+    div.rn_PageContent.rn_AnswerList {
+        width: 100%;
+    }
+    #rn_Multiline2_15.rn_Multiline2 {
+        padding-right: 5px;
+    }	
+    .rn_Element3 {        /* Removes any leading whitespace */
+        float: left;
+     }
+    #rn_PageContent.rn_Home ol li a {  /* FAQ Questions */
+        font-size: 1.2em;              /* 14pt 19px */
+    }
+    .rn_Multiline2 .rn_Element3 {     /* FAQ answers */
+        font-size: 1.05em;            /* 13pt 17px */
+    }
+
+    /*
+     * Search Controls
+     */
+    #rn_SearchControls {
+         width: 100%;
+         padding: 0 5px 0 5px;
+    }
+    div.rn_SearchInput {    /* Search Input text field */
+         width: 50%;
+         margin: 10px 0;
+    }
+    #rn_SearchButton2_10_SubmitButton {    /* Search button */
+       width: 120px;
+       margin-top: 20px;
+    }
+    #rn_SearchButton2_10 {    /* Aligns input and search button */
+       margin-top: 10px;
+    }
+    #rn_AdvancedSearchDialog_11.rn_AdvancedSearchDialog {   /* Positions “Advanced Search */
+       vertical-align: middle;
+       height: 59px;
+       line-height: 59px;
+    }
+
+    /* 
+     * Top 10 Questions
+     */
+    
+    #rn_SideBar {             /* Align Top 10 Questions underneath */
+       float: none;
+       width: auto;
+    }
+    div.rn_Module h2 {        /* Align “Top 10 Questions” in left */
+       text-align: left;
+       padding-bottom: 20px;
+       padding-top: 30px;
+    }
+    #rn_PageContent.rn_Home ol li {
+       width: 100%;
+    }  
+    #rn_Multiline2_7_Content {
+       counter-reset: my-counter;
+    }
+    #rn_Multiline2_7_Content ul li:before {
+       content: counter(my-counter) “  “;       
+       counter-increment: my-counter;
+    }
+    #rn_Multiline2_7_Content {
+        text-align: left;
+    }
+
+
+
+    /*
+     *  Five task icons
+     */
+    div.rn_Module {
+       text-align: center;
+    }
+    #rn_CustomInfoButton_2_SubmitButton {
+       background-image: url(../../images/icons/call.png);
+       background-size: 120px;
+       width: 120px;
+       height: 120px;
+    }
+    #rn_CustomInfoButton_3_SubmitButton {
+       background-image: url(../../images/icons/chat.png);
+       background-size: 120px;
+       width: 120px;
+       height: 120px;
+    }
+    #rn_CustomInfoButton_4_SubmitButton {
+       background-image: url(../../images/icons/email.png);
+       background-size: 120px;
+       width: 120px;
+       height: 120px;
+    }
+    #rn_CustomInfoButton_5_SubmitButton {
+       background-image: url(../../images/icons/address.png);
+       background-size: 120px;
+       width: 120px;
+       height: 120px;
+    }
+    #rn_CustomInfoButton_6_SubmitButton {
+       background-image: url(../../images/icons/twitter.png);
+       background-size: 120px;
+       width: 120px;
+       height: 120px;
+    }
+
+}
+
+
+ 
+/*******************************************
+    17. Mobile
+*******************************************/
+
+@media screen and (max-width: 320px) {
+    body {
+        font-size: .7em;
+        width: 320px;
+        background-color: red;
+    }
+
+    #rn_AnswerFeedback2_12_RatingButton_1,     /* Separate “Was this answer helpful” boxes */
+    #rn_AnswerFeedback2_12_RatingButton_2,
+    #rn_AnswerFeedback2_12_RatingButton_3,
+    #rn_AnswerFeedback2_12_RatingButton_4 {
+        margin-bottom: 10px;
+    }
+    #rn_PageTitle {
+      display: none;
+    }
+
+    div.rn_ProductCategoryList h2 {
+         margin-bottom: 20px;
+    }
+
+    /*
+     * Top Ten List
+     */
+    #rn_Multiline2_7_Content {
+        text-align: left;
+    }
+
+    /*
+     * Sample Questions
+     */
+    #rn_PageContent.rn_Home ol li a {
+        margin-left: 0px;
+    }
+    #rn_PageContent.rn_Home ol {
+        margin-left: 0px;
+    }
+    #rn_PageContent.rn_AnswerList div.rn_Padding {
+        padding-left: 0px;
+    }
+
+    /*
+     * Frequently Asked Questions
+     */
+
+    div.rn_HierList.rn_HierList_28.rn_FloatLeft,    
+    div.rn_HierList.rn_HierList_75.rn_FloatRight,       
+    div.rn_HierList.rn_HierList_38.rn_FloatLeft,     
+    div.rn_HierList.rn_HierList_72.rn_FloatRight,     
+    div.rn_HierList.rn_HierList_36.rn_FloatLeft,     
+    div.rn_HierList.rn_HierList_37.rn_FloatRight,     
+    div.rn_HierList.rn_HierList_71.rn_FloatLeft,     
+    div.rn_HierList.rn_HierList_73.rn_FloatRight {
+        width: 250px;
+        float: none;
+    }
+
+    /*
+     * Search Controls
+     */
+    #rn_SearchControls {
+         width: 320px;
+         padding: 0 0 0 0;
+    }
+    div.rn_SearchInput {    /* Search Input text field */
+         width: 50%;
+         margin: 10px 0;
+    }
+    #rn_PageContent.rn_Home ol li {
+       width: 100%;
+    }
+    #rn_SideBar {
+       float: none;
+       width: auto;
+    }
+    div.rn_Module h2 {
+       text-align: center;
+    }
+  
+    #rn_SearchButton2_14_SubmitButton {    /* Search button */
+       width: 90px;
+    }
+    #rn_SearchButton2_14 {    /* Aligns input and search button */
+       margin-top: 10px;
+    }
+    #rn_AdvancedSearchDialog_8 {
+       display: none;
+    }
+
+    /* 
+     * Sample Questions
+     */
+     .rn_Element3 {        /* Removes any leading whitespace */
+        float: left;
+     }
+
+    /*
+     *  Five task icons
+     */
+    div.rn_Module {
+       text-align: center;
+    }
+    #rn_CustomInfoButton_2_SubmitButton {
+       background-image: url(../../images/icons/call.png);
+       background-size: 110px;
+       width: 110px;
+       height: 110px;
+       margin: 0 20px 20px 0;
+    }
+    #rn_CustomInfoButton_3_SubmitButton {
+       background-image: url(../../images/icons/chat.png);
+       background-size: 110px;
+       width: 110px;
+       height: 110px;
+       margin: 0 20px 20px 0;
+
+    }
+    #rn_CustomInfoButton_4_SubmitButton {
+       background-image: url(../.

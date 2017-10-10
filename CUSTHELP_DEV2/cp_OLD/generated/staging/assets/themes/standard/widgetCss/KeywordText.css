@@ -1,0 +1,10 @@
+.rn_KeywordText input{
+    font-size:1.333em;
+}
+
+.rn_KeywordText {
+    display:inline;
+}
+.rn_KeywordText label {
+display: none;
+}

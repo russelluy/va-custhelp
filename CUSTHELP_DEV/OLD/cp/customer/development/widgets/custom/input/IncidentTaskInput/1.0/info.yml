@@ -1,0 +1,14 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  default_ajax_endpoint:
+    name: default_ajax_endpoint
+    type: ajax
+    description: Default AJAX endpoint
+    default: /ci/ajax/widget
+    required: false
+info:
+  description: facilitates the data capture for Tasks on the Ask a Question page.

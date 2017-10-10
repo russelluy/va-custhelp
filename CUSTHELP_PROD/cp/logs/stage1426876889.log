@@ -1,0 +1,188 @@
+[INFO]  03/20/2015 11:41 AM 
+----------------------------------------------
+CP Deployment Log - Prepare Deploy Operation
+Date: <rn_log_date>03/20/2015 11:41 AM</rn_log_date>
+By Account: <rn_log_byAccount>Russell Uy - (276)</rn_log_byAccount>
+IP Address: <rn_log_ipAddress>205.241.31.2</rn_log_ipAddress>
+User Agent: <rn_log_userAgent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:36.0) Gecko/20100101 Firefox/36.0</rn_log_userAgent>
+Interface Name: <rn_log_interfaceName>virginamerica</rn_log_interfaceName>
+Deploy Type: <rn_log_deployType>Staging Deployment</rn_log_deployType>
+----------------------------------------------
+
+
+[DEBUG] 03/20/2015 11:41 AM Preparing Staging Deployment operation
+[DEBUG] 03/20/2015 11:41 AM Validating files
+[DEBUG] 03/20/2015 11:41 AM Deploy lock verified.
+[DEBUG] 03/20/2015 11:41 AM Copying source directory (staging/staging_01/source) to a temporary directory (staging/staging_01/temp_source/)
+[DEBUG] 03/20/2015 11:41 AM Copying source directory (/euf/rightnow/staging/staging_01/source/) to a temporary directory (/euf/rightnow/staging/staging_01/temp_source/)
+[DEBUG] 03/20/2015 11:41 AM Copying '/euf/assets/themes/standard/site.css' to '/euf/rightnow/staging/staging_01/temp_source/assets/themes/standard/site.css'
+[DEBUG] 03/20/2015 11:41 AM Copying '/euf/assets/themes/standard/header.css' to '/euf/rightnow/staging/staging_01/temp_source/assets/themes/standard/header.css'
+[DEBUG] 03/20/2015 11:41 AM Copying '/cgi-bin/virginamerica.cfg/scripts/cp/customer/development/frameworkVersion' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/optimized/frameworkVersion'
+[DEBUG] 03/20/2015 11:41 AM Moving contents of staging/staging_01/temp_source/ to staging/staging_01/temp_optimized/
+[DEBUG] 03/20/2015 11:41 AM Copying directory structure of views/pages into views/headers
+[DEBUG] 03/20/2015 11:41 AM Fetching optimized widgets from '/cgi-bin/virginamerica.cfg/scripts/euf/application/rightnow/optimizedWidgets'.
+[DEBUG] 03/20/2015 11:41 AM Compiling pages
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /error404.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /error.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /ask_confirm.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /ask.php
+[DEBUG] 03/20/2015 11:41 AM Compiling widget: custom/input/MenuAsRadioWidget
+[DEBUG] 03/20/2015 11:41 AM Compiling widget: custom/input/CustomTextInput
+[DEBUG] 03/20/2015 11:41 AM Compiling widget: custom/input/ToggleVisibleArea
+[DEBUG] 03/20/2015 11:41 AM Compiling widget: custom/input/CustomSelectionInput
+[DEBUG] 03/20/2015 11:41 AM Compiling widget: custom/input/CustomDateInput
+[DEBUG] 03/20/2015 11:41 AM Compiling widget: custom/input/CustomFormSubmit
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /home.php
+[DEBUG] 03/20/2015 11:41 AM Compiling widget: custom/util/CustomInfoButton
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /agent/polling_preview.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /agent/guided_assistant.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /answers/intent.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /answers/list.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /answers/detail.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /mobile/error404.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /mobile/ask.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /mobile/error.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /mobile/ask_confirm.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /mobile/home.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /mobile/answers/intent.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /mobile/answers/list.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /mobile/answers/detail.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /mobile/social/post_detail.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /mobile/chat/chat_landing.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /mobile/chat/chat_launch.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /mobile/utils/account_assistance.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /mobile/utils/create_account.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /mobile/utils/guided_assistant.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /mobile/utils/login_form.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /mobile/utils/submit/password_changed.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /mobile/utils/submit/profile_updated.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /mobile/account/change_password.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /mobile/account/reset_password.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /mobile/account/profile.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /mobile/account/setup_password.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /mobile/account/questions/list.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /mobile/account/questions/detail.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /chat/chat_landing.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /chat/chat_launch.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /utils/account_assistance.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /utils/create_account.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /utils/help_search.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /utils/login_form.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /utils/submit/password_changed.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /utils/submit/profile_updated.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /account/change_password.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /account/reset_password.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /account/profile.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /account/setup_password.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /account/overview.php
+[DEBUG] 03/20/2015 11:41 AM Compiling page: /account/questions/detail.php
+[WARN]  03/20/2015 11:41 AM Warning: Page not Oracle Service Cloud logo compliant: /answers/detail.php.
+[WARN]  03/20/2015 11:41 AM Warning: Page not Oracle Service Cloud logo compliant: /home.php.
+[DEBUG] 03/20/2015 11:41 AM Copying themes to staging_01 area
+[DEBUG] 03/20/2015 11:41 AM Copying theme /euf/rightnow/staging/staging_01/temp_source/assets/themes/standard to /euf/rightnow/staging/staging_01/temp_optimized//1426876889/themes/standard
+[DEBUG] 03/20/2015 11:41 AM Copying theme /euf/rightnow/staging/staging_01/temp_source/assets/themes/mobile to /euf/rightnow/staging/staging_01/temp_optimized//1426876889/themes/mobile
+[DEBUG] 03/20/2015 11:41 AM Copying extra-theme files to the staging_01 area
+[DEBUG] 03/20/2015 11:41 AM Moving contents of staging/staging_01/temp_optimized/ to staging/staging_01/temp_optimized//src
+[DEBUG] 03/20/2015 11:41 AM Executing make command: PATH=/bin /bin/make  -j 8 -f /cgi-bin/virginamerica.cfg/scripts/makefile_php -C /cgi-bin/virginamerica.cfg/scripts/euf/application/staging/staging_01/temp_optimized//src 2>&1 
+[DEBUG] 03/20/2015 11:41 AM make: Entering directory `/cgi-bin/virginamerica.cfg/scripts/euf/application/staging/staging_01/temp_optimized/src'
+[DEBUG] 03/20/2015 11:41 AM >>> /cgi-bin/virginamerica.cfg/scripts/include/src/headers/euf/mod_info.m4
+[DEBUG] 03/20/2015 11:41 AM >>> ../config/hooks.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../config/mapping.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../config/pageSetMapping.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../controllers/ajaxCustom.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../errors/error_404.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../errors/error_general.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../errors/error_php.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../helpers/sample_helper.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../libraries/SampleLibrary.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../models/custom/sample_model.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/admin/answer_full_preview.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/admin/answer_quick_preview.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/ask.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/ask_confirm.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/error.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/error404.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/home.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/account/change_password.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/account/overview.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/account/profile.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/account/reset_password.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/account/setup_password.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/agent/guided_assistant.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/agent/polling_preview.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/answers/detail.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/answers/intent.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/answers/list.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/chat/chat_landing.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/chat/chat_launch.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/mobile/ask.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/mobile/ask_confirm.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/mobile/error.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/mobile/error404.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/mobile/home.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/utils/account_assistance.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/utils/create_account.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/utils/help_search.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/utils/login_form.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/account/questions/detail.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/mobile/account/change_password.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/mobile/account/profile.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/mobile/account/reset_password.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/mobile/account/setup_password.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/mobile/answers/detail.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/mobile/answers/intent.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/mobile/answers/list.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/mobile/chat/chat_landing.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/mobile/chat/chat_launch.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/mobile/social/post_detail.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/mobile/utils/account_assistance.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/mobile/utils/create_account.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/mobile/utils/guided_assistant.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/mobile/utils/login_form.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/utils/submit/password_changed.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../views/headers/utils/submit/profile_updated.php
+[DEBUG] 03/20/2015 11:41 AM >>> ../widgets/custom/input/CustomDateInput/controller.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../widgets/custom/input/CustomDateInput/view.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../widgets/custom/input/CustomFileAttachmentUpload2/controller.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../widgets/custom/input/CustomFileAttachmentUpload2/view.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../widgets/custom/input/CustomFormSubmit/controller.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../widgets/custom/input/CustomFormSubmit/view.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../widgets/custom/input/CustomSelectionInput/controller.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../widgets/custom/input/CustomSelectionInput/view.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../widgets/custom/input/CustomTextInput/controller.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../widgets/custom/input/CustomTextInput/view.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../widgets/custom/input/MenuAsRadioWidget/controller.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../widgets/custom/input/MenuAsRadioWidget/view.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../widgets/custom/input/ToggleVisibleArea/controller.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../widgets/custom/input/ToggleVisibleArea/view.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../widgets/custom/sample/SampleWidget/controller.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../widgets/custom/sample/SampleWidget/view.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../widgets/custom/templates/bottom/controller.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../widgets/custom/templates/bottom/view.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../widgets/custom/templates/head/controller.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../widgets/custom/templates/head/view.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../widgets/custom/templates/top/controller.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../widgets/custom/templates/top/view.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../widgets/custom/util/CustomInfoButton/controller.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../widgets/custom/util/CustomInfoButton/view.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../views/headers/mobile/account/questions/detail.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../views/headers/mobile/account/questions/list.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../views/headers/mobile/utils/submit/password_changed.php
+[DEBUG] 03/20/2015 11:42 AM >>> ../views/headers/mobile/utils/submit/profile_updated.php
+[DEBUG] 03/20/2015 11:42 AM make: Leaving directory `/cgi-bin/virginamerica.cfg/scripts/euf/application/staging/staging_01/temp_optimized/src'
+[DEBUG] 03/20/2015 11:42 AM 
+[DEBUG] 03/20/2015 11:42 AM Finalizing delayed deletes.
+[DEBUG] 03/20/2015 11:42 AM Finished finalizing delayed deletes.
+[DEBUG] 03/20/2015 11:42 AM Number of deploy errors: <cps_error_count>0</cps_error_count>
+[DEBUG] 03/20/2015 11:42 AM Log File: <cps_log_file_name>/cgi-bin/virginamerica.cfg/log/stage1426876889.log</cps_log_file_name>
+[DEBUG] 03/20/2015 11:42 AM Compile Successful!
+[DEBUG] 03/20/2015 11:42 AM Committing Deploy Operation
+[DEBUG] 03/20/2015 11:42 AM Backing up staging/staging_01/source/ to staging/staging_01/backup/
+[DEBUG] 03/20/2015 11:42 AM Moving contents of staging/staging_01/temp_source/ to staging/staging_01/source/
+[DEBUG] 03/20/2015 11:42 AM Moving contents of /euf/rightnow/staging/staging_01/temp_source/ to /euf/rightnow/staging/staging_01/source/
+[DEBUG] 03/20/2015 11:42 AM Moving JavaScript files to the html docroot (/vhosts/virginamerica/euf/rightnow/staging/staging_01/optimized/)
+[DEBUG] 03/20/2015 11:42 AM Moving contents of staging/staging_01/temp_optimized/ to staging/staging_01/optimized/
+[INFO]  03/20/2015 11:42 AM Deploy Operation Successful!
+[DEBUG] 03/20/2015 11:42 AM Finalizing delayed deletes.
+[DEBUG] 03/20/2015 11:42 AM Finished finalizing delayed deletes.
+[DEBUG] 03/20/2015 11:42 AM Deploy lock removed.

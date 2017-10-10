@@ -1,0 +1,30 @@
+[INFO]  07/10/2015 08:00 PM 
+----------------------------------------------
+CP Deployment Log
+Date: <rn_log_date>07/10/2015 08:00 PM</rn_log_date>
+By Account: <rn_log_byAccount>Infolexa Dev - (351)</rn_log_byAccount>
+IP Address: <rn_log_ipAddress>65.189.0.85</rn_log_ipAddress>
+User Agent: <rn_log_userAgent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0</rn_log_userAgent>
+Interface Name: <rn_log_interfaceName>virginamerica</rn_log_interfaceName>
+Deploy Type: <rn_log_deployType>Promote Deployment</rn_log_deployType>
+----------------------------------------------
+
+
+[DEBUG] 07/10/2015 08:00 PM Deploy lock verified.
+[DEBUG] 07/10/2015 08:00 PM Copying production/source to production/backup/source
+[DEBUG] 07/10/2015 08:00 PM Copying production/optimized to production/backup/optimized
+[DEBUG] 07/10/2015 08:00 PM Copying /euf/generated/optimized/1436303720 to production/backup/optimizedAssets/1436303720
+[DEBUG] 07/10/2015 08:00 PM Copying staging/staging_01/source to production/source
+[DEBUG] 07/10/2015 08:00 PM Copying staging/staging_01/optimized to production/optimized
+[DEBUG] 07/10/2015 08:00 PM Copying /euf/generated/staging/staging_01/optimized/1436583541 to /euf/generated/optimized/1436583541
+[DEBUG] 07/10/2015 08:00 PM Removing file: production/source/views/pages/chatbox.php
+[DEBUG] 07/10/2015 08:00 PM Removing file: production/source/views/templates/standard_noatg.php
+[DEBUG] 07/10/2015 08:00 PM Removing file: production/optimized/javascript/templates/standard_noatg.json
+[DEBUG] 07/10/2015 08:00 PM Removing file: production/optimized/javascript/pages/chatbox.json
+[DEBUG] 07/10/2015 08:00 PM Removing file: production/optimized/views/headers/chatbox.php
+[DEBUG] 07/10/2015 08:00 PM Removing old optimized assets directory '1436303720'
+[DEBUG] 07/10/2015 08:00 PM Locking Page Set Mappings
+[DEBUG] 07/10/2015 08:00 PM Number of deploy errors: <cps_error_count>0</cps_error_count>
+[DEBUG] 07/10/2015 08:00 PM Log File: <cps_log_file_name>/cgi-bin/virginamerica.cfg/log/promote1436583625.log</cps_log_file_name>
+[INFO]  07/10/2015 08:00 PM Deploy Operation Successful!
+[DEBUG] 07/10/2015 08:00 PM Deploy lock removed.

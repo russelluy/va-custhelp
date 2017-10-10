@@ -1,0 +1,58 @@
+<rn:block id="preResults"/>
+<% for(var i = 0, suggestion; i < suggestions.length; i++) {
+    suggestion = suggestions[i];
+    if(suggestion.type === 'AnswerSummary') { %>
+        <rn:block id="preAnswerSummaryResultsPrompt"/>
+        <div class="rn_Prompt"><%= attrs.label_prompt %>
+        <% if(attrs.accesskeys_enabled && attrs.label_accesskey && attrs.display_answers_inline) { %>
+            <div class="rn_AccesskeyPrompt"><%= accessKeyPrompt %></div>
+        <% } %>
+        </div>
+        <rn:block id="postAnswerSummaryResultsPrompt"/>
+        <ul class="rn_List <%= (attrs.display_answers_inline) ? 'rn_InlineAnswers' : '' %>">
+        <% for(var j = 0; j < suggestion.list.length; j++) { %>
+            <% if(attrs.display_answers_inline) { %>
+                <rn:block id="preAnswerSummaryResult"/>
+                <li>
+                <% if(attrs.accesskeys_enabled) { %>
+                    <rn:block id="preAnswerSummaryResultLink"/>
+                    <a aria-expanded="false" href="javascript:void(0)" accesskey="<%=j+1%>" data-id="<%=suggestion.list[j].ID%>" class="rn_InlineAnswerLink rn_ExpandAnswer" id="<%=baseDomID + '_Answer' + suggestion.list[j].ID %>">
+                <% } else { %>
+                    <rn:block id="preAnswerSummaryResultLink"/>
+                    <a aria-expanded="false" href="javascript:void(0)" data-id="<%=suggestion.list[j].ID%>" class="rn_InlineAnswerLink rn_ExpandAnswer" id="<%=baseDomID + '_Answer' + suggestion.list[j].ID %>">
+                <% } %>
+                    <%= suggestion.list[j].title %>
+                    <span class="rn_ScreenReaderOnly" role="alert" id="<%=baseDomID + '_Answer' + suggestion.list[j].ID + '_Alternative'%>">
+                        <%= attrs.label_collapsed %>
+                    </span>
+                    </a>
+                    <rn:block id="postAnswerSummaryResultLink"/>
+                </li>
+                <rn:block id="postAnswerSummaryResult"/>
+            <% } else { %>
+                <rn:block id="preAnswerSummaryResult"/>
+                <li>
+                    <rn:block id="preAnswerSummaryResultLink"/>
+                    <a target="_blank" href="<%= '/app/' + answerUrl + '/a_id/' + suggestion.list[j].ID + sessionParam %>" onclick='RightNow.ActionCapture.record("smartAssistantResult", "view", <%=suggestion.list[j].ID%>);'>
+                    <%=suggestion.list[j].title%>
+                    </a>
+                    <rn:block id="postAnswerSummaryResultLink"/>
+                </li>
+                <rn:block id="postAnswerSummaryResult"/>
+            <% } %>
+        <% } %>
+        </ul>
+    <% } else if(suggestion.type === 'Answer') { %>
+        <rn:block id="preAnswerResult"/>
+        <div class="rn_Answer">
+            <div class="rn_Summary"><%=suggestion.title%></div>
+            <div class="rn_Solution"><%=suggestion.content%></div>
+        </div>
+        <rn:block id="postAnswerResult"/>
+    <% } else { %>
+        <rn:block id="preStandardContentResult"/>
+        <div class="rn_Response"><%=suggestion.content%></div>
+        <rn:block id="postStandardContentResult"/>
+    <% } %>
+<% } %>
+<rn:block id="postResults"/>

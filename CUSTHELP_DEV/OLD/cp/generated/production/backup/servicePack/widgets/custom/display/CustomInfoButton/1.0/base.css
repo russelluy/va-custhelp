@@ -1,0 +1,23 @@
+/**
+ * base.css: Base CSS for CustomInfoButton
+ */
+.rn_CustomInfoButton {
+
+}
+.rn_InfoButton {
+    display:inline;
+    bottom: 0px;
+}
+.rn_InfoButton input {
+    /* background:#999 url(images/buttonGradientCombo.png) 0px 0px repeat-x; */
+    width: 100px;
+    height: 100px;
+  /*  border:1px solid #666; */
+    vertical-align:top;
+}
+.rn_InfoButton {
+    /* UPGRADE: modify button background color */
+    color:#FFF;
+    cursor:pointer;
+    font-weight:bold;
+}

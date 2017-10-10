@@ -1,0 +1,35 @@
+/**
+ * IncidentTaskInput.css: Presentation CSS
+ */
+.rn_IncidentTaskInput {
+width: 67%;
+min-width: 550px;
+    
+}
+.rn_IncidentTaskInput_col {
+float: left;
+font-size: 1em;
+width: 28%;
+}
+.rn_IncidentTaskInput_col2 {
+float: left;
+font-size: 1em;
+width: 44%;
+}
+.rn_IncidentTaskInput_Narrowcol {
+float: left;
+width: 14%;
+text-align: center;
+}
+.rn_IncidentTaskInput_Button {
+ font-size: 1.2em;
+}
+.rn_IncidentTaskInput_Topics {
+padding-bottom:  10px;
+}
+
+.rn_IncidentTaskInput_Text {
+ font-size: .75em;
+ color: #990000;
+ 
+}

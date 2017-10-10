@@ -1,0 +1,50 @@
+.rn_MobileNavigationMenu button{padding:6px 10px;width:auto;}
+.rn_MobileNavigationMenu.rn_Menu li a .rn_ParentMenuAlt{opacity:0;position:absolute;left:0;}
+.rn_MobileNavigationMenu button{background:#597EAA;background: -moz-linear-gradient(top, rgba(154, 175, 202, 1.0), rgba(89, 126, 170, 1.0), rgba(90, 127, 171, 1.0));background: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0.0, rgba(154, 175, 202, 1.0)), color-stop(0.5, rgba(89, 126, 170, 1.0)), color-stop(1.0, rgba(90, 127, 171, 1.0)));border:1px solid #AAA;border-color:#444 #999 #DDD;color:#FFF;display:block;font-size:inherit;font-weight:bold;margin-top:5px;text-shadow:1px 1px 3px rgba(0, 0, 0, .5);-moz-border-radius:6px;-moz-box-shadow:0 0 0 rgba(0, 0, 0, .5);-webkit-box-shadow:0 0 0 rgba(0, 0, 0, .5);-webkit-border-radius:6px;}
+.rn_MobileNavigationMenu button.rn_Selected{background:#38547B;background: -moz-linear-gradient(top, #7084A0 0%, #39567F 50%, #364F70 100%);background: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0.0, #7084A0), color-stop(0.5, #39567F), color-stop(1.0, #364F70));}
+.rn_MobileNavigationMenu.rn_Menu{padding:20px 0 0;}
+.rn_MobileNavigationMenu.rn_Menu li a{border-bottom:1px solid #DDD;color:#FFF;display:block;font-size:1.5em;font-weight:bold;padding:26px 16px;line-height:1.15em;}
+.rn_MobileNavigationMenu.rn_Menu li a.rn_ParentMenu{background:transparent url(../../../themes/mobile/images/layout/whiteListArrow.png) no-repeat right;}
+.rn_ChatDisconnectButton img{vertical-align: middle;}
+.rn_ChatDisconnectButton button{background: -moz-linear-gradient(top, rgba(154, 175, 202, 1.0), rgba(89, 126, 170, 1.0), rgba(90, 127, 171, 1.0));background: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0.0, rgba(154, 175, 202, 1.0)), color-stop(0.5, rgba(89, 126, 170, 1.0)), color-stop(1.0, rgba(90, 127, 171, 1.0)));border:1px solid #AAA;border-color:#444 #999 #DDD;color:#FFF;display:block;font-size:inherit;font-weight:bold;margin-top:5px;padding:6px 10px;text-shadow:1px 1px 3px rgba(0, 0, 0, .5);-moz-border-radius:6px;-moz-box-shadow:0 0 0 rgba(0, 0, 0, .5);-webkit-box-shadow:0 0 0 rgba(0, 0, 0, .5);-webkit-border-radius:6px;}
+.rn_ChatDisconnectButton button.rn_Selected{background:#0A0A0A;background: -moz-linear-gradient(top, #7084A0 0%, #39567F 50%, #364F70 100%);background: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0.0, #7084A0), color-stop(0.5, #39567F), color-stop(1.0, #364F70));}
+.rn_ChatDisconnectButton.rn_Menu{padding:20px 0 0;width:auto;}
+.rn_ChatDisconnectButton.rn_Menu li a{border-bottom:1px solid #DDD;font-size:1.5em;font-weight:bold;padding:26px 16px;}
+.rn_ChatDisconnectButton.rn_Menu li a.rn_ParentMenu{background:transparent url(../../../themes/mobile/images/layout/whiteListArrow.png) no-repeat right;}
+.rn_ChatCancelButton img{vertical-align: middle;}
+.rn_ChatCancelButton button{background:#597EAA;background: -moz-linear-gradient(top, rgba(154, 175, 202, 1.0), rgba(89, 126, 170, 1.0), rgba(90, 127, 171, 1.0));background: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0.0, rgba(154, 175, 202, 1.0)), color-stop(0.5, rgba(89, 126, 170, 1.0)), color-stop(1.0, rgba(90, 127, 171, 1.0)));border:1px solid #AAA;border-color:#444 #999 #DDD;color:#FFF;display:block;font-size:inherit;font-weight:bold;margin-top:5px;text-shadow:1px 1px 3px rgba(0, 0, 0, .5);-moz-border-radius:6px;-moz-box-shadow:0 0 0 rgba(0, 0, 0, .5);-webkit-box-shadow:0 0 0 rgba(0, 0, 0, .5);-webkit-border-radius:6px;padding:6px 10px;width:auto;}
+.rn_ChatCancelButton button.rn_Selected{background:#38547B;background: -moz-linear-gradient(top, #7084A0 0%, #39567F 50%, #364F70 100%);background: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0.0, #7084A0), color-stop(0.5, #39567F), color-stop(1.0, #364F70));}
+.rn_ChatServerConnect{text-align:center;}
+.rn_ChatServerConnect{background:#EFEFF4 url(../../../themes/mobile/images/layout/whitePixel.png) repeat-x scroll 0 0;border:solid #BBB;border-width:1px 0;line-height:1.25em;margin:0 0 1em;padding:5px;}
+.rn_ChatEngagementStatus{background: -moz-linear-gradient(top, #FEFEFE, #E0E0E0);background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#FEFEFE), to(#E0E0E0));border:solid #BBB;border-width:1px 0;padding:5px;line-height:1.25em;margin:0 0 1em;text-shadow:0 1px 3px rgba(255,255,255,0.7);}
+.rn_ChatEngagementStatus .rn_SearchingDetailMessage, .rn_ChatEngagementStatus .rn_RequeuedDetailMessage, .rn_ChatEngagementStatus .rn_CanceledUserDetailMessage, .rn_ChatEngagementStatus .rn_CanceledSelfServiceDetailMessage, .rn_ChatEngagementStatus .rn_CanceledNoAgentsAvailDetailMessage, .rn_ChatEngagementStatus .rn_CanceledQueueTimeoutDetailMessage, .rn_ChatEngagementStatus .rn_CanceledDequeuedDetailMessage{padding: 10px;}
+.rn_ChatEngagementStatus .rn_StatusPrefix, .rn_ChatEngagementStatus .rn_Status{font-weight:bolder;}
+.rn_ChatQueueWaitTimeContainer{background: -moz-linear-gradient(top, #FEFEFE, #E0E0E0);background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#FEFEFE), to(#E0E0E0));border:1px solid #BBB;padding:5px;margin:0em 1em 1em;line-height:1.25em;}
+.rn_ChatQueueWaitTimeContainer .rn_ChatQueuePosition, .rn_ChatQueueWaitTimeContainer .rn_ChatEstimatedWaitTime, .rn_ChatQueueWaitTimeContainer .rn_ChatAverageWaitTime{display:block;padding-right:2px;}
+.rn_ChatAgentStatus{background:#EFEFF4 url(../../../themes/mobile/images/layout/whitePixel.png) repeat-x scroll 0 0;border:solid #BBB;border-width: 1px 1px 0;padding:5px;line-height:1.25em;margin: 0 1em 0;}
+.rn_ChatTranscript{overflow:auto;height:15em;}
+.rn_ChatTranscript .rn_MessagePost{clear:both;display:block;}
+.rn_ChatTranscript ol, .rn_ChatTranscript ul, .rn_ChatTranscript dl{clear:both;display:block;}
+.rn_ChatTranscript{background-color: white;border:1px solid #CCC;padding:0.3em;margin:0 1em 1em;overflow:visible;height:auto;}
+.rn_ChatTranscript .rn_AgentTextPrefix, .rn_ChatTranscript .rn_Action{color: #000099;}
+.rn_ChatTranscript .rn_UserTextPrefix{color: #990000;}
+.rn_ChatTranscript .rn_OffTheRecordMessage{color: #009900;}
+.rn_ChatTranscript blockquote, .rn_ChatTranscript ul, .rn_ChatTranscript ol, .rn_ChatTranscript dl{margin:1em;}
+.rn_ChatTranscript ol, .rn_ChatTranscript ul, .rn_ChatTranscript dl{margin-left:2em;}
+.rn_ChatTranscript ol li{list-style: decimal outside;}
+.rn_ChatTranscript ul li{list-style: disc outside;}
+.rn_ChatRequestEmailResponseButton{float: right;margin:1em 5px;}
+.rn_ChatPostMessage textarea{overflow: auto;resize: none;}
+.rn_ChatPostMessage span{display: block;}
+.rn_ChatPostMessage legend{display: none;}
+.rn_ChatPostMessage textarea{width:100%;padding:0;margin:0 0 1em;}
+.rn_ChatSendButton img{vertical-align: middle;margin-top: -3px;margin-bottom: -3px;}
+.rn_ChatSendButton{margin: 1em 5px;}
+.rn_ChatSendButtonShown{display: inline;}
+@media print{.rn_ChatSendButton{display: none;}
+}
+.rn_PageSetSelector{display:block;margin-bottom:16px;}
+.rn_ChatStatus{display:block;font-weight: bold;}
+.rn_ChatHours .rn_HoursBlock{margin: 15px 0 0 0;}
+.rn_ChatHours .rn_CurrentTime{display:block;}
+.rn_ChatHours .rn_HoursLabel{color:#404040;font-size:1em;font-weight:bold;line-height:1.3em;}

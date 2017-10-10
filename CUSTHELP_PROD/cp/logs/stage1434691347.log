@@ -1,0 +1,730 @@
+[INFO]  06/18/2015 10:22 PM 
+----------------------------------------------
+CP Deployment Log - Prepare Deploy Operation
+Date: <rn_log_date>06/18/2015 10:22 PM</rn_log_date>
+By Account: <rn_log_byAccount>Kari Shultz - (332)</rn_log_byAccount>
+IP Address: <rn_log_ipAddress>12.51.111.51</rn_log_ipAddress>
+User Agent: <rn_log_userAgent>Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36</rn_log_userAgent>
+Interface Name: <rn_log_interfaceName>virginamerica</rn_log_interfaceName>
+Deploy Type: <rn_log_deployType>Staging Deployment</rn_log_deployType>
+Comment: <rn_log_comment>CP3 Migration: Staging site for the first time</rn_log_comment>
+----------------------------------------------
+
+
+[DEBUG] 06/18/2015 10:22 PM Preparing Staging Deployment operation
+[DEBUG] 06/18/2015 10:22 PM Validating files
+[DEBUG] 06/18/2015 10:22 PM Deploy lock verified.
+[DEBUG] 06/18/2015 10:22 PM Copying source directory (/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/source) to a temporary directory (/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/)
+[DEBUG] 06/18/2015 10:22 PM Copying source directory (/euf/generated/staging/staging_01/source/) to a temporary directory (/euf/generated/staging/staging_01/temp_source/)
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/images/chat_agent.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/images/chat_agent.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/images/chat_disconnect.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/images/chat_disconnect.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/images/chat_off_the_record_send.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/images/chat_off_the_record_send.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/images/favicon.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/images/favicon.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/images/icons/access.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/images/icons/access.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/images/icons/excel.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/images/icons/excel.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/images/icons/external.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/images/icons/external.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/images/icons/pdf.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/images/icons/pdf.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/images/icons/powerpoint.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/images/icons/powerpoint.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/images/icons/ps.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/images/icons/ps.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/images/icons/rtf.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/images/icons/rtf.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/images/icons/text.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/images/icons/text.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/images/icons/word.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/images/icons/word.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/images/icons/www.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/images/icons/www.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/images/icons/xml.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/images/icons/xml.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/images/icons/zip.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/images/icons/zip.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/site.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/site.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/ChatEngagementStatus.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/ChatEngagementStatus.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/ChatHours2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/ChatHours2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/ChatOffTheRecordDialog.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/ChatOffTheRecordDialog.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/ChatPostMessage.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/ChatPostMessage.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/ChatQueueWaitTime.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/ChatQueueWaitTime.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/ChatStatus2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/ChatStatus2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/ChatTranscript.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/ChatTranscript.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/CombinedSearchResults.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/CombinedSearchResults.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/CommunityPostDisplay.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/CommunityPostDisplay.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/DateInput.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/DateInput.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/EmailCredentials.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/EmailCredentials.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/EmailCredentials2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/EmailCredentials2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/FieldDisplay.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/FieldDisplay.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/FileListDisplay.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/FileListDisplay.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/GuidedAssistant.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/GuidedAssistant.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/IncidentThreadDisplay.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/IncidentThreadDisplay.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/IntentGuideDisplay.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/IntentGuideDisplay.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/KeywordText2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/KeywordText2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/LoginForm2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/LoginForm2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/MobileEmailAnswerLink.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/MobileEmailAnswerLink.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/MobileMultiline.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/MobileMultiline.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/MobileProductCategoryInput.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/MobileProductCategoryInput.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/MobileProductCategoryList.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/MobileProductCategoryList.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/MobileProductCategorySearchFilter.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/MobileProductCategorySearchFilter.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/PreviousAnswers2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/PreviousAnswers2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/ProductCategoryDisplay.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/ProductCategoryDisplay.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/ProductCategoryInput.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/ProductCategoryInput.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/ProgressBar.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/ProgressBar.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/RelatedAnswers2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/RelatedAnswers2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/ResetPassword2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/ResetPassword2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/ResultInfo2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/ResultInfo2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/SampleWidget.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/SampleWidget.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/SearchButton2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/SearchButton2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/SelectionInput.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/SelectionInput.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/SmartAssistantDialog.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/SmartAssistantDialog.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/mobile/widgetCss/TextInput.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/mobile/widgetCss/TextInput.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/desktop.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/desktop.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/header.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/header.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/chat_agent.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/chat_agent.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/chat_close.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/chat_close.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/chat_disconnect.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/chat_disconnect.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/chat_off_the_record_send.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/chat_off_the_record_send.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/chat_print.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/chat_print.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/chat_sound_off.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/chat_sound_off.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/chat_sound_on.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/chat_sound_on.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/CoBrowseLink16.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/CoBrowseLink16.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/CoBrowseLink32.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/CoBrowseLink32.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/elevate-small.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/elevate-small.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/favicon.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/favicon.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/gridHeader.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/gridHeader.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/icons/access.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/icons/access.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/icons/excel.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/icons/excel.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/icons/facebook_share.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/icons/facebook_share.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/icons/flickr.jpg' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/icons/flickr.jpg'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/icons/linkedin.jpg' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/icons/linkedin.jpg'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/icons/pdf.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/icons/pdf.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/icons/powerpoint.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/icons/powerpoint.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/icons/ps.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/icons/ps.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/icons/RightNowCRM16.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/icons/RightNowCRM16.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/icons/rtf.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/icons/rtf.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/icons/search.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/icons/search.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/icons/socialBookmark.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/icons/socialBookmark.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/icons/text.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/icons/text.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/icons/twitter.jpg' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/icons/twitter.jpg'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/icons/word.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/icons/word.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/icons/www.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/icons/www.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/icons/xml.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/icons/xml.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/icons/youtube.jpg' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/icons/youtube.jpg'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/icons/zip.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/icons/zip.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/layout/createAccount.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/layout/createAccount.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/left_arrow.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/left_arrow.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/logo_VA.jpg' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/logo_VA.jpg'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/nav-toggle.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/nav-toggle.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/rss-small.gif' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/rss-small.gif'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/site.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/site.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/tabBackground.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/tabBackground.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/vx-logo.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/vx-logo.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/vx-simplified-color.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/vx-simplified-color.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/vx-simplified-mono.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/vx-simplified-mono.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/vx_search_button.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/vx_search_button.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/images/vx_search_button_background.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/images/vx_search_button_background.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/jquery.js' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/jquery.js'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/mobile.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/mobile.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/png/elevate-small.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/png/elevate-small.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/png/nav-toggle.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/png/nav-toggle.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/png/vx-simplified-color.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/png/vx-simplified-color.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/png/vx-simplified-mono.png' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/png/vx-simplified-mono.png'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/site.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/site.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/site.css.bak' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/site.css.bak'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/siteCP3.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/siteCP3.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/sounds/chat_receive.ogg' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/sounds/chat_receive.ogg'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/sounds/chat_receive.swf' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/sounds/chat_receive.swf'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/sounds/chat_receive.wav' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/sounds/chat_receive.wav'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/tablet.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/tablet.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/AdvancedSearchDialog.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/AdvancedSearchDialog.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/AnswerComments.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/AnswerComments.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/AnswerFeedback2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/AnswerFeedback2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/AnswerNotificationIcon3.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/AnswerNotificationIcon3.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/AnswerNotificationManager.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/AnswerNotificationManager.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ChatAgentStatus.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ChatAgentStatus.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ChatAttachFileButton.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ChatAttachFileButton.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ChatAverageWaitTime.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ChatAverageWaitTime.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ChatCancelButton.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ChatCancelButton.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ChatCoBrowseButton.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ChatCoBrowseButton.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ChatDisconnectButton.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ChatDisconnectButton.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ChatEngagementStatus.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ChatEngagementStatus.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ChatEstimatedWaitTime.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ChatEstimatedWaitTime.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ChatHours2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ChatHours2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ChatLaunchFormOpen.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ChatLaunchFormOpen.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ChatOffTheRecordButton.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ChatOffTheRecordButton.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ChatOffTheRecordDialog.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ChatOffTheRecordDialog.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ChatPostMessage.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ChatPostMessage.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ChatPrintButton.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ChatPrintButton.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ChatQueuePosition.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ChatQueuePosition.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ChatQueueSearch.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ChatQueueSearch.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ChatQueueWaitTime.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ChatQueueWaitTime.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ChatSendButton.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ChatSendButton.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ChatServerConnect.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ChatServerConnect.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ChatSoundButton.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ChatSoundButton.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ChatStatus2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ChatStatus2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ChatTranscript.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ChatTranscript.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/CombinedSearchResults.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/CombinedSearchResults.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/CommunityPostDisplay.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/CommunityPostDisplay.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/CommunityPosts.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/CommunityPosts.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/CommunityPostSubmit.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/CommunityPostSubmit.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/CommunitySearchResults.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/CommunitySearchResults.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/CommunityUserDisplay.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/CommunityUserDisplay.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/CustomDateInput.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/CustomDateInput.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/CustomFileAttachmentUpload.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/CustomFileAttachmentUpload.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/CustomFormSubmit.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/CustomFormSubmit.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/CustomInfoButton.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/CustomInfoButton.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/CustomSelectionInput.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/CustomSelectionInput.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/CustomTextInput.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/CustomTextInput.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/EmailAnswerLink.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/EmailAnswerLink.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/EmailCredentials2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/EmailCredentials2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/FieldDisplay.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/FieldDisplay.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/FileAttachmentUpload2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/FileAttachmentUpload2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/FileListDisplay.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/FileListDisplay.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/FormSubmit.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/FormSubmit.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/Grid2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/Grid2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/GuidedAssistant.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/GuidedAssistant.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/IncidentThreadDisplay.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/IncidentThreadDisplay.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/IntentGuideDisplay.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/IntentGuideDisplay.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/KeywordText.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/KeywordText.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/KeywordText2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/KeywordText2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/LoginDialog2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/LoginDialog2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/LoginForm2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/LoginForm2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/Multiline.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/Multiline.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/Multiline2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/Multiline2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/NavigationTab2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/NavigationTab2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/OpenLogin.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/OpenLogin.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/Paginator.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/Paginator.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/Polling.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/Polling.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/PreviousAnswers2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/PreviousAnswers2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ProdCatNotificationManager.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ProdCatNotificationManager.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ProductCategoryDisplay.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ProductCategoryDisplay.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ProductCategoryInput.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ProductCategoryInput.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ProductCategoryList.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ProductCategoryList.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ProductCategorySearchFilter.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ProductCategorySearchFilter.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ProgressBar.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ProgressBar.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/RadioMenuInput.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/RadioMenuInput.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/RadioSelectionInput.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/RadioSelectionInput.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/RadioSelectionMenu.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/RadioSelectionMenu.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/RelatedAnswers2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/RelatedAnswers2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ResetPassword2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ResetPassword2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ResultInfo2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ResultInfo2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/SampleWidget.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/SampleWidget.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/SearchButton.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/SearchButton.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/SearchButton2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/SearchButton2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/SearchSuggestions2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/SearchSuggestions2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/SelectionInput.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/SelectionInput.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/SelectionInput2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/SelectionInput2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/SelectionInputAsRadio.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/SelectionInputAsRadio.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/SelectionRadioInput.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/SelectionRadioInput.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/SimpleSearch.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/SimpleSearch.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/SiteFeedback2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/SiteFeedback2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/SmartAssistantDialog.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/SmartAssistantDialog.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/SocialBookmarkLink.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/SocialBookmarkLink.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/TextInput.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/TextInput.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ToggleVisibleArea.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ToggleVisibleArea.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/ToggleVisibleAreaTestWidget.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/ToggleVisibleAreaTestWidget.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/TopicBrowse.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/TopicBrowse.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/TopicWords2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/TopicWords2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying '/euf/assets/themes/standard/widgetCss/Unsubscribe2.css' to '/euf/generated/staging/staging_01/temp_source/assets/themes/standard/widgetCss/Unsubscribe2.css'
+[DEBUG] 06/18/2015 10:22 PM Copying 'config/hooks.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/config/hooks.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'config/mapping.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/config/mapping.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'controllers/ajaxCustom.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/controllers/ajaxCustom.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'errors/error_404.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/errors/error_404.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'errors/error_general.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/errors/error_general.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'errors/error_php.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/errors/error_php.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'helpers/sample_helper.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/helpers/sample_helper.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'libraries/SampleLibrary.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/libraries/SampleLibrary.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'models/custom/sample_model.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/models/custom/sample_model.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/admin/answer_full_preview.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/admin/answer_full_preview.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/admin/answer_quick_preview.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/admin/answer_quick_preview.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/account/change_password.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/account/change_password.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/account/overview.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/account/overview.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/account/profile.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/account/profile.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/account/questions/detail.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/account/questions/detail.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/account/reset_password.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/account/reset_password.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/account/setup_password.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/account/setup_password.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/agent/guided_assistant.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/agent/guided_assistant.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/agent/polling_preview.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/agent/polling_preview.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/answers/detail.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/answers/detail.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/answers/intent.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/answers/intent.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/answers/list.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/answers/list.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/ask.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/ask.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/ask_confirm.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/ask_confirm.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/chat/chat_landing.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/chat/chat_landing.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/chat/chat_launch.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/chat/chat_launch.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/error.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/error.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/error404.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/error404.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/home.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/home.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/mobile/account/change_password.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/mobile/account/change_password.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/mobile/account/profile.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/mobile/account/profile.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/mobile/account/questions/detail.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/mobile/account/questions/detail.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/mobile/account/questions/list.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/mobile/account/questions/list.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/mobile/account/reset_password.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/mobile/account/reset_password.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/mobile/account/setup_password.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/mobile/account/setup_password.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/mobile/answers/detail.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/mobile/answers/detail.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/mobile/answers/intent.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/mobile/answers/intent.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/mobile/answers/list.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/mobile/answers/list.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/mobile/ask.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/mobile/ask.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/mobile/ask_confirm.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/mobile/ask_confirm.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/mobile/chat/chat_landing.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/mobile/chat/chat_landing.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/mobile/chat/chat_launch.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/mobile/chat/chat_launch.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/mobile/error.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/mobile/error.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/mobile/home.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/mobile/home.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/mobile/utils/account_assistance.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/mobile/utils/account_assistance.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/mobile/utils/create_account.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/mobile/utils/create_account.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/mobile/utils/guided_assistant.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/mobile/utils/guided_assistant.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/mobile/utils/login_form.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/mobile/utils/login_form.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/utils/account_assistance.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/utils/account_assistance.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/utils/create_account.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/utils/create_account.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/pages/utils/login_form.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/pages/utils/login_form.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/templates/agent.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/templates/agent.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/templates/mobile.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/templates/mobile.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'views/templates/standard.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/views/templates/standard.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/display/CustomInfoButton/1.0/base.css' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/display/CustomInfoButton/1.0/base.css'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/display/CustomInfoButton/1.0/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/display/CustomInfoButton/1.0/controller.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/display/CustomInfoButton/1.0/info.yml' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/display/CustomInfoButton/1.0/info.yml'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/display/CustomInfoButton/1.0/logic.js' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/display/CustomInfoButton/1.0/logic.js'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/display/CustomInfoButton/1.0/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/display/CustomInfoButton/1.0/view.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomDateInput/1.0/base.css' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomDateInput/1.0/base.css'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomDateInput/1.0/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomDateInput/1.0/controller.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomDateInput/1.0/info.yml' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomDateInput/1.0/info.yml'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomDateInput/1.0/logic.js' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomDateInput/1.0/logic.js'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomDateInput/1.0/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomDateInput/1.0/view.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomDateInputCP2/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomDateInputCP2/controller.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomDateInputCP2/logic.js' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomDateInputCP2/logic.js'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomDateInputCP2/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomDateInputCP2/view.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomFileAttachmentUpload/1.0/base.css' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomFileAttachmentUpload/1.0/base.css'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomFileAttachmentUpload/1.0/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomFileAttachmentUpload/1.0/controller.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomFileAttachmentUpload/1.0/info.yml' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomFileAttachmentUpload/1.0/info.yml'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomFileAttachmentUpload/1.0/logic.js' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomFileAttachmentUpload/1.0/logic.js'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomFileAttachmentUpload/1.0/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomFileAttachmentUpload/1.0/view.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomFileAttachmentUpload2CP2/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomFileAttachmentUpload2CP2/controller.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomFileAttachmentUpload2CP2/logic.js' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomFileAttachmentUpload2CP2/logic.js'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomFileAttachmentUpload2CP2/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomFileAttachmentUpload2CP2/view.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomFormSubmit/1.0/base.css' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomFormSubmit/1.0/base.css'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomFormSubmit/1.0/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomFormSubmit/1.0/controller.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomFormSubmit/1.0/info.yml' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomFormSubmit/1.0/info.yml'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomFormSubmit/1.0/logic.js' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomFormSubmit/1.0/logic.js'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomFormSubmit/1.0/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomFormSubmit/1.0/view.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomFormSubmitCP2/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomFormSubmitCP2/controller.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomFormSubmitCP2/logic.js' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomFormSubmitCP2/logic.js'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomFormSubmitCP2/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomFormSubmitCP2/view.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomSelectionInput/1.0/base.css' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomSelectionInput/1.0/base.css'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomSelectionInput/1.0/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomSelectionInput/1.0/controller.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomSelectionInput/1.0/info.yml' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomSelectionInput/1.0/info.yml'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomSelectionInput/1.0/logic.js' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomSelectionInput/1.0/logic.js'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomSelectionInput/1.0/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomSelectionInput/1.0/view.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomSelectionInputCP2/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomSelectionInputCP2/controller.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomSelectionInputCP2/logic.js' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomSelectionInputCP2/logic.js'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomSelectionInputCP2/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomSelectionInputCP2/view.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomTextInput/1.0/base.css' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomTextInput/1.0/base.css'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomTextInput/1.0/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomTextInput/1.0/controller.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomTextInput/1.0/info.yml' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomTextInput/1.0/info.yml'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomTextInput/1.0/logic.js' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomTextInput/1.0/logic.js'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomTextInput/1.0/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomTextInput/1.0/view.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomTextInputCP2/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomTextInputCP2/controller.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomTextInputCP2/logic.js' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomTextInputCP2/logic.js'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/CustomTextInputCP2/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/CustomTextInputCP2/view.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/MenuAsRadioWidgetCP2/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/MenuAsRadioWidgetCP2/controller.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/MenuAsRadioWidgetCP2/logic.js' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/MenuAsRadioWidgetCP2/logic.js'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/MenuAsRadioWidgetCP2/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/MenuAsRadioWidgetCP2/view.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/SelectionInputAsRadio/1.0/base.css' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/SelectionInputAsRadio/1.0/base.css'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/SelectionInputAsRadio/1.0/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/SelectionInputAsRadio/1.0/controller.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/SelectionInputAsRadio/1.0/info.yml' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/SelectionInputAsRadio/1.0/info.yml'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/SelectionInputAsRadio/1.0/logic.js' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/SelectionInputAsRadio/1.0/logic.js'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/SelectionInputAsRadio/1.0/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/SelectionInputAsRadio/1.0/view.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/SelectionRadioInput/1.0/base.css' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/SelectionRadioInput/1.0/base.css'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/SelectionRadioInput/1.0/info.yml' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/SelectionRadioInput/1.0/info.yml'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/SelectionRadioInput/1.0/logic.js' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/SelectionRadioInput/1.0/logic.js'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/SelectionRadioInput/1.0/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/SelectionRadioInput/1.0/view.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/ToggleVisibleArea/1.0/base.css' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/ToggleVisibleArea/1.0/base.css'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/ToggleVisibleArea/1.0/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/ToggleVisibleArea/1.0/controller.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/ToggleVisibleArea/1.0/info.yml' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/ToggleVisibleArea/1.0/info.yml'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/ToggleVisibleArea/1.0/logic.js' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/ToggleVisibleArea/1.0/logic.js'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/ToggleVisibleArea/1.0/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/ToggleVisibleArea/1.0/view.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/ToggleVisibleAreaCP2/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/ToggleVisibleAreaCP2/controller.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/ToggleVisibleAreaCP2/logic.js' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/ToggleVisibleAreaCP2/logic.js'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/input/ToggleVisibleAreaCP2/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/input/ToggleVisibleAreaCP2/view.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/sample/SampleWidget/base.css' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/sample/SampleWidget/base.css'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/sample/SampleWidget/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/sample/SampleWidget/controller.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/sample/SampleWidget/logic.js' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/sample/SampleWidget/logic.js'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/sample/SampleWidget/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/sample/SampleWidget/view.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/templates/bottom/1.0/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/templates/bottom/1.0/controller.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/templates/bottom/1.0/info.yml' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/templates/bottom/1.0/info.yml'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/templates/bottom/1.0/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/templates/bottom/1.0/view.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/templates/bottom/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/templates/bottom/controller.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/templates/bottom/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/templates/bottom/view.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/templates/head/1.0/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/templates/head/1.0/controller.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/templates/head/1.0/info.yml' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/templates/head/1.0/info.yml'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/templates/head/1.0/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/templates/head/1.0/view.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/templates/head/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/templates/head/controller.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/templates/head/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/templates/head/view.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/templates/top/1.0/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/templates/top/1.0/controller.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/templates/top/1.0/info.yml' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/templates/top/1.0/info.yml'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/templates/top/1.0/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/templates/top/1.0/view.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/templates/top/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/templates/top/controller.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/templates/top/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/templates/top/view.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/util/CustomInfoButton/1.0/controller.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/util/CustomInfoButton/1.0/controller.php'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/util/CustomInfoButton/1.0/info.yml' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/util/CustomInfoButton/1.0/info.yml'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/util/CustomInfoButton/1.0/logic.js' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/util/CustomInfoButton/1.0/logic.js'
+[DEBUG] 06/18/2015 10:22 PM Copying 'widgets/custom/util/CustomInfoButton/1.0/view.php' to '/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/widgets/custom/util/CustomInfoButton/1.0/view.php'
+[WARN]  06/18/2015 10:22 PM Because widget custom/input/IncidentTaskInput (1.0) does not exist in the staging environment, it is not activated there.
+[DEBUG] 06/18/2015 10:22 PM Moving contents of /cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/ to /cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_optimized/
+[DEBUG] 06/18/2015 10:22 PM Copying directory structure of views/pages into views/headers
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: custom/display/CustomInfoButton
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: custom/input/CustomDateInput
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/input/DateInput
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: custom/input/CustomFileAttachmentUpload
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/input/FileAttachmentUpload
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: custom/input/CustomFormSubmit
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/input/FormSubmit
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: custom/input/CustomSelectionInput
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/input/SelectionInput
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: custom/input/CustomTextInput
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/input/TextInput
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: custom/input/SelectionInputAsRadio
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: custom/input/SelectionRadioInput
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: custom/input/ToggleVisibleArea
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: custom/templates/bottom
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: custom/templates/head
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: custom/templates/top
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: custom/util/CustomInfoButton
+[DEBUG] 06/18/2015 10:22 PM Compiling pages
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /account/change_password.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/search/BrowserSearchPlugin
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/login/LogoutLink
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/login/LoginDialog
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/input/FormInput
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/input/PasswordInput
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/output/FieldDisplay
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /account/notif/list.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/notifications/AnswerNotificationManager
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/notifications/ProdCatNotificationManager
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/input/ProductCategoryInput
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/output/ProductCategoryDisplay
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /account/notif/unsubscribe.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/notifications/Unsubscribe
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /account/overview.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /account/profile.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/input/ContactNameInput
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/input/CustomAllInput
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /account/questions/detail.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/output/DataDisplay
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/output/CustomAllDisplay
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/utils/PrintPageLink
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/output/FileListDisplay
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/output/IncidentThreadDisplay
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /account/questions/list.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/search/AdvancedSearchDialog
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/search/KeywordText
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/search/SearchButton
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/search/DisplaySearchFilters
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/reports/ResultInfo
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/reports/Grid
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/reports/Paginator
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/search/SearchTypeList
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/search/WebSearchSort
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/search/WebSearchType
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/search/ProductCategorySearchFilter
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/search/FilterDropdown
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/search/SortList
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /account/reset_password.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/login/ResetPassword
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /account/setup_password.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /agent/guided_assistant.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/knowledgebase/GuidedAssistant
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /agent/polling_preview.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/surveys/Polling
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /answers/detail.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/feedback/AnswerFeedback
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/knowledgebase/RelatedAnswers
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/knowledgebase/PreviousAnswers
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/utils/SocialBookmarkLink
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/utils/EmailAnswerLink
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /answers/intent.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /answers/list.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/knowledgebase/RssIcon
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/knowledgebase/TopicWords
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/reports/Multiline
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /ask.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/input/SmartAssistantDialog
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /ask_confirm.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /basic/account/change_password.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/utils/ClickjackPrevention
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/utils/CapabilityDetector
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/login/BasicLogoutLink
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/utils/PageSetSelector
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/input/BasicFormStatusDisplay
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/input/BasicFormInput
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/input/BasicFormSubmit
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/input/BasicSelectionInput
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/input/BasicDateInput
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/input/BasicPasswordInput
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/input/BasicTextInput
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /basic/account/overview.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/reports/BasicMultiline
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /basic/account/profile.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/input/BasicCustomAllInput
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /basic/account/questions/detail.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /basic/account/questions/list.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/search/BasicProductCategorySearchFilter
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/search/BasicKeywordSearch
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/search/BasicDisplaySearchFilters
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/reports/BasicResultInfo
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/reports/BasicPaginator
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /basic/account/reset_password.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/login/BasicResetPassword
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /basic/account/setup_password.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /basic/answers/detail.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/feedback/BasicAnswerFeedback
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /basic/answers/list.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /basic/answers/submit_feedback.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /basic/ask.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/input/BasicSmartAssistant
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/input/BasicProductCategoryInput
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /basic/ask_confirm.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /basic/error.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /basic/error404.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /basic/home.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/reports/TopAnswers
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/search/MobileProductCategoryList
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/search/ProductCategoryList
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /basic/utils/account_assistance.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/login/BasicEmailCredentials
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/login/EmailCredentials
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /basic/utils/create_account.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /basic/utils/login_form.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/login/BasicLoginForm
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/login/LoginForm
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /basic/utils/submit/password_changed.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /chat/chat_landing.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/chat/ChatPostMessage
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/chat/ChatOffTheRecordDialog
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/chat/ChatDisconnectButton
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/chat/ChatOffTheRecordButton
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/chat/ChatPrintButton
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/chat/ChatServerConnect
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/chat/ChatEngagementStatus
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/chat/ChatQueueWaitTime
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/chat/ChatAgentStatus
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/chat/ChatTranscript
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/chat/ChatCancelButton
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/chat/ChatRequestEmailResponseButton
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/chat/ChatSendButton
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/chat/ChatAttachFileButton
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/chat/ChatCoBrowseButton
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/chat/ChatQueueSearch
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/utils/RightNowLogo
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/chat/ChatStatus
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/chat/ChatHours
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /chat/chat_launch.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/chat/ChatLaunchFormOpen
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/chat/ChatLaunchButton
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /error.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /error404.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /home.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /mobile/account/change_password.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/navigation/MobileNavigationMenu
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/search/MobileSimpleSearch
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /mobile/account/profile.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /mobile/account/questions/detail.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/navigation/Accordion
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /mobile/account/questions/list.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/reports/MobileMultiline
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /mobile/account/reset_password.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /mobile/account/setup_password.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /mobile/answers/detail.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/feedback/MobileAnswerFeedback
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /mobile/answers/intent.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /mobile/answers/list.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/search/MobileProductCategorySearchFilter
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /mobile/ask.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/input/MobileProductCategoryInput
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /mobile/ask_confirm.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /mobile/chat/chat_landing.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /mobile/chat/chat_launch.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /mobile/error.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /mobile/error404.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /mobile/home.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /mobile/social/post_detail.php
+[DEBUG] 06/18/2015 10:22 PM Compiling widget: standard/social/CommunityPostDisplay
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /mobile/utils/account_assistance.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /mobile/utils/create_account.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /mobile/utils/guided_assistant.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /mobile/utils/login_form.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /mobile/utils/submit/password_changed.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /mobile/utils/submit/profile_updated.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /utils/account_assistance.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /utils/create_account.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /utils/help_search.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /utils/login_form.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /utils/submit/password_changed.php
+[DEBUG] 06/18/2015 10:22 PM Compiling page: /utils/submit/profile_updated.php
+[WARN]  06/18/2015 10:22 PM Warning: Page not Oracle Service Cloud logo compliant: /answers/detail.php.
+[WARN]  06/18/2015 10:22 PM Warning: Page not Oracle Service Cloud logo compliant: /home.php.
+[DEBUG] 06/18/2015 10:22 PM Copying themes to staging_01 area
+[DEBUG] 06/18/2015 10:22 PM Copying theme /euf/generated/staging/staging_01/temp_source/assets/themes/standard to /euf/generated/staging/staging_01/temp_optimized//1434691347/themes/standard
+[DEBUG] 06/18/2015 10:22 PM Copying theme /euf/generated/staging/staging_01/temp_source/assets/themes/basic to /euf/generated/staging/staging_01/temp_optimized//1434691347/themes/basic
+[DEBUG] 06/18/2015 10:22 PM Copying theme /euf/generated/staging/staging_01/temp_source/assets/themes/mobile to /euf/generated/staging/staging_01/temp_optimized//1434691347/themes/mobile
+[DEBUG] 06/18/2015 10:22 PM Copying extra-theme files to the staging_01 area
+[DEBUG] 06/18/2015 10:22 PM Moving contents of /cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_optimized/ to /cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_optimized//src
+[DEBUG] 06/18/2015 10:22 PM Executing make command: PATH=/bin /bin/make  -j 16 -f /cgi-bin/virginamerica.cfg/scripts/makefile_php -C /cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_optimized//src 2>&1 
+[DEBUG] 06/18/2015 10:22 PM make: Entering directory `/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_optimized/src'
+[DEBUG] 06/18/2015 10:22 PM >>> /cgi-bin/virginamerica.cfg/scripts/include/src/headers/cp/mod_info.m4
+[DEBUG] 06/18/2015 10:22 PM >>> /cgi-bin/virginamerica.cfg/scripts/include/src/headers/config/rnl.m4
+[DEBUG] 06/18/2015 10:22 PM >>> /cgi-bin/virginamerica.cfg/scripts/include/src/headers/msgbase/rnl.m4
+[DEBUG] 06/18/2015 10:22 PM >>> ../config/hooks.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../config/mapping.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../controllers/AjaxCustom.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../controllers/ajaxCustom.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../errors/error_404.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../errors/error_general.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../errors/error_php.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../helpers/sample_helper.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../libraries/Sample.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../libraries/SampleLibrary.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../models/custom/ExtendedSample.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../models/custom/Sample.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../models/custom/sample_model.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/Partials/1399420784.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/Partials/1434691347.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/Partials/sample.html.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/admin/answer_full_preview.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/admin/answer_quick_preview.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/ask.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/ask_confirm.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/error.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/error404.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/home.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/account/change_password.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/account/overview.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/account/profile.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/account/reset_password.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/account/setup_password.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/agent/guided_assistant.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/agent/polling_preview.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/answers/detail.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/answers/intent.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/answers/list.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/basic/ask.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/basic/ask_confirm.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/basic/error.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/basic/error404.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/basic/home.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/chat/chat_landing.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/chat/chat_launch.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/mobile/ask.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/mobile/ask_confirm.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/mobile/error.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/mobile/error404.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/mobile/home.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/utils/account_assistance.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/utils/create_account.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/utils/help_search.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/utils/login_form.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/account/notif/list.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/account/notif/unsubscribe.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/account/questions/detail.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/account/questions/list.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/basic/account/change_password.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/basic/account/overview.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/basic/account/profile.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/basic/account/reset_password.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/basic/account/setup_password.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/basic/answers/detail.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/basic/answers/list.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/basic/answers/submit_feedback.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/basic/utils/account_assistance.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/basic/utils/create_account.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/basic/utils/login_form.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/mobile/account/change_password.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/mobile/account/profile.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/mobile/account/reset_password.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/mobile/account/setup_password.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/mobile/answers/detail.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/mobile/answers/intent.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/mobile/answers/list.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/mobile/chat/chat_landing.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/mobile/chat/chat_launch.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/mobile/social/post_detail.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/mobile/utils/account_assistance.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/mobile/utils/create_account.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/mobile/utils/guided_assistant.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/mobile/utils/login_form.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/utils/submit/password_changed.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/utils/submit/profile_updated.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/CustomDateInputCP2/controller.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/CustomDateInputCP2/view.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/CustomFileAttachmentUpload2CP2/controller.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/CustomFileAttachmentUpload2CP2/view.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/CustomFormSubmitCP2/controller.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/CustomFormSubmitCP2/view.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/CustomSelectionInputCP2/controller.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/CustomSelectionInputCP2/view.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/CustomTextInputCP2/controller.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/CustomTextInputCP2/view.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/MenuAsRadioWidgetCP2/controller.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/MenuAsRadioWidgetCP2/view.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/ToggleVisibleAreaCP2/controller.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/ToggleVisibleAreaCP2/view.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/sample/SampleWidget/controller.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/sample/SampleWidget/view.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/templates/bottom/controller.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/templates/bottom/view.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/templates/head/controller.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/templates/head/view.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/templates/top/controller.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/templates/top/view.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/basic/account/questions/detail.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/basic/account/questions/list.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/basic/utils/submit/password_changed.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/mobile/account/questions/detail.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/mobile/account/questions/list.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/mobile/utils/submit/password_changed.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../views/headers/mobile/utils/submit/profile_updated.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/display/CustomInfoButton/1.0/controller.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/display/CustomInfoButton/1.0/view.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/CustomDateInput/1.0/controller.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/CustomDateInput/1.0/view.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/CustomFileAttachmentUpload/1.0/controller.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/CustomFileAttachmentUpload/1.0/view.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/CustomFormSubmit/1.0/controller.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/CustomFormSubmit/1.0/view.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/CustomSelectionInput/1.0/controller.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/CustomSelectionInput/1.0/view.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/CustomTextInput/1.0/controller.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/CustomTextInput/1.0/view.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/SelectionInputAsRadio/1.0/controller.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/SelectionInputAsRadio/1.0/view.php
+[DEBUG] 06/18/2015 10:22 PM >>> ../widgets/custom/input/SelectionRadioInput/1.0/view.php
+[DEBUG] 06/18/2015 10:23 PM >>> ../widgets/custom/input/ToggleVisibleArea/1.0/controller.php
+[DEBUG] 06/18/2015 10:23 PM >>> ../widgets/custom/input/ToggleVisibleArea/1.0/view.php
+[DEBUG] 06/18/2015 10:23 PM >>> ../widgets/custom/templates/bottom/1.0/controller.php
+[DEBUG] 06/18/2015 10:23 PM >>> ../widgets/custom/templates/bottom/1.0/view.php
+[DEBUG] 06/18/2015 10:23 PM >>> ../widgets/custom/templates/head/1.0/controller.php
+[DEBUG] 06/18/2015 10:23 PM >>> ../widgets/custom/templates/head/1.0/view.php
+[DEBUG] 06/18/2015 10:23 PM >>> ../widgets/custom/templates/top/1.0/controller.php
+[DEBUG] 06/18/2015 10:23 PM >>> ../widgets/custom/templates/top/1.0/view.php
+[DEBUG] 06/18/2015 10:23 PM >>> ../widgets/custom/util/CustomInfoButton/1.0/controller.php
+[DEBUG] 06/18/2015 10:23 PM >>> ../widgets/custom/util/CustomInfoButton/1.0/view.php
+[DEBUG] 06/18/2015 10:23 PM >>> ../widgets/custom/display/CustomInfoButton/1.0/optimized/optimizedWidget.php
+[DEBUG] 06/18/2015 10:23 PM >>> ../widgets/custom/input/CustomDateInput/1.0/optimized/optimizedWidget.php
+[DEBUG] 06/18/2015 10:23 PM >>> ../widgets/custom/input/CustomFileAttachmentUpload/1.0/optimized/optimizedWidget.php
+[DEBUG] 06/18/2015 10:23 PM >>> ../widgets/custom/input/CustomFormSubmit/1.0/optimized/optimizedWidget.php
+[DEBUG] 06/18/2015 10:23 PM >>> ../widgets/custom/input/CustomSelectionInput/1.0/optimized/optimizedWidget.php
+[DEBUG] 06/18/2015 10:23 PM >>> ../widgets/custom/input/CustomTextInput/1.0/optimized/optimizedWidget.php
+[DEBUG] 06/18/2015 10:23 PM >>> ../widgets/custom/input/SelectionInputAsRadio/1.0/optimized/optimizedWidget.php
+[DEBUG] 06/18/2015 10:23 PM >>> ../widgets/custom/input/SelectionRadioInput/1.0/optimized/optimizedWidget.php
+[DEBUG] 06/18/2015 10:23 PM >>> ../widgets/custom/input/ToggleVisibleArea/1.0/optimized/optimizedWidget.php
+[DEBUG] 06/18/2015 10:23 PM >>> ../widgets/custom/templates/bottom/1.0/optimized/optimizedWidget.php
+[DEBUG] 06/18/2015 10:23 PM >>> ../widgets/custom/templates/head/1.0/optimized/optimizedWidget.php
+[DEBUG] 06/18/2015 10:23 PM >>> ../widgets/custom/templates/top/1.0/optimized/optimizedWidget.php
+[DEBUG] 06/18/2015 10:23 PM >>> ../widgets/custom/util/CustomInfoButton/1.0/optimized/optimizedWidget.php
+[DEBUG] 06/18/2015 10:23 PM make: Leaving directory `/cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_optimized/src'
+[DEBUG] 06/18/2015 10:23 PM 
+[DEBUG] 06/18/2015 10:23 PM Finalizing delayed deletes.
+[DEBUG] 06/18/2015 10:23 PM Finished finalizing delayed deletes.
+[DEBUG] 06/18/2015 10:23 PM Number of deploy errors: <cps_error_count>0</cps_error_count>
+[DEBUG] 06/18/2015 10:23 PM Log File: <cps_log_file_name>/cgi-bin/virginamerica.cfg/log/stage1434691347.log</cps_log_file_name>
+[DEBUG] 06/18/2015 10:23 PM Compile Successful!
+[DEBUG] 06/18/2015 10:23 PM Committing Deploy Operation
+[DEBUG] 06/18/2015 10:23 PM Backing up /cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/source/ to /cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/backup/
+[DEBUG] 06/18/2015 10:23 PM Moving contents of /cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_source/ to /cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/source/
+[DEBUG] 06/18/2015 10:23 PM Moving contents of /euf/generated/staging/staging_01/temp_source/ to /euf/generated/staging/staging_01/source/
+[DEBUG] 06/18/2015 10:23 PM Moving JavaScript files to the html docroot (/vhosts/virginamerica/euf/generated/staging/staging_01/optimized/)
+[DEBUG] 06/18/2015 10:23 PM Moving contents of /cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/temp_optimized/ to /cgi-bin/virginamerica.cfg/scripts/cp/generated/staging/staging_01/optimized/
+[INFO]  06/18/2015 10:23 PM <span class="successText">Deploy Operation Successful!</span>
+[DEBUG] 06/18/2015 10:23 PM Finalizing delayed deletes.
+[DEBUG] 06/18/2015 10:23 PM Finished finalizing delayed deletes.
+[DEBUG] 06/18/2015 10:23 PM Deploy lock removed.

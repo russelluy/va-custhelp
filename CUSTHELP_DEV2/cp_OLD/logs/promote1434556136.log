@@ -1,0 +1,28 @@
+[INFO]  06/17/2015 08:48 AM 
+----------------------------------------------
+CP Deployment Log
+Date: <rn_log_date>06/17/2015 08:48 AM</rn_log_date>
+By Account: <rn_log_byAccount>Kari Shultz - (332)</rn_log_byAccount>
+IP Address: <rn_log_ipAddress>12.51.111.51</rn_log_ipAddress>
+User Agent: <rn_log_userAgent>Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36</rn_log_userAgent>
+Interface Name: <rn_log_interfaceName>virginamerica</rn_log_interfaceName>
+Deploy Type: <rn_log_deployType>Promote Deployment</rn_log_deployType>
+Comment: <rn_log_comment>Final adjustments.</rn_log_comment>
+----------------------------------------------
+
+
+[DEBUG] 06/17/2015 08:48 AM Deploy lock verified.
+[DEBUG] 06/17/2015 08:48 AM Copying production/source to production/backup/source
+[DEBUG] 06/17/2015 08:49 AM Copying production/optimized to production/backup/optimized
+[DEBUG] 06/17/2015 08:49 AM Copying /euf/generated/optimized/1434530614 to production/backup/optimizedAssets/1434530614
+[DEBUG] 06/17/2015 08:49 AM Copying staging/staging_01/source to production/source
+[DEBUG] 06/17/2015 08:49 AM Copying staging/staging_01/optimized to production/optimized
+[DEBUG] 06/17/2015 08:50 AM Copying /euf/generated/staging/staging_01/optimized/1434555968 to /euf/generated/optimized/1434555968
+[DEBUG] 06/17/2015 08:50 AM Removing file: production/source/views/Partials/1434530614.php
+[DEBUG] 06/17/2015 08:50 AM Removing file: production/optimized/views/Partials/1434530614.php
+[DEBUG] 06/17/2015 08:50 AM Removing old optimized assets directory '1434530614'
+[DEBUG] 06/17/2015 08:50 AM Locking Page Set Mappings
+[DEBUG] 06/17/2015 08:50 AM Number of deploy errors: <cps_error_count>0</cps_error_count>
+[DEBUG] 06/17/2015 08:50 AM Log File: <cps_log_file_name>/cgi-bin/virginamerica.cfg/log/promote1434556136.log</cps_log_file_name>
+[INFO]  06/17/2015 08:50 AM Deploy Operation Successful!
+[DEBUG] 06/17/2015 08:50 AM Deploy lock removed.

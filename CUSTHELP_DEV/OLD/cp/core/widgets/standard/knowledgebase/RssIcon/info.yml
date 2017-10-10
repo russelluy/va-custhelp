@@ -1,0 +1,25 @@
+version: "1.1.1"
+requires:
+  framework: ["3.2"]
+  jsModule: [standard, mobile]
+attributes:
+  icon_path:
+    name: rn:msg:RSS_ICON_PATH_LBL
+    description: rn:msg:FILE_SYS_PATH_IMG_RSS_LINK_SET_MSG
+    type: filepath
+  feed_title:
+    name: rn:msg:FEED_TITLE_LBL
+    description: rn:msg:THE_TITLE_FOR_YOUR_RSS_FEED_MSG
+    default: rn:msg:SUPPORT_RSS_FEED_LBL
+    type: string
+info:
+  description: rn:msg:WDGET_DISP_RSS_ICON_PROV_LINK_RN_MSG
+  urlParameters:
+    p:
+      name: rn:msg:PRODUCT_LBL
+      description: rn:msg:CMMA_SPARATED_IDS_COMMAS_DENOTING_MSG
+      example: p/1,2,3
+    c:
+      name: rn:msg:CATEGORY_LBL
+      description: rn:msg:COMMA_SEPARATED_IDS_COMMAS_DENOTING_MSG
+      example: c/1

@@ -1,0 +1,61 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  label_button:
+    name: label_button
+    type: string
+    description: Button Label
+    default: ""
+    required: false
+  is_link:
+    name: is_link
+    type: boolean
+    description: Determines if the target of the button is a redirect link or a panel
+      div
+    default: false
+    required: false
+  target:
+    name: target
+    type: string
+    description: Target of the click. Either a URL or a div ID
+    default: ""
+    required: false
+  new_window:
+    name: new_window
+    type: boolean
+    description: Determines if the redirect link should open in a new window
+    default: false
+    required: false
+  icon_path:
+    name: icon_path
+    type: string
+    description: Path to the button image to display
+    default: ""
+    required: false
+  icon_alt_text:
+    name: icon_alt_text
+    type: string
+    description: Alt text for the button image
+    default: ""
+    required: false
+  popup_window:
+    name: popup_window
+    type: boolean
+    description: Is this a modal window?
+    default: true
+    required: false
+  popup_window_width_percent:
+    name: popup_window_width_percent
+    type: int
+    description: Specifies the width of a modal window
+    default: 30
+    required: false
+  popup_window_height_percent:
+    name: popup_window_height_percent
+    type: string
+    description: Specifies the height of a modal window
+    default: "42"
+    required: false

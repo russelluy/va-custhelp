@@ -1,0 +1,35 @@
+[INFO]  05/18/2017 11:12 AM 
+----------------------------------------------
+CP Deployment Log
+Date: <rn_log_date>05/18/2017 11:12 AM</rn_log_date>
+By Account: <rn_log_byAccount>Russell Uy - (276)</rn_log_byAccount>
+IP Address: <rn_log_ipAddress>205.241.31.2</rn_log_ipAddress>
+User Agent: <rn_log_userAgent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:53.0) Gecko/20100101 Firefox/53.0</rn_log_userAgent>
+Interface Name: <rn_log_interfaceName>virginamerica</rn_log_interfaceName>
+Deploy Type: <rn_log_deployType>Promote Deployment</rn_log_deployType>
+----------------------------------------------
+
+
+[DEBUG] 05/18/2017 11:12 AM Deploy lock verified.
+[DEBUG] 05/18/2017 11:12 AM Copying production/source to production/backup/source
+[DEBUG] 05/18/2017 11:12 AM Copying production/optimized to production/backup/optimized
+[DEBUG] 05/18/2017 11:12 AM Copying /euf/generated/optimized/1493178003 to production/backup/optimizedAssets/1493178003
+[DEBUG] 05/18/2017 11:12 AM Copying staging/staging_01/source to production/source
+[DEBUG] 05/18/2017 11:12 AM Copying staging/staging_01/optimized to production/optimized
+[DEBUG] 05/18/2017 11:12 AM Copying /euf/generated/staging/staging_01/optimized/1495130941 to /euf/generated/optimized/1495130941
+[DEBUG] 05/18/2017 11:12 AM Removing file: production/source/views/Partials/1493178003.php
+[DEBUG] 05/18/2017 11:12 AM Removing file: production/source/views/Partials/1484301217.php
+[DEBUG] 05/18/2017 11:12 AM Removing file: production/source/views/Partials/1481094474.php
+[DEBUG] 05/18/2017 11:12 AM Removing file: production/source/views/Partials/1479302617.php
+[DEBUG] 05/18/2017 11:12 AM Removing file: production/source/views/Partials/1491639043.php
+[DEBUG] 05/18/2017 11:12 AM Removing file: production/optimized/views/Partials/1479302617.php
+[DEBUG] 05/18/2017 11:12 AM Removing file: production/optimized/views/Partials/1491639043.php
+[DEBUG] 05/18/2017 11:12 AM Removing file: production/optimized/views/Partials/1481094474.php
+[DEBUG] 05/18/2017 11:12 AM Removing file: production/optimized/views/Partials/1484301217.php
+[DEBUG] 05/18/2017 11:12 AM Removing file: production/optimized/views/Partials/1493178003.php
+[DEBUG] 05/18/2017 11:12 AM Removing old optimized assets directory '1493178003'
+[DEBUG] 05/18/2017 11:12 AM Locking Page Set Mappings
+[DEBUG] 05/18/2017 11:12 AM Number of deploy errors: <cps_error_count>0</cps_error_count>
+[DEBUG] 05/18/2017 11:12 AM Log File: <cps_log_file_name>/cgi-bin/virginamerica.cfg/log/promote1495131136.log</cps_log_file_name>
+[INFO]  05/18/2017 11:12 AM Deploy Operation Successful!
+[DEBUG] 05/18/2017 11:12 AM Deploy lock removed.

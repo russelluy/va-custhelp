@@ -1,0 +1,9 @@
+.rn_ChatFileAttachContent {
+    width: 325px;
+}
+.rn_ChatAttachFileButton {
+    margin: 1em 5px;
+}
+.rn_ChatAttachFileButtonContent,.rn_ChatAttachFileButtonForm, .rn_ChatAttachFileButtonShown{
+    display:inline;
+}

@@ -1,0 +1,17 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+  yui:
+  - panel
+  - gallery-treeview
+attributes:
+  saveTaskData_ajax_endpoint:
+    name: saveTaskData_ajax_endpoint
+    type: ajax
+    description: AJAX endpoint for saving task data
+    default: /ci/ajax/widget
+    required: false
+info:
+  description: facilitates the data capture for Tasks on the Ask a Question page.

@@ -1,0 +1,21 @@
+.rn_SocialBookmarkLink {
+    display:inline;
+    margin-right:10px;
+}
+.rn_SocialBookmarkLink img {
+    vertical-align:middle;
+}
+.rn_SocialBookmarkLink .rn_Panel {
+    overflow:hidden;
+    /*IE6*/
+    _position:absolute;
+}
+.rn_SocialBookmarkLink ul {
+    padding:0;
+    margin:0;
+}
+.rn_SocialBookmarkLink ul li {
+    display:inline;
+    float:left;
+    list-style-type:none;
+}

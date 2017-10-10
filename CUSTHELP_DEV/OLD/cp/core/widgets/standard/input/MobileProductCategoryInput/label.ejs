@@ -1,0 +1,7 @@
+<rn:block id="labelTop"/>
+<%= label %>
+<% if (requiredLevel) { %>
+    <span class="rn_Required"> <%= requiredMarkLabel %></span>
+    <span class="rn_ScreenReaderOnly"><%= requiredLabel %></span>
+<% } %>
+<rn:block id="labelBottom"/>

@@ -1,0 +1,27 @@
+[INFO]  07/07/2015 10:01 AM 
+----------------------------------------------
+CP Deployment Log
+Date: <rn_log_date>07/07/2015 10:01 AM</rn_log_date>
+By Account: <rn_log_byAccount>Infolexa Dev - (351)</rn_log_byAccount>
+IP Address: <rn_log_ipAddress>65.189.0.85</rn_log_ipAddress>
+User Agent: <rn_log_userAgent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0 FirePHP/0.7.4</rn_log_userAgent>
+Interface Name: <rn_log_interfaceName>virginamerica</rn_log_interfaceName>
+Deploy Type: <rn_log_deployType>Promote Deployment</rn_log_deployType>
+----------------------------------------------
+
+
+[DEBUG] 07/07/2015 10:01 AM Deploy lock verified.
+[DEBUG] 07/07/2015 10:01 AM Copying production/source to production/backup/source
+[DEBUG] 07/07/2015 10:01 AM Copying production/optimized to production/backup/optimized
+[DEBUG] 07/07/2015 10:01 AM Copying /euf/generated/optimized/1436232390 to production/backup/optimizedAssets/1436232390
+[DEBUG] 07/07/2015 10:01 AM Copying staging/staging_01/source to production/source
+[DEBUG] 07/07/2015 10:01 AM Copying staging/staging_01/optimized to production/optimized
+[DEBUG] 07/07/2015 10:01 AM Copying /euf/generated/staging/staging_01/optimized/1436287145 to /euf/generated/optimized/1436287145
+[DEBUG] 07/07/2015 10:01 AM Removing file: production/source/views/Partials/1436232390.php
+[DEBUG] 07/07/2015 10:01 AM Removing file: production/optimized/views/Partials/1436232390.php
+[DEBUG] 07/07/2015 10:01 AM Removing old optimized assets directory '1436232390'
+[DEBUG] 07/07/2015 10:01 AM Locking Page Set Mappings
+[DEBUG] 07/07/2015 10:01 AM Number of deploy errors: <cps_error_count>0</cps_error_count>
+[DEBUG] 07/07/2015 10:01 AM Log File: <cps_log_file_name>/cgi-bin/virginamerica.cfg/log/promote1436288479.log</cps_log_file_name>
+[INFO]  07/07/2015 10:01 AM Deploy Operation Successful!
+[DEBUG] 07/07/2015 10:01 AM Deploy lock removed.

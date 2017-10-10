@@ -1,0 +1,29 @@
+[INFO]  06/18/2015 10:27 PM 
+----------------------------------------------
+CP Deployment Log
+Date: <rn_log_date>06/18/2015 10:27 PM</rn_log_date>
+By Account: <rn_log_byAccount>Kari Shultz - (332)</rn_log_byAccount>
+IP Address: <rn_log_ipAddress>12.51.111.51</rn_log_ipAddress>
+User Agent: <rn_log_userAgent>Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36</rn_log_userAgent>
+Interface Name: <rn_log_interfaceName>virginamerica</rn_log_interfaceName>
+Deploy Type: <rn_log_deployType>Promote Deployment</rn_log_deployType>
+Comment: <rn_log_comment>CP3 Migration: Deploying site to production for the first time</rn_log_comment>
+----------------------------------------------
+
+
+[DEBUG] 06/18/2015 10:27 PM Deploy lock verified.
+[DEBUG] 06/18/2015 10:27 PM Copying production/source to production/backup/source
+[DEBUG] 06/18/2015 10:27 PM Copying production/optimized to production/backup/optimized
+[DEBUG] 06/18/2015 10:27 PM Copying /euf/generated/optimized/0000000000 to production/backup/optimizedAssets/0000000000
+[DEBUG] 06/18/2015 10:27 PM Copying staging/staging_01/source to production/source
+[DEBUG] 06/18/2015 10:27 PM Copying staging/staging_01/optimized to production/optimized
+[DEBUG] 06/18/2015 10:27 PM Copying /euf/generated/staging/staging_01/optimized/1434691347 to /euf/generated/optimized/1434691347
+[DEBUG] 06/18/2015 10:27 PM Removing file: production/source/views/Partials/0000000000.php
+[DEBUG] 06/18/2015 10:27 PM Removing file: production/optimized/javascript/pages/account/overview.json
+[DEBUG] 06/18/2015 10:27 PM Removing file: production/optimized/views/Partials/0000000000.php
+[DEBUG] 06/18/2015 10:27 PM Removing old optimized assets directory '0000000000'
+[DEBUG] 06/18/2015 10:27 PM Locking Page Set Mappings
+[DEBUG] 06/18/2015 10:27 PM Number of deploy errors: <cps_error_count>0</cps_error_count>
+[DEBUG] 06/18/2015 10:27 PM Log File: <cps_log_file_name>/cgi-bin/virginamerica.cfg/log/promote1434691628.log</cps_log_file_name>
+[INFO]  06/18/2015 10:27 PM Deploy Operation Successful!
+[DEBUG] 06/18/2015 10:27 PM Deploy lock removed.

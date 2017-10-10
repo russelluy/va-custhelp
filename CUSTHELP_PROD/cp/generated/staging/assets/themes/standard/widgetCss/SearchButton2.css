@@ -1,0 +1,22 @@
+.rn_SearchButton2 {
+    display:inline;
+    bottom: 0px;
+	float:left;
+	margin-right:20px;
+	margin-left:20px;
+}
+.rn_SearchButton2 input {
+    border:none;
+    vertical-align:top;
+}
+.rn_SearchButton2 .rn_SubmitButton {
+    /* UPGRADE: modify button background color */
+    background-color:#d10103;
+    color:#FFF;
+    cursor:pointer;
+    font-weight:bold;
+}
+.rn_SearchButton2 .rn_SubmitButton:hover {
+	background:#7B4397;
+	cursor:pointer;
+}

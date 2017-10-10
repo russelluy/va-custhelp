@@ -1,0 +1,38 @@
+version: "1.0.1"
+requires:
+  framework: ["3.1", "3.2"]
+  jsModule: [standard, mobile, none]
+attributes:
+  limit:
+    name: rn:msg:LIMIT_CMD
+    type: INT
+    description: rn:msg:MAXIMUM_NUMBER_ANSWERS_DISPLAY_LBL
+    default: 10
+    min: 1
+    max: 10
+  product_filter_id:
+    name: rn:msg:PRODUCT_FILTER_ID_LBL
+    type: INT
+    description: rn:msg:ID_PRODUCT_WHICH_FILTER_RESULTS_LBL
+    min: 1
+  category_filter_id:
+    name: rn:msg:CATEGORY_FILTER_ID_LBL
+    type: INT
+    description: rn:msg:ID_CATEGORY_WHICH_FILTER_RESULTS_LBL
+    min: 1
+  show_excerpt:
+    name: rn:msg:SHOW_EXCERPT_CMD
+    type: BOOL
+    description: rn:msg:DETERMINES_EXCERPT_RESULT_LBL
+  answers_detail_url:
+    name: rn:msg:ANSWERS_DETAIL_URL_LBL
+    type: STRING
+    description: rn:msg:PG_ITEM_SEL_DEF_VAL_ATTRIB_CP_ANS_MSG
+    default: rn:php:'/app/' . \RightNow\Utils\Config::getConfig(CP_ANSWERS_DETAIL_URL)
+  url_type_target:
+    name: rn:msg:URL_AND_ATTACHMENT_TYPE_TARGET_LBL
+    type: STRING
+    description: rn:php:sprintf(\RightNow\Utils\Config::getMessage(DETERMINES_LINKS_URL_ATTACH_TYPE_MSG), '_self')
+    default: _blank
+info:
+  description: rn:msg:DISP_L_TOP_ANS_CONTENT_OPTIONALLY_MSG

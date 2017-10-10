@@ -1,0 +1,17 @@
+.rn_SmartAssistantDialog .rn_Solution,
+.rn_SmartAssistantDialog .rn_Response {
+    max-height:300px;
+    overflow-y:auto;
+}
+.rn_SmartAssistantDialog .rn_InlineAnswers{
+    overflow: hidden;
+}
+.rn_SmartAssistantDialog .rn_InlineAnswerLink{
+    display: block;
+}
+.rn_SmartAssistantDialog .rn_ExpandedAnswerContent{
+    display: block;
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

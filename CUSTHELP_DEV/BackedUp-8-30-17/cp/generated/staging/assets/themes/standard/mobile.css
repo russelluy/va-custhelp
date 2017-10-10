@@ -1,0 +1,295 @@
+
+    body {
+        font-size: .7em;
+        width: 100%;
+        background-color: red; 
+    }
+
+    /* 
+     * Header and Footer
+     */
+    #rn_Header > header > div {
+       width: 100%;
+    }
+    #rn_Header > header > div > h1 {    /* Forces vx-header to have full-height */
+       float: none;
+       margin: 0px;
+    }
+    #rn_Header > header > div > nav > ul.nav-primary,
+    #rn_Header > header > div > nav > ul.nav-secondary {
+       display: none;
+    }
+    #rn_Footer > footer > div.vx-wrap.mobile > ul {
+       width: 45%;
+    }
+    #rn_Footer > footer > div.vx-wrap.desktop {  
+       display: none;
+    }
+    #rn_Footer > footer > div.vx-wrap.tablet {    
+       display: none;
+    }
+    #rn_Footer > footer > div.vx-wrap.mobile {    
+       display: block;
+    }
+    #rn_Header > header > div > div.vx-bars-container {
+       width: 60px;
+       height: 63px;
+       position: absolute;
+       top: 0px;
+       right: 90px;
+       border-left: 1px solid black;
+    }
+    #rn_Header > header > div > div.vx-bars-container > a {
+       background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMzggMzIiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDM4IDMyIj48aW1hZ2Ugd2lkdGg9IjM4IiBoZWlnaHQ9IjMyIiB4bGluazpocmVmPSJkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQUNZQUFBQWdDQVlBQUFCK1pBcXpBQUFBQ1hCSVdYTUFBQXNTQUFBTEVnSFMzWDc4QUFBQQpHWFJGV0hSVGIyWjBkMkZ5WlFCQlpHOWlaU0JKYldGblpWSmxZV1I1Y2NsbFBBQUFBRGxKUkVGVWVOcnMxTEVOQURBSUJER3kvOUNFCkFWSWlSQ1M3cE9Hcml3QjJPYTlqbHBIbnhiQ3VZYUJqY3FGam9HTTZwbVBBRjY0QUF3QVBOaVFLUlhrY053QUFBQUJKUlU1RXJrSmcKZ2c9PSIvPjwvc3ZnPg==);  
+       height:24px;
+       width:28.5px;
+       position: inherit;
+       top: 25px;
+       left: 20px
+    }
+    #rn_Header > header > div > nav > ul.nav-auxiliary > li:nth-child(1) > a {  /* Don't display Sign-in */
+       display: none;
+       padding: 0 10px;
+    }
+    #rn_Header > header > div > nav > ul.nav-auxiliary {    /* No Sign-in border for mobile */
+       position: absolute;
+       right: 23px;
+       top: 11px;
+    }
+    #rn_Header > header > div > h1.vx-bars {   /* Position the bars */
+      position: absolute;
+      right: 90px;
+      top: 26px;
+    }
+    #rn_Header > header > div > nav > ul.nav-auxiliary > li:first-child {
+       padding: 0 5px;
+    }
+    .vx-header ul>li a {
+       line-height: 53px;
+    }
+    #rn_Header > header > div > h1.logo-main {
+      margin-left: 15px;
+    }
+
+
+    #rn_AnswerFeedback2_12_RatingButton_1,     /* Separate “Was this answer helpful” boxes */
+    #rn_AnswerFeedback2_12_RatingButton_2,
+    #rn_AnswerFeedback2_12_RatingButton_3,
+    #rn_AnswerFeedback2_12_RatingButton_4 {
+        margin-bottom: 10px;
+    }
+
+    #rn_SideBar div.rn_ProductCategoryList h2 {
+         margin-bottom: 20px;
+    }
+
+    /*
+     * Top Ten List
+     */
+    #rn_SideBar > div > div > h2 {
+        font-size: 1.6em;
+    }
+    #rn_Multiline2_6_Content {
+        text-align: left;
+    }
+    .rn_Module h3, .rn_Module h2 {
+      padding-bottom: 10px;
+    }
+
+    /*
+     * Sample Questions
+     */
+    #rn_PageContent.rn_Home ol li a {
+        margin-left: 0px;
+    }
+    #rn_PageContent.rn_Home ol {
+        margin-left: 0px;
+    }
+    #rn_PageContent.rn_AnswerList div.rn_Padding {
+        padding-left: 0px;
+    }
+
+    /*
+     * Frequently Asked Questions
+     */
+    #rn_ProductCategoryList_7 > h2 {
+       margin: 0 10%;
+       text-transform: uppercase;
+       font-size: 1.6em;
+    }
+    div.rn_HierList.rn_HierList_28.rn_FloatLeft,    
+    div.rn_HierList.rn_HierList_75.rn_FloatRight,       
+    div.rn_HierList.rn_HierList_38.rn_FloatLeft,     
+    div.rn_HierList.rn_HierList_72.rn_FloatRight,     
+    div.rn_HierList.rn_HierList_37.rn_FloatLeft,     
+    div.rn_HierList.rn_HierList_73.rn_FloatRight, 
+    div.rn_HierList.rn_HierList_810.rn_FloatLeft,     
+    div.rn_HierList.rn_HierList_71.rn_FloatRight {     
+        width: 100%;
+        float: none;
+    }
+
+    /*
+     * Search Controls
+     */
+    #rn_SearchControls {
+         width: 320px;
+         padding: 0 0 0 0;
+    }
+    div.rn_SearchInput {    /* Search Input text field */
+         width: 50%;
+         margin: 10px 0;
+    }
+    #rn_PageContent.rn_Home ol li {
+       width: 100%;
+    }
+    #rn_SideBar {
+       float: none;
+       width: auto;
+    }
+    div.rn_Module h2 {
+       text-align: center;
+    }
+  
+    #rn_SearchButton2_9_SubmitButton {    /* Search button */
+       width: 100px;
+    }
+    #rn_SearchButton2_9 {    /* Aligns input and search button */
+       margin-top: 10px;
+    }
+    #rn_AdvancedSearchDialog_10 {
+       display: none;
+    }
+
+    /* 
+     * Sample Questions
+     */
+     span.rn_Element1 a {
+        font-family: 'Gotham 4r';
+     }
+     .rn_Element3 {        /* Removes any leading whitespace */
+        font-family: 'Gotham 4r';
+        float: left;
+     }
+
+    /*
+     *  Five task icons
+     */
+    div.rn_Module {
+       text-align: center;
+    }
+    #rn_CustomInfoButton_2_SubmitButton,
+    #rn_CustomInfoButton_3_SubmitButton,
+    #rn_CustomInfoButton_4_SubmitButton,
+    #rn_CustomInfoButton_5_SubmitButton,
+    #rn_CustomInfoButton_6_SubmitButton {
+       width: 140px;
+       height: 140px;
+       margin: 0 4% 20px 0;
+       background-color: transparent;
+    }
+
+
+   /*
+    * Sub-windows
+    */
+
+    #myAddressDiv > div.bd,
+    #myCallDiv > div.bd, 
+    #myEmailDiv > div.bd {
+       width: 260px;
+    }
+    #myCallDiv a.container-close,
+    #myEmailDiv a.container-close,        
+    #myAddressDiv a.container-close {   /* 'x' indicator to close window */
+       top: 15px;
+       right: 50px;
+    }
+    #myCallDiv div.bd div.content,
+    #myAddressDiv div.bd div.content {
+        margin-left: 10px;
+    }
+   
+    
+    #myEmailDiv .bd h1,
+    #myCallDiv .bd h1,
+    #myAddressDiv .bd h1 {
+       font-size: 2.50em;         /* 30pt  40px */
+       line-height: 2.8em;
+       color: #7b4397;
+    }
+    #myEmailDiv .bd h2,
+    #myCallDiv .bd h2,
+    #myAddressDiv .bd h2 {
+       font-size: 1.8em;         /* 22pt  29px */
+       line-height: 1.4em;
+       color: #7b4397;
+    }
+    #myEmailDiv .bd h3,
+    #myCallDiv .bd h3,
+    #myAddressDiv .bd h3 {
+       font-size: 1.6em;         /* 20pt  26px */
+       color: #7b4397;
+    }
+    #myEmailDiv .bd h4,
+    #myCallDiv .bd h4,
+    #myAddressDiv .bd h4 {
+       font-size: 1.2em;         /* 14pt  19px */
+    }
+    #myEmailDiv .bd h5,
+    #myCallDiv .bd h5,
+    #myAddressDiv .bd h5 {
+       font-size: 1.1em;         /* 13pt  17px */
+    }
+    #myEmailDiv .bd h6,
+    #myCallDiv .bd h6,
+    #myAddressDiv .bd h6 {
+       font-size: 0.95em;         /* 11pt  15px */
+    }
+    #myCallDiv .bd .title,
+    #myAddressDiv .bd .title {
+       margin: 5px 0px;
+    }
+    #myCallDiv .bd .subtext,
+    #myAddressDiv .bd .subtext {
+       margin-bottom: 10px;
+    }
+    #myCallDiv .bd .dest,
+    #myAddressDiv .bd .dest {
+       margin-top: 25px;
+    }
+    #myCallDiv .bd .subDest,
+    #myAddressDiv .bd .subDest {
+       margin-top: 10px;
+    }
+    #myCallDiv .bd .sectionSep,
+    #myAddressDiv .bd .sectionSep {
+       margin-top: 15px;
+    }
+
+    #rnDialog1 div.hd,   /* Set Rating Submitted to mobile size */
+    #rnDialog1 div.bd {
+       width: 260px;
+    }
+
+    #rnDialog1_Button_0 {   /* Separate Submit and Cancel buttons */
+       margin-bottom: 10px;
+    }
+    #rn_AnswerFeedback2_12_FeedbackTextarea {
+       width: 260px;
+    }
+    
+    #myEmailDiv > a {
+       top: 20px;
+       right: 50px;
+    }
+     #rn_1, #rn_2, #rn_3, #rn_4, #rn_5, #rn_6, #rn_7, #rn_8, #rn_9, #rn_10 {
+             margin: 15px 0;
+     }
+  
+    #rn_AnswerText > table:nth-child(4) {     /* Condense size of tables */
+       width: 260px !important;
+    }
+
+
+

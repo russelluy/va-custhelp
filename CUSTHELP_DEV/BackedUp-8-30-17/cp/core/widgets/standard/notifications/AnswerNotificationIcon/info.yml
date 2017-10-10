@@ -1,0 +1,53 @@
+version: "1.1.1"
+requires:
+  framework: ["3.1", "3.2"]
+  jsModule: [standard, mobile]
+attributes:
+  add_or_renew_notification_ajax:
+    name: rn:msg:ADD_RENEW_ANSWER_NOTIFICATION_AJAX_CMD
+    type: ajax
+    description: rn:msg:ENDPOINT_ADD_RENEW_ANS_NOTIF_LBL
+    default: /ci/ajaxRequest/addOrRenewNotification
+  label_link:
+    name: rn:msg:LINK_LABEL_CMD
+    description: rn:msg:STRING_DISPLAYS_LINK_PAGE_LBL
+    default: rn:msg:NOTIFY_ME_CMD
+    type: STRING
+  label_tooltip:
+    name: rn:msg:TOOLTIP_LBL
+    description: rn:msg:STRING_DISPLAYS_HOVERS_LINK_LBL
+    default: rn:msg:NOTIFY_EMAIL_ANS_UPDATED_MSG
+    type: STRING
+  icon_path:
+    name: rn:msg:ICON_PATH_LBL
+    description: rn:msg:OPTIONAL_IMAGE_FILE_DISPLAY_LINK_LBL
+    default: images/Notification.png
+    type: filepath
+  label_icon_alt:
+    name: rn:msg:ICON_ALT_LABEL_LBL
+    description: rn:msg:ALTERNATIVE_TXT_ICON_ICON_PATH_MSG
+    type: STRING
+  label_notification_link:
+    name: rn:msg:NOTIFICATION_LINK_LABEL_UC_LBL
+    description: rn:msg:MESSAGE_FOR_NOTIFICATION_LINK_LBL
+    default: rn:msg:REQUEST_NOTIF_UPDATED_ANS_PROD_CAT_LBL
+    type: STRING
+  notifications_url:
+    name: rn:msg:NOTIFICATIONS_URL_LBL
+    description: rn:msg:URL_REDIRECT_NOTIFICATIONS_PAGE_LBL
+    default: /app/account/notif/list
+    type: STRING
+info:
+  description: rn:msg:WIDGET_DISP_ANS_NOTIF_FEAT_PAGE_MSG
+  urlParameters:
+    a_id:
+      name: rn:msg:ANS_ID_LBL
+      description: rn:msg:ANSWER_ID_ASSOCIATE_NOTIFICATION_LBL
+      example: a_id/3
+    notif:
+      name: rn:msg:NOTIFICATION_SUCCESS_LBL
+      description: rn:msg:KEY_DENOTING_ANS_NOTIF_OCCURRED_LBL
+      example: notif/1
+contains:
+- widget: standard/login/LoginDialog
+  versions: ["1.1"]

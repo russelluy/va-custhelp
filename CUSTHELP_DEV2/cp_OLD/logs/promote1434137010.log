@@ -1,0 +1,26 @@
+[INFO]  06/12/2015 12:23 PM 
+----------------------------------------------
+CP Deployment Log
+Date: <rn_log_date>06/12/2015 12:23 PM</rn_log_date>
+By Account: <rn_log_byAccount>Kari Shultz - (332)</rn_log_byAccount>
+IP Address: <rn_log_ipAddress>12.51.111.51</rn_log_ipAddress>
+User Agent: <rn_log_userAgent>Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36</rn_log_userAgent>
+Interface Name: <rn_log_interfaceName>virginamerica</rn_log_interfaceName>
+Deploy Type: <rn_log_deployType>Promote Deployment</rn_log_deployType>
+Comment: <rn_log_comment>Adding FileAttachment widget to Kudos/Concerns AAQ page.</rn_log_comment>
+----------------------------------------------
+
+
+[DEBUG] 06/12/2015 12:23 PM Deploy lock verified.
+[DEBUG] 06/12/2015 12:23 PM Copying production/source to production/backup/source
+[DEBUG] 06/12/2015 12:23 PM Copying production/optimized to production/backup/optimized
+[DEBUG] 06/12/2015 12:23 PM Copying /euf/generated/optimized/1434130571 to production/backup/optimizedAssets/1434130571
+[DEBUG] 06/12/2015 12:23 PM Copying staging/staging_01/source to production/source
+[DEBUG] 06/12/2015 12:23 PM Copying staging/staging_01/optimized to production/optimized
+[DEBUG] 06/12/2015 12:24 PM Copying /euf/generated/staging/staging_01/optimized/1434136864 to /euf/generated/optimized/1434136864
+[DEBUG] 06/12/2015 12:24 PM Removing old optimized assets directory '1434130571'
+[DEBUG] 06/12/2015 12:24 PM Locking Page Set Mappings
+[DEBUG] 06/12/2015 12:24 PM Number of deploy errors: <cps_error_count>0</cps_error_count>
+[DEBUG] 06/12/2015 12:24 PM Log File: <cps_log_file_name>/cgi-bin/virginamerica.cfg/log/promote1434137010.log</cps_log_file_name>
+[INFO]  06/12/2015 12:24 PM Deploy Operation Successful!
+[DEBUG] 06/12/2015 12:24 PM Deploy lock removed.
